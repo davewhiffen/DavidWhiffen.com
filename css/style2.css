@@ -1,0 +1,85 @@
+   .indigo{background-color:#3f51b5!important}
+
+    .indigo-text{color:#3f51b5!important}
+
+    
+    .white-text{color:#fff!important}
+    
+    .white-lighter-hover {
+      color: #fff;!important
+      -webkit-transition: .4s;
+      transition: .4s; }
+    
+    .white-lighter-hover:hover {
+      -webkit-transition: .4s;
+      transition: .4s;
+      color: white; }
+
+    .white-darker-hover {
+      color: #fff;
+      -webkit-transition: .4s;
+      transition: .4s; }
+    .white-darker-hover:hover {
+      -webkit-transition: .4s;
+      transition: .4s;
+      color: #d9d9d9; }
+    
+    
+
+    .grey-lighter-hover {
+  color: #616161;!important
+  -webkit-transition: .4s;
+  transition: .4s; }
+.grey-lighter-hover:hover {
+  -webkit-transition: .4s;
+  transition: .4s;
+  color: #878787; }
+
+.grey-darker-hover {
+  color: #616161;
+  -webkit-transition: .4s;
+  transition: .4s; }
+    
+.grey-darker-hover:hover {
+  -webkit-transition: .4s;
+  transition: .4s;
+  color: #3b3b3b; }
+
+  .indigo-lighter-hover {
+  color: #3f51b5;
+  -webkit-transition: .4s;
+  transition: .4s; }
+.indigo-lighter-hover:hover {
+  -webkit-transition: .4s;
+  transition: .4s;
+  color: #7280ce; }
+
+.indigo-darker-hover {
+  color: #3f51b5;
+  -webkit-transition: .4s;
+  transition: .4s; }
+.indigo-darker-hover:hover {
+  -webkit-transition: .4s;
+  transition: .4s;
+  color: #2b387c; }
+    
+      body, html {
+  height: 100%;
+}
+
+.bg { 
+  /* The image used */
+  background-image: url("img/bg/bg-destiny.png");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: fixed;
+background-position: center;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+    
+    
