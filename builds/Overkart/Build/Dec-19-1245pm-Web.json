@@ -1,0 +1,16 @@
+{
+"companyName": "Post Boredom",
+"productName": "OverKart",
+"productVersion": "1.0",
+"dataUrl": "Dec-19-1245pm-Web.data.unityweb",
+"wasmCodeUrl": "Dec-19-1245pm-Web.wasm.code.unityweb",
+"wasmFrameworkUrl": "Dec-19-1245pm-Web.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.2.4f1"
+}

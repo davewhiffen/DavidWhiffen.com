@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- /* All the important page declarations required go here. */ -->
+ 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>DaveWhiffen.com</title>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+  <link href="css/main.css" rel="stylesheet">
+  
+<!-- / * Favicon and Icons for Apps and Title Bars go here / * -->
+
+
+    <meta name="description" content="Dave Whiffen">
+    <meta name="author" content="Dave Whiffen">
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    
+<!-- /* Nessessary style declarations that didn't work in this before. */ --->
+    <style>
+        
+    .header{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top:50px;
+    margin-bottom:50px;
+    }
+    </style>
+    
+       <style>.img-avatar {
+  border-radius: 50%;
+}</style> 
+    
+    
+    
+    
+    <script> 
+        // SideNav Button Initialization
+    
+    $(".button-collapse").sideNav();
+    // SideNav Scrollbar Initialization
+    var sideNavScrollbar = document.querySelector('.custom-scrollbar');
+    Ps.initialize(sideNavScrollbar);
+    </script>
+    
+    
+    
+    
+    <script>
+    // SideNav Default Options
+    $('.button-collapse').sideNav({
+    edge: 'left', // Choose the horizontal origin
+    closeOnClick: false, // Closes side-nav on &lt;a&gt; clicks, useful for Angular/Meteor
+    breakpoint: 1440 // Breakpoint for button collapse
+    MENU_WIDTH: 240, // Width for sidenav
+    timeDurationOpen: 300, // Time duration open menu
+    timeDurationClose: 200, // Time duration open menu
+    timeDurationOverlayOpen: 50, // Time duration open overlay
+    timeDurationOverlayClose: 200, // Time duration close overlay
+    easingOpen: 'easeOutQuad', // Open animation
+    easingClose: 'easeOutCubic', // Close animation
+    showOverlay: true, // Display overflay
+    showCloseButton: false // Append close button into siednav
+    });
+    </script>    
+
+<script>// Tooltips Initialization
+$(function () {
+$('[data-toggle="tooltip"]').tooltip()
+})</script>   
+
+<script>// MDB Lightbox Init
+$(function () {
+$("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+});</script> 
+    
+       
+          
+                
+</head>
+
+<body>
+
+
+
+
+
+
+
+<!--/* Updated Navigation Bar with justified buttons, and dropdown menu for portfolio /* -->
+
+<nav class="navbar navbar-dark navbar-expand-lg fixed-top  indigo darken-2 ">
+    <!-- / * Navigation Title and Icon / * -->
+    <a class="white-bold" style="font-size:20px;" href="index.html"><img class="img-avatar" src="img/dave.png" height="44" style="padding-right:10px;"><strong> Dave </strong></a>
+    <div>
+    <!-- / * About Button * / -->
+    <a style="padding-left:10px;" class="white-bold" href="index.html"><strong>About</font></a></u></strong>  
+    </div>
+        
+                  
+    <!-- / * Portfolio Button with Dropdown Menu * / -->    
+    <a class="nav-link indigo dropdown-toggle white-bold" data-toggle="dropdown"         href="portfolio.html" role="button" aria-haspopup="true"
+    aria-expanded="false"><strong>Portfolio</a></font></strong>
+    
+    <!-- / * Physical Dropdown Button List / * -->
+    <div class="dropdown-menu dropdown-default">
+       
+        <!-- / * Ordered List / * -->
+        <li> <a class="dropdown-item active" href="portfolio.html"><i class="fas fa-film"></i> Film</a>
+        <a class="dropdown-item" href="television.html"><i class="fas fa-tv"></i> Television</a>
+        <a class="dropdown-item" href="web-design.html"><i class="fas fa-code"></i> Web Design</a>
+      
+        <div class="dropdown-divider"></div>
+      
+        <a class="dropdown-item" href="gaming.html"><i class="fas fa-gamepad"></i> Gaming</a>
+        <a class="dropdown-item" href="hockey.html"><i class="fas fa-hockey-puck"></i> Hockey</a>
+        <a class="dropdown-item" href="animation.html"><i class="fas fa-grin-tongue"></i> Animation</a>
+ 
+        <div class="dropdown-divider"></div>   
+       
+        <a class="dropdown-item" href="drawing.html"><i class="fas fa-pencil-alt"></i> Drawing</a>
+        <a class="dropdown-item" href="construction.html"><i class="fas fa-hammer"></i> Construction</a></li>
+        </div></div>
+        
+    <!-- / * Contact Button / * -->        
+    <a class="white-bold" href="contact.html"><strong>Contact</a></strong></font>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    
+    </a></div></div>
+
+</nav>          
+ <!-- / * End of navigation bar. / *  -->
+ 
+ 
+ 
+   
+     
+     
+  
+<!-- / * Pill Tabbed Navigation Menus.  Used for quickly jumping from one portfolio to the next. / * -->
+
+<div style="margin-top:56px;">
+    <ul class="nav nav-pills nav-fill grey darken-2 accent-1 mx- mb-0 mt-1" >
+       
+    <!-- * / Film Button / * -->
+    <li class="nav-item ">
+    <a class="nav-link active" href="portfolio.html"><strong><i class="fas fa-film"></i> Film</strong></a></li>
+     
+    <!-- * / Television Button / * -->
+    <li class="nav-item">
+    <a class="nav-link" href="television.html"><font color="white"><i class="fas fa-tv"></i> Television</a></font></li>
+        
+    <!-- * / Web Design Button / * -->
+    <li class="nav-item">
+        <a class="nav-link" href="web-design.html"><font color="white"><i class="fas fa-code"></i> Web Design</a></font></li>
+    
+    <!-- * / Gaming Button / * -->
+    <li class="nav-item">
+        <a class="nav-link" href="gaming.html"><font color="white"><i class="fas fa-gamepad"></i> Gaming</a></font></li>
+    
+    <!-- * / Hockey Button / * -->
+    <li class="nav-item">
+        <a class="nav-link" href="hockey.html"><font color="white"><i class="fas fa-hockey-puck"></i> Hockey</a></font></li>
+    
+    <!-- * / Animation Button / * -->
+    <li class="nav-item">
+        <a class="nav-link" href="animation.html"><font color="white"><i class="far fa-grin-tongue"></i> Animation</a></font></li>
+  
+    <!-- * / Drawing Button / * -->
+     <li class="nav-item">
+    <a class="nav-link" href="drawing.html"><font color="white"><i class="fas fa-pencil-alt"></i> Drawing</a></font></li>
+  
+    <!-- * / Construction Button / * -->
+    <li class="nav-item">
+    <a class="nav-link" href="construction.html"><font color="white"><i class="fas fa-hammer"></i> Construction</a></font></li></ul> 
+</div></div>
+<!-- / * End of Pill Tabbed Navigation Menus / * -->
+  
+
+  
+   
+   <!-- /* Breadcrumbs Navigation */ -->
+    <div>  
+    <nav aria-label="breadcrumb" style="padding-top:px;align-content: left">
+    <ol class="breadcrumb">
+    <li class="breadcrumb-item active"><a style="color:#5b77d3;" href="index.html">Home </a> / <a style="color:#5b77d3;" href="###">Portfolio</a> / <a style="color:#5b77d3;" href="###">Film</a></li>
+    </ol></nav>     
+    </div> 
+    <!-- /* End Breadcrumbs Navigation -->    
+      
+      <script>// MDB Lightbox Init
+$(function () {
+$("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+});</script>
+      
+      
+      
+<!-- / * Portfolio Content goes here * / -->    
+  
+<div class="portfolio-padded">
+   
+    <style>.row {
+  margin: 15px;
+}</style>  
+  
+      
+<script>$(document).on("click", '[data-toggle="lightbox"]', function(event) {
+  event.preventDefault();
+  $(this).ekkoLightbox();
+});</script>              
+       
+<div class="header">Portfolio: <i class="fas fa-film"></i> Film</class>  
+    </div> 
+      
+      
+<div class="container">
+  <div class="row">
+    <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid rounded">
+    </a>
+    <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid rounded">
+    </a>
+    <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid rounded">
+    </a>
+  </div>
+  <div class="row">
+    <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid rounded">
+    </a>
+    <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid rounded">
+    </a>
+    <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid rounded">
+    </a>
+  </div>
+</div>
+
+
+      
+        
+        
+        
+        </div></div>
+ 
+  
+  
+  
+        </div></div>
+
+
+
+
+  
+  
+<!-- /* The footer goes here.  It includes copyright info, my name, and links to social accounts. /*  --->
+
+<footer class="page-footer font-small blue accent-1">
+
+    <!-- / * Copyright / * -->
+    <div class="footer-copyright text-center py-3">© 2019
+    <a href="http://www.davewhiffen.com/"> Dave Whiffen</a> / 
+        
+    <!-- / * Instagram Button / * -->
+    <a href="http://www.instagram.com/davewhiffen">
+    <i class="fab fa-instagram fa-sm pr-2" aria-hidden="true"></i></a>
+
+    <!-- / * Twitter Button / * -->
+    <a href="http://www.twitter.com/davewhiffen">
+    <i class="fab fa-twitter fa-sm pr-2" aria-hidden="true"></i></a>
+
+    <!-- / * LinkedIn Button / * -->
+    <a href="https://www.linkedin.com/in/davewhiffen/">    
+    <i class="fab fa-linkedin fa-sm pr-2" aria-hidden="true"></i></a> / 
+    
+    <!-- YouTube Button -->    
+    <a href="https://www.youtube.com/channel/UCalnmWdCEfm03zwgcRiEUXw/">
+    <i class="fab fa-youtube fa-sm pr-2" aria-hidden="true"></i></a>
+
+    <!-- Vimeo -->
+    <a href="https://vimeo.com/davewhiffen">
+    <i class="fab fa-vimeo fa-sm pr-2" aria-hidden="true"></i></a>
+    
+    <!-- Twitch Button -->    
+    <a href="http://www.twitch.tv/davewhiffen">
+    <i class="fab fa-twitch fa-sm pr-2" aria-hidden="true"></i></a> / 
+    
+    <!-- Email Link -->
+    <a href="mailto:david.whiffen@ryerson.ca">    
+    <i class="far fa-envelope fa-sm pr-2" aria-hidden="true"></i></a>
+
+    <!-- Telephone Link-->
+     <a href="tel:416-996-8183">    
+    <i class="fas fa-phone fa-sm pr-2" aria-hidden="true"></i></a>
+    </div>
+    </button></div>
+</footer>
+<!-- / * End of Footer / * -->
+
+
+  
+  
+<!--/* More scripts here.  I think they're supposed to go at the bottom of the page. */ -->
+<div>
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.js"></script></div>
+
+
+</body>
+
+</html>
