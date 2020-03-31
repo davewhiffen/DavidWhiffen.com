@@ -1,4 +1,167 @@
 
+/* Links */
+
+
+/* Hyperlinks (Normal) */
+
+a {
+    
+    font-weight: bold;
+    
+	transition: transform .2s;
+    /* Links have a transition time of .2 seconds ?.*/
+}
+
+/* Hyperlinks (on Hover) */
+
+a:hover {
+  text-decoration: underline;
+    /* Links have an underline.*/
+    
+    
+	color:#4a7cd8;
+    /* Links are blue on hover.*/
+	 transform: scale(1.1);
+    /* On Hover, Links scale 1.1 over .2s.*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Images */
+
+
+
+
+
+img {
+ 
+    
+    
+    transition: transform .2s;
+    /* Images have a transition time of .2s (from hover). */
+    
+    
+    height: auto;
+    
+    /* Height is automatically given based on width, so images don't stretch. */
+    
+    
+    
+    
+    max-width: 100%;
+    /* Maximum width is always 100% of image. */
+
+
+    
+
+    
+    
+    }
+
+
+
+img:hover {
+	max-width: 100%;
+    /* On Hover, Max width is 100% of width. */
+    
+      box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
+    
+
+    
+	 transform: scale(1.1);
+    /* On Hover, scale the image by 1.1 over 0.2 seconds. */
+    
+    
+       
+    
+    
+        }
+
+
+
+.img-large {
+    border-radius: 50px;
+    text-align: center;
+    align-content: center;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
+       /* Give Images a box shadow */
+}
+
+
+.shadow {
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.portfolio-content {
+    margin-top:120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   .header{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .resume-button {
     padding-bottom: 50px;
