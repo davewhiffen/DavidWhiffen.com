@@ -1,4 +1,170 @@
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+    font-size: 40px;
+    text-decoration: underline;
+        /* Margin of 4 and 2 pixels.
+    */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.sm-headshot {
+        /* Small Headshot Class
+    */
+    width:50px;
+    margin:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.button-blue {
+  background-color:      #1414b9;
+     /* Deep Blue Background */
+    
+  color: white;
+     /* White Text*/
+    
+  padding: 20px 60px;
+     /* 20 pixels by 60 pixels? */
+    
+	margin-top:15px;
+     /* 15 pixels of lead space on top */
+    
+  text-align: center;
+     /* Align text to center*/
+    
+  text-decoration: none;
+     /* Disable any text decoration*/
+    
+  display: inline-block;
+     /* ??? */
+    
+  font-size: 16px;
+     /* 16 Pixel Font size*/
+    
+  margin: 4px 2px;
+     /* Margin of 4 and 2 pixels.
+    */
+    
+  cursor: pointer;
+       /* Use Pointer cursor, showing it is a linked button.
+    */
+    
+  border-radius: 15px;
+        /* 15 Pixel Border radius.
+    */
+    
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 
+    /* 'Traditional' Box Shadow effect
+    */
+      
+  rgba(0,0,0,0.19);
+    
+        /* ?
+    */
+    
+	transition: transform .2s;
+        /* Transition on hover .2 seconds.
+    */
+    
+    
+}
+
+
+
+
+.button-blue:hover {
+  background-color:#1e1eeb;
+        /* Tint button slightly whiter on hover.
+    */
+  color: white;
+	 transform: scale(1.1);
+        /* Scale button 1.1x
+    */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.img-fluid {
+    border-radius: 25px;
+        /* On Fluid Images, round the corners by 25 pixels.*/
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
+     /* Add the 'traditional' box shadow effect.*/
+}
+
+
+
+
+
+
+
+.spacer {
+    padding-bottom:25px;
+    /* Just a 25 pixel spacer to use to create breaks between content. */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Links */
 
 
@@ -98,6 +264,13 @@ img:hover {
 }
 
 
+
+
+
+
+
+
+
 .shadow {
     box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
 }
@@ -115,6 +288,8 @@ img:hover {
 
 .portfolio-content {
     margin-top:120px;
+    align-content: center;
+    text-align: center;
 }
 
 
@@ -138,7 +313,7 @@ img:hover {
 
 
    .header{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     margin-top:50px;
     margin-bottom:50px;
