@@ -1,3 +1,10 @@
+.bg-image-1 {
+    background-image: url("img/thumbnails/about/gamelovers.png");   
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+        opacity:0.5;
+    }
 
 
 
@@ -5,6 +12,30 @@
 
 
 
+
+
+
+
+.about-me-photo {
+    width:150px;
+    height:auto;
+    margin:20px;
+        border-radius: 20px;
+        /* On Fluid Images, round the corners by 25 pixels.*/
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
+     /* Add the 'traditional' box shadow effect.*/
+    
+}
+
+
+
+.card-text-wrap {
+    text-align: center;
+    align-content: center;
+    max-width: 400px;
+    
+    
+}
 
 
 
@@ -137,6 +168,12 @@ h1 {
         /* On Fluid Images, round the corners by 25 pixels.*/
     box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
      /* Add the 'traditional' box shadow effect.*/
+
+ cursor: pointer;
+       /* Use Pointer cursor, showing it is a linked button.
+    */
+
+
 }
 
 
@@ -228,7 +265,7 @@ img {
     /* Maximum width is always 100% of image. */
 
 
-    
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
 
     
     
@@ -248,8 +285,11 @@ img:hover {
     /* On Hover, scale the image by 1.1 over 0.2 seconds. */
     
     
+ cursor: pointer;
+       /* Use Pointer cursor, showing it is a linked button.
+    */
        
-    
+    filter: brightness(110%);
     
         }
 
@@ -357,6 +397,22 @@ img:hover {
 
 
 
+
+
+
+
+
+
+
+
+
+
+/* MD Bootstrap Styles */
+
+
+
+
+
 .indigo{background-color:#3f51b5!important}
 
     .indigo-text{color:#3f51b5!important}
@@ -425,6 +481,29 @@ img:hover {
       body, html {
   height: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .bg { 
   /* The image used */

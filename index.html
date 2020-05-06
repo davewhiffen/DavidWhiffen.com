@@ -54,6 +54,9 @@
     <meta name="author" content="Dave Whiffen">
     <!-- Author of page: Dave Whiffen -->
     
+    
+    <!-- Favicons-->
+    <div>
     <link rel="apple-touch-icon" sizes="57x57" href="img/icon/apple-icon-57x57.png">
     <!-- Links to Apple Icons for Home Screens in different sizes. -->
     
@@ -94,6 +97,223 @@
     
     <meta name="theme-color" content="#ffffff">
      <!-- Theme colour is White based. -->
+</div>
+    
+    
+        
+<!-- / * Specific styling that didn't work by putting in the CSS file.  Needed to be on every page for some reason / * -->
+ 
+    
+<!--Style Tags -->    
+<style>
+    .about-me{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top:-30px;
+    margin-bottom:30px;
+    padding-left:20px;
+    padding-right:20px;
+    align-content: center;
+    }
+
+    .header-resume{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top:20px;
+    margin-bottom:30px;
+    align-content: center;
+    }
+        
+    .padded-margin{
+        padding-left:20px;
+    padding-right:20px;
+    }
+
+   /* Hide the link that should open and close the topnav on small screens */
+   
+    .topnav .icon {
+    display: none;    
+    }
+    
+    /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+
+    @media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;
+    }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+      }
+    }
+    
+ /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+
+    @media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+        
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+        
+   
+        
+    
+</style>
+   
+<!-- Beginning of specific scripts for the TopNav animation that now are not nessessary I think.  I'm pretty sure these can be cut out. / * -->
+     
+<script>
+    // Animations initialization
+    new WOW().init();
+</script>
+    
+    
+<!-- / * End of the Head section of the page / * -->  
+ <style>a:link { COLOR: white; TEXT-DECORATION: none; font-weight: bold}
+a:visited { COLOR: white; TEXT-DECORATION: none; font-weight: bold }
+a:active { COLOR: #b2b2b2; TEXT-DECORATION: none; font-weight: bold }
+a:hover { COLOR: #adadad; TEXT-DECORATION: none; font-weight: bold }</style>  
+   
+   
+   <style>  /* Navigation*/
+    .navbar {
+      background-color: transparent;
+    }
+    .scrolling-navbar {
+      transition: background .5s ease-in-out, padding .5s ease-in-out;
+    }
+    .top-nav-collapse {
+      background-color: #667490;
+    }
+    footer.page-footer {
+      background-color: #667490;
+    }
+    @media only screen and (max-width: 768px) {
+      .navbar {
+        background-color: #667490;
+      }
+    }
+
+    /* Necessary for full page carousel*/
+    html,
+    body,
+    .view {
+      height: 100%;
+    }
+
+    /* Carousel*/
+    .carousel,
+    .carousel-item,
+    .carousel-item.active {
+      height: 100%;
+    }
+    .carousel-inner {
+      height: 100%;
+    }
+    .carousel-item:nth-child(1) {
+      background-image: url("img/thumbnails/about/gamelovers.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+        opacity:0.5;
+    }
+    .carousel-item:nth-child(2) {
+      background-image: url("img/thumbnails/about/singularity-new.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+    .carousel-item:nth-child(3) {
+      background-image: url("img/thumbnails/about/studio.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+    
+       .carousel-item:nth-child(4) {
+      background-image: url("img/thumbnails/about/2014-dave-CBC.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+       .carousel-item:nth-child(5) {
+      background-image: url("img/thumbnails/about/ryerson-team.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+    
+    
+       .carousel-item:nth-child(6) {
+      background-image: url("construction/one-york-photo.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+       
+       
+        .carousel-item:nth-child(7) {
+      background-image: url("img/thumbnails/about/game-design.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    
+    }  
+       
+       
+     .shadow-text {
+  text-shadow: 2px 2px #000000;
+}
+    
+    
+ 
+       
+
+        .info-card {
+            max-width: 600px;
+            text-align: center;
+            align-content: center;
+        }
+        
+        
+ 
+       
+     
+
+       
+       
+       
+       
+       
+       
+       
+    
+    </style>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
@@ -104,7 +324,8 @@
     <!-- Beginning of Body -->
 
 
-    <div>
+<!-- Navbar -->   
+<div name="navbar">
         <!-- Div to contain all the navbar content -->
         
         
@@ -120,7 +341,7 @@
         
                 <img class="img-avatar" src="img/dave.png" width="44">
         
-                <strong> Dave Whiffen's Portfolio</strong>
+                <strong> Dave Whiffen</strong>
             </a>
     
     
@@ -137,7 +358,7 @@
                 
                 <li class="nav-item waves-effect">
                     <!-- * / Gaming Button / * -->
-                    <a class="nav-link white-darker-hover active" href="index.html">
+                    <a class="nav-link white-darker-hover" href="game.html">
             
                         <i class="fas fa-gamepad"></i> 
             
@@ -236,610 +457,1303 @@
         </div>
         <!-- Closing the Nav Pills Div -->
     </div> 
-    <!-- Closing the Navigation Div -->
+<!-- Navbar End -->
     
     
     
-    
-  
-    
-   
-   
-   
-   
-   
-   
 
-    
-    
   
     
-  
+   
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+  <!-- Style tags need to be down here because reasons? --> 
+  <style>      .about-gamelovers {
+           background-image: url(img/thumbnails/about/gamelovers.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                color:white;
+       }
       
-    <div class="portfolio-content portfolio-padded bg">
-        <!-- Special Div for Portfolio content in the card style -->
-  
-        <div class="header">Portfolio: 
-        <!-- Header class text-->
-    
-            <i class="fas fa-gamepad">
-                <!-- Gamepad Icon -->
-        
-            </i> 
-            Game Design
-    
-    
-        </div>
-    
-    
+       
+       
+       .about-p {
+           max-width: 500px;
+           text-align: center;
+        text-shadow: 2px 2px #000000;
+       }
+
+</style> 
+
+       
     
 
-        <div class="resume-button">
-            <!-- Div Class for Resume Button-->
+    
+    
+    
+    
+    
+  
+<!-- BELOW NAVBAR ------------------------------------------> 
+<div class="portfolio-content portfolio-padded bg animated fadeIn">
         
+
+    
+    <!-- Header Class Text -->
+    <div style="font-size:70px;"  class="header">About Me 
+       
+    
+    <!-- Closes the Header Div -->
+    </div>
+    
+    
+    
+    <!-- Div For Resume Button-->
+    <div class="resume-button">
    
-            <a href="doc/resume-game-design.pdf">  
-                <!-- Link to Game Design Resume -->
-                <button type="button" class="btn btn-indigo">
+        <a href="doc/resume-game-design.pdf">  
+            <!-- Link to Game Design Resume -->
+            <button type="button" class="btn btn-indigo">
             
-                    <i class="fas fa-file">
-                    </i> 
+                <i class="fas fa-file">
+                </i> 
                     Resume
-                </button> 
-            </a>
-        </div>
+            </button> 
+        </a>
+    </div>
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- Card #1: Think big, dream hard, dare to be diff.. -->
+    <div align="center">
         
+        
+          
+        
+        <img width="500" height="auto" class="img-fluid" src="img/thumbnails/about/2002-ASH-KETCHUM.png">
+       
 
-  
+        
+        
+        <!-- Just a spacing Div-->
+        <div style="padding-bottom: 20px;">
+        </div>
+    
+ 
+        
+        
+        
+        <p class="font-weight-bold info-card about-p shadow-text">
+            
+        
+        "Think big, dream hard, dare to be different!"
+            
     
 
-  
-  
-        <!-- Grid row -->
-        
-            <!-- Div for all portfolio content -->
-
-
-
-
-
-            <!-- Rise & Fall -->
+        <p class="card-text about-p shadow-text">
+        Dave Whiffen is a <strong>Level Designer</strong> in <strong>Toronto,</strong> <img src="about/canada-flag.jpg" width="20" height="auto"> Canada.
+            
            
+            
+            
+            
+            
+            
+        <!-- Spacing -->
+        <div style="padding-bottom:100px;">
+        
+        
+        
+        
+        
+        
+        
+        
+        </div>
+          
+        
+        
+        
+        
+        
+        
+        <!-- 1999-2006 Card -->
+        <div class="shadow-text about-gamelovers" align="center">
+            
+              
+            <div style="font-size:70px;"   class="header">
+                <strong>
+            
+                
+                    <u>1999-2006
+                    </u>
+
+                    
+                    <br>
+                        <i class="fas fa-code">
+                        </i> 
+                
+                        <i class="far fa-grin-tongue">
+                        </i>  
+                
+                        <i class="fas fa-gamepad">
+                    </i>
+            
+            </strong>
+    
+            </div>
+            
+            
+            
+            
+            
+              
+            
+
+            <p class="card-text about-p shadow-text">
+            Dave originally taught himself to write code at the age of nine.  
+            
+            
+                <!-- Spacing -->
+                <div style="padding-bottom:5px;">
+                
+                </div>
+            
+            
+            <p class="card-text about-p shadow-text">     
+            
+            
+        
+                After also teaching himself   
+                <i class="fas fa-code"></i> 
+                <strong>Web Design</strong> and 
+                <strong><i class="far fa-grin-tongue"></i> Flash Animation </strong>, Dave built <strong>Gamelovers.ca,</strong>  a gaming website. 
+        
+                
+                <div style="padding-bottom:5px;">
+                </div>  
+           
+           
+           
+            <p style="max-width: 500px;text-align: center; " class="card-text">      
+           
+        
+                His friends and him spent years making animated movies, comics, and making 
+                <strong><i class="fas fa-gamepad"></i> Games.</strong>
+            
+                
+                
+                
+            <!-- 3 Photos in a Line -->
+            <div>
+                <table>
+                    <th>
+                    </th>
+                    <tr>
+                        <td><img class="about-me-photo" src="animation/thumb-intro.PNG">
+                            
+                        </td>
+                        
+                        <td> <img class="about-me-photo" src="animation/mario%20babies.PNG">
+                            
+                        </td>
+                        
+                        <td> <img class="about-me-photo" src="web/gamelovers-4-full.png">
+                            
+                        </td>
+                
+                
+                
+                    </tr>    
+                
+                </table>
+            </div>
+            
+            
+                 
+                 
+        
+            <p style="max-width: 400px;text-align: center; " class="card-text">
+                By 2004, Gamelovers had recieved over <strong>200,000 </strong>unique visitors.  
+        
+                
+                
+                <div style="padding-bottom:10px;">
+            
+                </div>   
+         
+            
+            
+            <p style="max-width: 400px;text-align: center; " class="card-text">    
+            
+                Dave had also brought in a staff of a dozen artists, who also produced content for the website.</p>
+            
+
+          
+            
+           <div style="padding-bottom:75px;"></div> 
+            
+            
+        </div>
+        <!-- End of 1999-2006 Section -->
+    
+    
+        
+        
+        
+        
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    
+            
+    <!-- Spacing between 1999-2006 and 2007-2010 -->    
+    <div style="padding-bottom:100px;">
+    
+    </div>
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      <!-- Style tags need to be down here because reasons? --> 
+  <style>      .about-3 {
+           background-image: url(img/thumbnails/about/singularity-new.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                color:white;
+       }
+      
+       
+       
+    
+
+</style> 
+    
+    
+    
+    
+    
+    
+    
+    <!-- Singularity  --------------------------------------->   
+    <div class="about-3 shadow-text" align="center">
+        
+        
+        
+        
+        <!-- 2007-2010 -->
+        <div style="font-size:70px;"   class="header">
+                <strong>
+            
+                
+                    <u>2007-2010
+                    </u>
+
+                    
+                    <br>
+                       <i class="fas fa-film"> 
+                    </i>
+            
+            </strong>
+    
+        </div>
+        
+        
+        
+        
+      
+            
+            
+            
+            
+        <p class="card-text about-p" style="margin-top:-50px;">   
+            
+            <br>By 2007, Dave started learning about directing live action videos.
+                 
+              
+            <div style="padding-bottom: 10px;">
+                
+            </div>
+           
+        
+        <p class="card-text about-p">     
+            
+            
+            After several years of <strong>producing</strong> and <strong>editing</strong> freelance projects, Dave <strong>wrote</strong> and <strong>produced</strong> his own feature length 
+            
+            <i class="fas fa-film">
+            </i> 
+            
+            film, called <strong>'Singularity'.</strong>  
+              
+          
+            
+            
+           <div style="padding-bottom: 10px;">
+            
+            </div>
+            
+        
+            
+        
+                <!-- Youtube video Wrapper -->
+                <div style="border-radius: 10px;">
+                    <iframe style="border-radius: 10px;" width="400" height="225" src="https://www.youtube.com/embed/sMalwQT30RU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            
+           
+           
+        
+        
+        
+            <div style="padding-bottom: 10px;">
+            
+            </div> 
+            
+        
+        
+        
+            <p class="card-text about-p">   
+                 
+                The film premiered in 2010 at his local school theater, and all proceeds were donated to the ‘HOPE’ charity.
+              
+            <!-- Singularity Photos -->  
+            <div>
+                <table>
+                    <th></th>
+                    <tr>
+           
+                        <td> 
+                            <img style="width:300px;height:auto;" class="about-me-photo" src="film/singularity-poster.jpg"> 
+                        </td>  
+                        
+                        
+                        
+                        
+                        <td> 
+                            <img style="width:300px;height:auto;" class="about-me-photo" src="img/thumbnails/about/2010-SINGULARITY-PREMEIRE.png">
+                        </td>
+           
+       
+                </tr>    
+                
+            </table>
+        
+            
+        </div>       
+              
+    
+    
+    
+    
+        <div style="padding-bottom:100px;">
+        
+        </div>
+    
+    
+    </div>
+    <!-- End of 2007-2010-->
+    
+    
+    
+    
+    
+       <div style="padding-bottom:100px;">
+        
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<!-- Style tags need to be down here because reasons? --> 
+  <style>      .about-tv {
+           background-image: url(img/thumbnails/about/studio.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                color:white;
+       }
+      
+       
+       
+    
+
+</style> 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- Ryerson TV --------------------------------------->
+    <div class="about-tv shadow-text" align="center">
+        
+        
+        
+        
+        <!-- 2010-2015 -->
+        <div style="font-size:70px;"   class="header shadow-text">
+                <strong>
+            
+                
+                    <u>2010-2015
+                    </u>
+
+                    
+                    <br>
+                       <i class="fas fa-tv"> 
+                    </i>
+            
+            </strong>
+    
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+    
+    
+    
+    
+            
+        <p class="card-text about-p" style="margin-top: -40px;">      
+            
+            
+            In 2010, Dave was accepted to <strong>Ryerson University’s Radio and 
+            <i class="fas fa-tv">
+            </i> 
+            Television (Media Production) program.</strong>
+        
+            
+            <div style="padding-bottom: 10px;">
+            </div>      
+            
+         <p class="card-text about-p">          
+            
+            
+            
+            Dave majored in <strong>EFP Film and Television Broadcast</strong>, and won <strong>two awards </strong>for his projects.  
+    
+             
+             
+             
+             
+             
+            <div style="padding-bottom: 10px;">
+        
+            </div> 
+        
+        
+        
+            <!-- Hunting Season Video -->
+        <div>
+            
+            <iframe style="border-radius: 10px;" src="https://player.vimeo.com/video/36125541" width="400" height="225" frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
+            </iframe>
+            
+        </div>
+            
+        <div style="padding-bottom: 10px;">
+        
+        </div> 
+        
+        
+        
+        
+        
+            
+        <p class="card-text about-p">                  
+                       
+            He won <strong>'Best First Year Film'</strong> for 'Time and Again', and <strong>'Best Practicum'</strong> for 'Hunting Season.
+            
+            
+         <div style="padding-bottom: 10px;">
+        
+        </div>    
+            
+        <p class="card-text about-p">         
+            
+    
+        
+            Dave graduated in 2015.  
+            
+        
+            
+            
+         <!-- TV Photos -->   
+        <div>
+            <table>
+                <th></th>
+                <tr>
+                    <td>
+                        
+                        <img style="width:300px;height:auto" class="about-me-photo" src="tv/tv-studio-team.jpg">
+                    
+                    
+                    </td>
+                    
+                    <td> 
+                        <img style="width:300px;height:auto"  class="about-me-photo" src="tv/hunting-season-team.jpg">
+                        
+                    </td>   
+            
+      
+                
+                </tr>    
+                
+            </table>
+        </div>     
+    
+        
+        <div style="padding-bottom: 100px;">
+        
+        </div>
+        
+        
+        
+        
+    </div>
+    <!-- End 2010-2015 -->
+    
+    
+    
+    
+    
+          <!-- Style tags need to be down here because reasons? --> 
+  <style>      .about-hnic {
+           background-image: url(img/thumbnails/about/hnic.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                color:white;
+       }
+      
+       
+       
+    
+
+</style> 
+    
+         
+         
+         
+         
+         
+         
+         
+    
+      
+    <!-- Hockey Night in Canada -->
+    <div class="about-hnic" align="center">
+        
+        <div style="padding-bottom: 100px;">
+        
+        </div>
+        
+        <p class="card-text about-p">
+            
+            <br><br>
+            
+            In 2014, Dave earned an <strong>internship</strong> with <strong>CBC and Hockey Night in Canada</strong> through Ryerson.
+        
+        
+            <br><br>
+            
+            Dave worked as a <strong>Program Assistant,</strong> shot-listing video, editing segments, and conducting research for the broadcast.
+        
+        </p>    
+                  
+       
+             
+        <div style="padding-bottom:150px;">
+        
+        </div>
+            
+            
+    </div>
+    <!-- Hockey night in Canada -->       
+    
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  <!-- Style tags need to be down here because reasons? --> 
+  <style>      .about-hockey {
+           background-image: url(img/thumbnails/about/ryerson-team.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                color:white;
+       }
+      
+</style> 
+
+       
+       
+    
+    
+    
+    
+    
+            
+            
+    <!-- Ryerson Hockey ------------------------------------->   
+    <div align="center" class="about-hockey shadow-text">   
+        
+        
+        
+        
+        
+        <!-- 2010-2015 -->
+        <div style="font-size:70px;"   class="header shadow-text">
+                <strong>
+            
+                
+                    <u>2013-Present
+                    </u>
+
+                    
+                    <br>
+                       <i class="fas fa-hockey-puck"> 
+                    </i>
+            
+            </strong>
+    
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        <p class="card-text about-p" style="margin-top: -50px;">      
+            
+            
+            
+            <br>In 2013, Dave was hired as <strong><i class="fas fa-hockey-puck"></i> Statistician</strong> for the <strong>Ryerson University Men’s Hockey Team,</strong> working under head coach Graham Wise.  
+        
+            <div style="padding-bottom: 10px;">
+            </div>
+
+            
+        <p class="card-text about-p">
+            Over seven seasons, Dave has built his own <strong>video and analytics systems</strong> for the team from the ground up.  
+            
+          
+           
+            
+            
+            
+            
+        <div style="padding-bottom: 10px;">
+        </div>
+         
+        
+        
+        
+        
+        
+        <!-- Statistician Video -->
+        <div style="border-radius: 10px;">
+            <iframe style="border-radius: 10px;" width="400" height="225" src="https://www.youtube.com/embed/7sc3w84GMX0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+        </div>
+        <!-- Statistician Video -->   
+        
+        
+        
+        
+        
+           
+            
+        <div style="padding-bottom: 10px;">
+        </div>
+        
+        
+        
+        
+        
+        
+            
+        <p class="card-text about-p"> 
+            
+        
+            Dave has developed:
+            <br>
+                <strong>Team Applications,</strong>
+            
+            <br> 
+                <strong>Puck Possession Applications,</strong>
+            
+            <br>
+                <strong>Ice-time Applications,</strong> 
+                 
+            <br>
+                <strong>Video Coaching-Specific Applications,</strong> 
+            
+            <br>
+            
+                <strong>Pre-Scout Applications.</strong>
+
+            
+            
+            
+        <div style="padding-bottom: 10px;">
+        
+        </div>   
+                 
+                 
+                 
+        <p style="max-width: 400px;text-align: center; " class="card-text">   
+            
+            
+                 Dave currently works as <strong>Ryerson's Video Coach.</strong>  
+        
+
+
+
+
+        </p>
+
+
+
+    
+    
+    <div style="padding-bottom: 75px;">
+    
+        
+        
+        
+    </div>
+
+
+
+
+
+         
+         
+    </div>
+    <!-- Ryerson Hockey --------------------------------->       
+            
+            
+    
+    
+    
+    <div style="padding-bottom: 100px;">
+    
+        
+        
+        
+    </div>
+         
+         
+         
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+         
+      <!-- Style tags need to be down here because reasons? --> 
+  <style>      .about-construction {
+           background-image: url(img/thumbnails/about/construction.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                color:white;
+       }
+      
+</style>      
+         
+         
+         
+         
+    <!-- Construction -------------------------------------->   
+    <div class="about-construction shadow-text" align="center">       
+            
+        
+        
+        
+        
+        <!-- 2010-2015 -->
+        <div style="font-size:70px;"   class="header shadow-text">
+                <strong>
+            
+                
+                    <u>2011-Present
+                    </u>
+
+                    
+                    <br>
+                       <i class="fas fa-hammer"> 
+                    </i>
+            
+            </strong>
+    
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+       
+        
+        
+        
+        
+    
+        <p class="card-text about-p" style="margin-top: -40px;">
+            
+            In the summers, Dave works as a 
+            <i class="fas fa-hammer"> 
+            </i>
+                <strong> Carpenter</strong> for One York Construction in Toronto.
+            
+            
+        <!-- Construction Photos -->
+        <div>
+            <table>
+                <th></th>
+                    <tr>
+                        
+                        
+                        
+                        <td>
+                            <img class="about-me-photo" src="construction/projects/Deck,%20Fencing,%20Interlock.jpg">
+                        </td>
+                        
+                        
+                        
+                        <td>
+                            <img class="about-me-photo" src="construction/projects/Roxborough%201.jpeg">
+                        </td>
+                        
+                        
+                        
+                        <td> 
+                            <img class="about-me-photo" src="construction/projects/kitchen.jpg">
+                        </td>
+                
+                
+                
+                </tr>    
+                
+            </table>
+        </div> 
+        <!-- Construction Photos -->    
+            
+         
+        
+        
+        
+        
+        <p class="card-text about-p">   
+            
+    
+            
+            
+            He's spent his last 9 summers working in various construction, landscaping, and carpenter positions.
+     
+         
+         
+        </p>
+    
+      
+    <div style="padding-bottom: 150px;">
+        
+    </div>
+
+    
+    
+    </div>
+    <!-- Construction End -->
+    
+    
+    
+    <div style="padding-bottom: 150px;">
+        
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      <!-- Style tags need to be down here because reasons? --> 
+  <style>      .about-6 {
+           background-image: url(img/thumbnails/about/game-design.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                color:white;
+       }
+      
+       
+       
+    
+
+</style> 
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- Game Design------------------------------------->
+    <div class="about-6 shadow-text" align="center">    
+        
+        
+        
+        
+        
+        <!-- 2010-2015 -->
+        <div style="font-size:70px;"   class="header shadow-text">
+                <strong>
+            
+                
+                    <u>2019-Present
+                    </u>
+
+                    
+                    <br>
+                       <i class="fas fa-gamepad"> 
+                    </i>
+            
+            </strong>
+    
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+         
+        <p class="card-text about-p" style="margin-top: -50px;">     
+            
+            
+            In September 2019, Dave went back to school for a <strong>Post Graduate Certificate</strong> in <strong><i class="fas fa-gamepad"></i>  Game Design at George Brown.
+            </strong>
+        
+        <!-- Game Design Photo -->
+        <div>
+            <table>
+                <th></th>
+                <tr>
+            
+          
+                    <td> 
+                        <img style="width:400px;height:auto;" class="about-me-photo" src="img/thumbnails/about/game-design-2.png">
+                    </td>
+                
+                
+                
+                </tr>    
+                
+            </table>
+        </div>  
+            
+          
+            
+            
+            
+        <p class="card-text about-p"> 
+            He graduates in August, and will be working as a Level Designer.
+    
+        <!-- Game Design Photo #2 -->
+        <div>
+            <table>
+                <th></th>
+                <tr>
+                    <td>
+                        
+                        <img style="width:500px;height:auto;" class="about-me-photo" src="game/misc/group-talking.jpg">
+                      
+                        
+                    </td>
+  
+                
+                </tr>    
+                
+            </table>
+        </div>   
+                
+       
+        
+    <div style="padding-bottom:30px;">
+    </div> 
+       
+    
+    
+    <!-- Let's see the projects! Button -->
+    <div>
+
+
+        <button class="button-blue" onclick="window.location.href='game.html'">
+            <!-- Blue Button w/ CSS Class -->
+            <a href="game.html"> 
+                <span style="color: white;"> 
+                    <i class="fas fa-info-circle">
+                    </i>
+                        <strong> Let's see the projects!</strong>
+                </span>
+            </a>
+        </button>
+         
+         
+    </div>    
+     
+    
      
         
-           
-                    
-                    <a href="##">
-            
-                        <img src="game/rise-and-fall.png" 
-                             class="img-fluid">
-                            <!-- Image of Game -->
-                        
-                    </a>
-           
-                
+    <div style="padding-bottom: 75px;">
     
-                <div class="card-body pb-0">
-                    <!-- Div Containing the Text Content -->
-            
-                    <h4 class="font-weight-bold my-3">
-            
-                        <a href="##" style="color:#5b77d3;" >
-                            Rise & Fall
-                            
-                
-                            
-                            (2020)
-                            
-                        </a>
-                    </h4>
+    </div>
         
-                    <p>
-                        
-                        Release Date: To Be Announced
-                        
-                    </p>
         
-                    <p>
-                        
-                        Role: Lead Level Designer & Producer
-                        
-                    </p>
-                    
-                    <p>
-                        
-                        Description: Rise & Fall is a <strong>4 person couch co-op sports game.</strong>
-                        
-                    </p>
-                    
-                    <p>
-                        Two teams battle to score the ball into the other team's net, while using their unique abilities to shrink and grow.
-                        
-                    </p>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    <div class="spacer"></div>
-                    
-                    
-                   
-                     <p>
-                    
-                     <img src="game/img/sizes.png" 
-                            class="img-fluid">
-                    
-                    
-                    
-                    
-                    </p>
-                    
-                    
-                    
-                    <h1 class="indigo-text">
-                       <strong>Game Rules:</strong>    
-                        
-                    </h1>
-                    
-                    
-                    
-                    
-                    
-                    <p>
-                        All players can <strong>shrink</strong> and <strong>grow</strong> in size at any time.     
-                        
-                    </p>
-                    
-                   
-                    
-                    <p>
-                        The <strong>smallest</strong> size has the <strong>fastest</strong> speed, but can't hit the ball very hard.
-                        
-                    </p>
-                    
-                    <p>
-                       The <strong>largest</strong> size has a large hitbox and can hit the ball <strong>really hard</strong>, but is the slowest of the 3 sizes.
-                        
-                    </p>
-                    
-                    <p>
-                        The <strong>medium</strong> size is a mix of good speed and strength.
-                        
-                    </p>
-                    
-                    <p>
-                        Knowing <strong>when</strong> to use your powers is the key to scoring.
-                        
-                    </p>
-                    
-                   
-                    
-                    
-                    
-                    
-                    
-                    
-                    <div class="spacer"></div>
-                    
-                    <p>    <img src="game/img/goal-red.png" 
-                            class="img-fluid" width="700px">
-                    
-                    </p>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    <p>
-                        The first team to score <strong>10 times wins.</strong>
-                        
-                    </p>
+        
+        
+        
+        
+        
+        
+      
+     
+    </div>
+    <!-- Game Design Div End ------------------------------->
 
-                    
-                    
-                    <p>
-                        
-                        The <strong>time limit</strong> is <strong>5 minutes.</strong>
-                        
-                    </p>
-                    
-                    
-                    
-                    
-                    <p>
-                        
-                        If no team has scored in <strong>60 seconds</strong>, the ball <strong>explodes</strong> and both teams are awarded a point.
-                        
-                    </p>
-                    
-                    
-                    
-                    
-                    
-                    
-                      <div class="spacer"></div>
-                    
-                     <h1 class="indigo-text"> 
-                         <strong>Early Whitebox:</strong>
-                         
-                    </h1> 
-                    
-                    
-                    
-                     
-                    <p>
-                        <img src="game/img/whitebox.jpg" 
-                            class="img-fluid" width="700px;">
-                        
-                    </p>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    <p>
-                        
-                        For our third Game Jam in class, we were given the theme of 'Fall'.
-                           
-                      
-                    </p>
-                    
-                    
-                      <p>
-                        
-                       We decided we wanted to make a game built around the ability to 'grow and fall' in size as the main mechanic.
-                           
-                      
-                    </p>
-                    
-                    
-                    <p>
-                        
-                        Originally we imagined it as a fighting game. When we placed a soccer ball in the arena, it became too much fun to not make it a sports game.
-                           
-                      
-                    </p>
-                    
-                    
-                    <p>
-                        
-                        I built out a small whitebox with two nets, two goalies, and bounce pads on various areas of the level.
-                      
-                    </p>
-                    
-                       <p>
-                        
-                        We playtested for hours and hours, tweaking the player speed, ball friction, Bounce Pad velocity, until we found a flow that felt really good to play.
-                      
-                    </p>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                      <div class="spacer"></div>
-                    
-                     <h1 class="indigo-text bg-indigo"> 
-                         <strong>Design Decisions:</strong>
-                         
-                    </h1> 
-                    
-                    
-                    
-                    
-                    
-                    <p>
-                        <img src="game/img/bounce-pads.PNG" 
-                            class="img-fluid" width="700px;">
-                        
-                    </p>
-                    
-                    
-                    <p>
-                        
-                        This level has <strong>Bounce Pads</strong>, marked in yellow, which bounce the ball in different directions.     
-                           
-                        
-                    </p>
-                    
-                    
-                     <p>
-                        
-                        We took a lot of time tuning the Bounce Pads' velocity and the angles to create fun flow between the ball and the player.
-                           
-                        
-                    </p>
-                    
-                    
-                    <p>
-                        
-                        For example, there are two Bounce Pads that face towards the player's nets.  That means that in some cases, the ball slowly trickles towards the nets, giving players a chance to make a quick save.
-                           
-                        
-                    </p>
-                    
-                    
-                      <div class="spacer"></div>
-                    
-                    
-                     
-                    <p>
-                        <img src="game/img/middle-table.PNG" 
-                            class="img-fluid" width="700px;">
-                        
-                    </p>
-                    
-                    
-                    <p>
-                        
-                        The <strong>Middle Table</strong> forces players to use the outsides of the arena.  Players need to hop up to hit the ball initially on it spawning, but guard rails we call the "Anti-Cheese" are in place. This prevents players from getting a free shot at an unprotected net.
-                           
-                        
-                    </p>
-                    
-                    
-                    
-                 
-                    
-                      <div class="spacer"></div>
-                    
-                    
-                    <p>
-                        <img src="game/img/trajectory.PNG" 
-                            class="img-fluid" width="700px;">
-                        
-                    </p>
-                    
-                    
-                        
-                    <p>
-                        
-                        Because players whack the ball with a club, often we heard feedback that it wasn't obvious enough where the ball was going to go if players hit it.
-                        
-                        
-                           
-                        
-                    </p>
-                    
-                    
-                    
-                    <p>
-                        
-                        So we implemented a <strong>trajectory line</strong> that spans the size of the arena, so players know exactly where a shot will go before hitting.
-                        
-                        
-                           
-                        
-                    </p>
-                    
-                    
-                      
-                    <div class="spacer"></div>
-                    
-                    <p>
-                        <img src="game/img/goalies.PNG" 
-                            class="img-fluid" width="700px;">
-                        
-                    </p>
-                    
-                    
-                    
-                    
-                    
-                    
-                    <p>
-                        
-                        To add a small element of timing to the shooting, we adding moving <strong>goalies</strong> to both nets.  They move at a  relatively slow and predictable pattern.
-                        
-                        
-                           
-                        
-                    </p>
-                    
-                    <p>
-                        
-                        We tuned the size and speed just enough so that you need to be conscious of them in timing your shots, but they don't completely negate offense.
-                        
-                        
-                           
-                        
-                    </p>
-                    
-                    
-                    
-                    <p>
-                        
-                       The Goalies also create fun moments where the goalie will bail you out when you're caught out of position.
-                        
-                           
-                        
-                    </p>
-                    
-                    
-                    <div class="spacer"></div>
-                    
-                     <p>
-                        
-                       We have pages and pages of ideas to flesh out the game in further levels.
-                         
-                           
-                        
-                    </p>
-                    
-                    
-                     <p>
-                        
-                     In the end, our goal was to make a single, focused level that showed off the main pillars of the game.  We wanted it to 'feel great' to play, be easy to immediately pick up and understand, and be something you enjoy wasting a few minutes playing with friends.
-                         
-                           
-                        
-                    </p>
-                    
-                    
-                    <p>
-                        
-                     We had so much fun playing this game, and we hope you enjoy it too!
-                         
-                           
-                        
-                    </p>
-                    
-                    
-                     <p name="roster">
-                        
-                        <img src="game/headshots/post-grads/dave.png" 
-                            class="img-fluid sm-headshot">
-                         
-                        <img src="game/headshots/post-grads/surya.png" 
-                                class="img-fluid sm-headshot">
-                         
-                        <img src="game/headshots/post-grads/ritesh.png" 
-                                class="img-fluid sm-headshot" >
-                         
-                        <img src="game/headshots/post-grads/rohit.png" 
-                                class="img-fluid sm-headshot">
-                         
-                        <img src="game/headshots/post-grads/daniel.png" 
-                            class="img-fluid sm-headshot">
-                         
-                           <img src="game/headshots/post-grads/victor.png" 
-                            class="img-fluid sm-headshot">
-                         
-                         
-                        
-                    </p>
-                    
-                    <p name="roster">
-                        
-                        <img src="game/headshots/programmers/aidan.png" 
-                            class="img-fluid sm-headshot">
-                         
-                        <img src="game/headshots/programmers/michael.png" 
-                            class="img-fluid sm-headshot">
-                         
-                        <img src="game/headshots/programmers/ricardo.png" 
-                            class="img-fluid sm-headshot">  
-                        
-                    </p>
-                    
-                    
-                    <p name="roster">
-                        
-                        <img src="game/headshots/concept-art/abiha.png" 
-                            class="img-fluid sm-headshot">
-                         
-                        <img src="game/headshots/concept-art/barry.png" 
-                            class="img-fluid sm-headshot">
-                  
-                        
-                    </p>
-                    
-                    
-                    
-                    <p name="roster">
-                        
-                        <img src="game/headshots/modellers/edwin.png" 
-                            class="img-fluid sm-headshot">
-                         
-                        <img src="game/headshots/modellers/fabiana.png" 
-                            class="img-fluid sm-headshot">
-                         
-                        <img src="game/headshots/modellers/duncan.png" 
-                            class="img-fluid sm-headshot">  
-                        
-                    </p>
-                    
-                    <p name="roster">
-                        
-                        <img src="game/headshots/animators/dylan.png" 
-                            class="img-fluid sm-headshot">
-                         
-                        <img src="game/headshots/animators/raymond.png" 
-                            class="img-fluid sm-headshot">
-                         
-                        <img src="game/headshots/animators/stephen.png" 
-                            class="img-fluid sm-headshot">  
-                        
-                    </p>
-                    
-                    
+    
          
-                    
-                    
-                    <div class="spacer">
-                    </div>
-                    
-                    
-                    
-                    <button class="button-blue" onclick="window.location.href='/registration/'">
-                        <!-- Blue Button w/ CSS Class -->
-                        <a href="https://github.com/SuryaMohanTheFirst/GJ3"> 
-                            <span style="color: white;"> 
-                                <img src="img/icons/github.png" width=40>  
-                                <strong>Play the Game!</strong>
-                            </span>
-                        </a>
-                    </button>
-        
-                    
-                  <div class="spacer">
-                    </div>   
-                    
-                    
-                    
-                    
-                </div>
-                    <!-- Card body Div closed -->
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-            </div>
-                <!-- Portfolio Content Div closed -->
 
 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!--Spacing at end of page-->              
+    <div style="padding-bottom:0px;">
+    
+    </div>
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+            
+      
+    <!--Footer-->
+    <footer style="max-width: 100%" class="page-footer font-small blue accent-1 white-text">
+
+        
+        
+        
+        <!-- / * Copyright / * -->
+        <div class="footer-copyright text-center py-3">
+            
+            © 2020
+            
+            <a class="white-darker-hover" href="http://www.davewhiffen.com/"> 
+                Dave Whiffen
+            </a> / 
+        
             
             
             
-       
-           <!-- Closing the Portfolio Content Div --> 
+            <!-- / * Instagram Button / * -->
+            <a class="white-darker-hover"  href="http://www.instagram.com/davewhiffen">
+                <i class="fab fa-instagram fa-sm pr-2" aria-hidden="true">
+                </i>
+            </a>
+
+            
+            
+            <!-- / * Twitter Button / * -->
+            <a class="white-darker-hover"  href="http://www.twitter.com/davewhiffen">
+                <i class="fab fa-twitter fa-sm pr-2" aria-hidden="true">
+                </i>
+            </a>
+
             
             
             
+            
+            <!-- / * LinkedIn Button / * -->
+            <a class="white-darker-hover"  href="https://www.linkedin.com/in/davewhiffen/">    
+                <i class="fab fa-linkedin fa-sm pr-2" aria-hidden="true">
+                </i>
+            </a> / 
+    
+            
+            
+            
+            
+            <!-- YouTube Button -->    
+            <a class="white-darker-hover"  href="https://www.youtube.com/channel/UCalnmWdCEfm03zwgcRiEUXw/">
+                <i class="fab fa-youtube fa-sm pr-2" aria-hidden="true">
+                </i>
+            </a>
+
+            
+            
+            
+            <!-- Vimeo -->
+            <a class="white-darker-hover"  href="https://vimeo.com/davewhiffen">
+                <i class="fab fa-vimeo fa-sm pr-2" aria-hidden="true">
+                </i>
+            </a>
+    
+            
+            
+            
+            
+            <!-- Twitch Button -->    
+            <a class="white-darker-hover"  href="http://www.twitch.tv/davewhiffen">
+                <i class="fab fa-twitch fa-sm pr-2" aria-hidden="true">
+                </i>
+            </a> / 
+    
+            
+            
+            
+            <!-- Email Link -->
+            <a class="white-darker-hover"  href="mailto:david.whiffen@ryerson.ca">    
+                <i class="far fa-envelope fa-sm pr-2" aria-hidden="true">
+                </i>
+            </a>
+
+            <!-- Telephone Link-->
+            <a class="white-darker-hover"  href="tel:416-996-8183">    
+                <i class="fas fa-phone fa-sm pr-2" aria-hidden="true">
+                </i>
+            </a>
+        </div>    
+        
+    </footer>      
+        
+        
+    
+
+    <!-- / * End of Footer / * -->       
             
 
+            
+      
   
 
 

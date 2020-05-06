@@ -16,6 +16,13 @@
   <link href="css/style.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
   <link href="css/main.css" rel="stylesheet">
+    
+    
+     <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+    <!-- Link to First CSS sheet. -->
+    <link href="css/style2.css" rel="stylesheet">
+    <!-- A Second Style sheet where I'm unloading Styles that don't need to be in the main page. -->
 
 <!-- / * Favicon and Icons for Apps and Title Bars go here / * -->
 
@@ -40,21 +47,7 @@
     <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-<style>
-    .header{
-    font-size: 30px;
-    font-weight: bold;
-    margin-top:50px;
-    margin-bottom:50px;
-}
-    
-    .img-avatar {
-    border-radius: 50%;
-    }</style> 
-    
-    
-    
-</style>
+
    
 
     
@@ -62,229 +55,198 @@
 
 <body>
 
-<style>    .indigo{background-color:#3f51b5!important}
-
-    .indigo-text{color:#3f51b5!important}
-
-    
-    .white-text{color:#fff!important}
-    
-    .white-lighter-hover {
-      color: #fff;!important
-      -webkit-transition: .4s;
-      transition: .4s; }
-    
-    .white-lighter-hover:hover {
-      -webkit-transition: .4s;
-      transition: .4s;
-      color: white; }
-
-    .white-darker-hover {
-      color: #fff;
-      -webkit-transition: .4s;
-      transition: .4s; }
-    .white-darker-hover:hover {
-      -webkit-transition: .4s;
-      transition: .4s;
-      color: #d9d9d9; }
-    
-    
-
-    .grey-lighter-hover {
-  color: #616161;!important
-  -webkit-transition: .4s;
-  transition: .4s; }
-.grey-lighter-hover:hover {
-  -webkit-transition: .4s;
-  transition: .4s;
-  color: #878787; }
-
-.grey-darker-hover {
-  color: #616161;
-  -webkit-transition: .4s;
-  transition: .4s; }
-    
-.grey-darker-hover:hover {
-  -webkit-transition: .4s;
-  transition: .4s;
-  color: #3b3b3b; }
-
-  .indigo-lighter-hover {
-  color: #3f51b5;
-  -webkit-transition: .4s;
-  transition: .4s; }
-.indigo-lighter-hover:hover {
-  -webkit-transition: .4s;
-  transition: .4s;
-  color: #7280ce; }
-
-.indigo-darker-hover {
-  color: #3f51b5;
-  -webkit-transition: .4s;
-  transition: .4s; }
-.indigo-darker-hover:hover {
-  -webkit-transition: .4s;
-  transition: .4s;
-  color: #2b387c; }
-  </style>
+    <!-- Beginning of Body -->
 
 
-<!--/* Updated Navigation Bar (December 18, 2019) -->
-<nav class="navbar navbar-dark navbar-expand-lg fixed-top  indigo darken-2 ">
-    <!-- / * Navigation Title and Icon / * -->
-    <a class="white-bold white-darker-hover waves-effect" style="font-size:20px;" href="index.html"><img class="img-avatar" src="img/dave.png" height="44" style="padding-right:0px;"><strong> Dave</strong></a>
-    <div class="waves-effect" style="padding:10px">
-    <!-- / * About Button * / -->
-        <a class="white-bold white-darker-hover" href="index.html"><strong>About</strong></a>
-    </div>
-    
-    
-                  
-  <!-- / * Portfolio Button with Dropdown Menu * / -->    
-    <a href="gaming.html" class="nav-link white-bold waves-effect indigo white-darker-hover"        href="gaming.html" role="button" aria-haspopup="true"
-       aria-expanded="false"><strong>Portfolio</strong></a>
-    
-    <!-- / * Physical Dropdown Button List / * -
-    <div class="dropdown-menu dropdown-default">
-       
-        <!-- / * Ordered List / * --
-        <li> <a class="dropdown-item" href="portfolio.html"><i class="fas fa-film"></i> Film</a>
-        <a class="dropdown-item" href="television.html"><i class="fas fa-tv"></i> Television</a>
-        <a class="dropdown-item" href="web-design.html"><i class="fas fa-code"></i> Web Design</a>
-      
-        <div class="dropdown-divider"></div>
-      
-        <a class="dropdown-item" href="gaming.html"><i class="fas fa-gamepad"></i> Game Design</a>
-        <a class="dropdown-item" href="hockey.html"><i class="fas fa-hockey-puck"></i> Hockey</a>
-        <a class="dropdown-item" href="animation.html"><i class="fas fa-grin-tongue"></i> Animation</a>
- 
-        <div class="dropdown-divider"></div>   
-       
-        <a class="dropdown-item" href="drawing.html"><i class="fas fa-pencil-alt"></i> Drawing</a>
-        <a class="dropdown-item" href="construction.html"><i class="fas fa-hammer"></i> Construction</a></li>
-        </div></div> 
+    <div>
+        <!-- Div to contain all the navbar content -->
         
-        -->
         
-    <!-- / * Contact Button / * -->        
-    <div style="padding:8px;" class="waves-effect"><a class="white-bold white-darker-hover" href="contact.html"><strong>Contact</strong></a></div>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  <div name="navbar">
+        <!-- Div to contain all the navbar content -->
+        
+        
+        <nav class="navbar fixed-top  indigo darken-2">
+        <!-- Navigation class. 
+            Navbar. Dark Navbar. Expand on larger size. Make Navbar fixed to top. -->
+    
+    
+    
+    
+        <!-- / * Navigation Title and Icon / * -->
+            <a class="white-bold white-darker-hover waves-effect" style="font-size:20px;" href="index.html">
+        
+                <img class="img-avatar" src="img/dave.png" width="44">
+        
+                <strong> Dave Whiffen</strong>
+            </a>
+    
+    
+        </nav>   
+    
+    
+    
+        <div style="margin-top:56px;" class="white-text animated fadeIn fixed-top">
+        <!-- Div to contain the tabbed navigation pills -->
+    
+            <ul class="nav nav-pills nav-fill grey darken-3 accent-1 mx- mb-0 mt-1 white-text">
+            <!-- Unordered list of Nav pills. Fill them.  Be grey, darken by 3 units. -->
+        
+                
+                <li class="nav-item waves-effect">
+                    <!-- * / Gaming Button / * -->
+                    <a class="nav-link white-darker-hover" href="game.html">
+            
+                        <i class="fas fa-gamepad"></i> 
+            
+                        Game
+                    </a>
+        
+                </li>     
+        
+        
+        
+        
+                <!-- * / Film Button / * -->
+                <li class="nav-item waves-effect">
+        
+                <a class="nav-link white-darker-hover" href="film.html"><strong>
+                
+                    <i class="fas fa-film">
+                    </i> 
+                
+                    Film</strong>
+                </a>
+        
+                </li>
+     
+                <!-- * / Television Button / * -->
+                <li class="nav-item waves-effect">
+        
+                    <a class="nav-link white-darker-hover" href="tv.html">
+                    <i class="fas fa-tv">
+                    </i> 
+                
+                    TV
+                    </a>
+                </li>
+        
+                <!-- * / Web Design Button / * -->
+                <li class="nav-item waves-effect">
+        
+                    <a class="nav-link white-darker-hover active" href="web.html">
+                        <i class="fas fa-code">
+                        </i> 
+                        Web
+                    </a>
+                </li>
+
+    
+                <!-- * / Animation Button / * -->
+                <li class="nav-item waves-effect">
+        
+                    <a class="nav-link white-darker-hover" href="animation.html">
+                
+                        <i class="far fa-grin-tongue"></i> 
+                
+                        Animation
+                    </a>
+        
+                </li>
+  
+                <!-- * / Drawing Button / * -->
+                <li class="nav-item waves-effect">
+         
+                    <a class="nav-link white-darker-hover" href="art.html">
+                
+                        <i class="fas fa-pencil-alt">
+             
+                        </i> Art
+                    </a>
+        
+                </li>
+        
+                <!-- * / Hockey Button / * -->
+                <li class="white-text waves-effect">
+        
+                    <a class="nav-link white-darker-hover" href="hockey.html">
+                
+                        <i class="fas fa-hockey-puck">
+                        </i> Hockey
+                    </a>
+                </li>
+        
+        
+   
+                <!-- * / Construction / * -->
+                <li class="nav-item waves-effect">
+         
+                    <a class="nav-link white-darker-hover" href="construction.html">
+             
+                        <i class="fas fa-hammer">
+             
+                        </i> Construction
+                    </a>
+                </li>
+   
+            </ul> 
+            <!-- Closing the Nav Pills unordered list -->
         </div>
-    </a></div></div>
-
-</nav>          
- <!-- / * End of navigation bar. / *  -->
-
-
-
-<!--/* Animated FadeIn Effect /* -->
- <div class="animated fadeIn">
- 
- 
-   
-     
-     
-  
- <!-- / * Pill Tabbed Navigation Menus.   / * -->
-<div style="margin-top:56px;" class="white-text animated fadeIn">
-    <ul class="nav nav-pills nav-fill grey darken-3 accent-1 mx- mb-0 mt-1 white-text">
-       
-        
-        
-       <!-- * / Gaming Button / * -->
-    <li class="nav-item waves-effect">
-        <a class="nav-link white-darker-hover" href="gaming.html"><i class="fas fa-gamepad"></i> Game Design</a></li>    
-        
-        
-    <!-- * / Film Button / * -->
-    <li class="nav-item waves-effect">
-    <a class="nav-link white-darker-hover" href="portfolio.html"><strong><i class="fas fa-film"></i> Film</strong></a></li>
-     
-    <!-- * / Television Button / * -->
-    <li class="nav-item waves-effect">
-    <a class="nav-link white-darker-hover" href="television.html"><i class="fas fa-tv"></i> Television</a></li>
-        
-    <!-- * / Web Design Button / * -->
-    <li class="nav-item waves-effect">
-        <a class="nav-link active white-darker-hover" href="web-design.html"><i class="fas fa-code"></i> Web Design</a></li>
-    
-
-    
-    <!-- * / Hockey Button / * -->
-    <li class="white-text waves-effect">
-        <a class="nav-link white-darker-hover" href="hockey.html"><i class="fas fa-hockey-puck"></i> Hockey</a></li>
-    
-    <!-- * / Animation Button / * -->
-    <li class="nav-item waves-effect">
-        <a class="nav-link white-darker-hover" href="animation.html"><i class="far fa-grin-tongue"></i> Animation</a></li>
-  
-    <!-- * / Drawing Button / * -->
-     <li class="nav-item waves-effect">
-         <a class="nav-link white-darker-hover" href="drawing.html"><i class="fas fa-pencil-alt"></i> Drawing</a></li>
-   
-    <!-- * / Construction / * -->
-     <li class="nav-item waves-effect">
-         <a class="nav-link white-darker-hover" href="construction.html"><i class="fas fa-hammer"></i> Construction</a></li>
-   
-    </ul> 
-    </div>
-<!-- / * End of Pill Tabbed Navigation Menus / * -->
-  
-
-
-
-<!-- / * Content Body */ -->
-  <div class="animated fadeIn">
-   
-<!-- /* Breadcrumbs Navigation -->
-    <div class="font-weight-bold indigo-text indigo-lighter-hover">  
-    <nav class="indigo-text indigo-lighter-hover" aria-label="breadcrumb" style="padding-top:px;align-content: left;font-size: 14px;">
-    <ol class="breadcrumb">
-    <li class="breadcrumb-item active indigo-text indigo-lighter-hover"><a class="indigo-text indigo-lighter-hover" href="index.html">Home </a> / <a class="indigo-text indigo-lighter-hover"  href="###">Portfolio</a> / <a class="indigo-text indigo-lighter-hover" href="###">Web Design</a></li>
-    </ol></nav>     
+        <!-- Closing the Nav Pills Div -->
     </div> 
-    <!-- /* End Breadcrumbs Navigation -->    
-      
-       
-     
-<!-- /* Live Notes */ --
-     <div>
-     
-     Notes:
-     
-     <p>Add Language Proficiency (with 1-5 stars for each language)
-     </p>
-     <p>Add software proficiency (1-5 stars for each)  
-     </p>
-    <p>What I'm currently learning
-     </p>
-     
-     
-     
-     </div>
-     
-     
-      
-     
-     
-<!-- */ Puts all the content in a padded div -->      
-<div class="portfolio-padded">
+    <!-- Closing the Navigation Div -->
+    
+    
+    
+    
+    
   
-<!-- */ Header */ -->  
-<div class="header">Portfolio: <i class="fas fa-code"></i> Web & App Design
-    </div>
+    
+   
+   
+   
+   
+   
+   
+
     
     
-            <!-- Resume Button -->
-    <div style="padding-bottom: 50px;margin-top: -105px;margin-right:-10px;text-align: right;color:white;">
+  <div class="animated fadeIn">
+    
+  
+      
+    <div class="portfolio-content portfolio-padded bg">
+        <!-- Special Div for Portfolio content in the card style -->
+  
+        <div style="font-size:70px;"  class="header">Projects: 
+        <!-- Header class text-->
+    
+            
+        
+            </i> 
+    <i class="fas fa-code"></i> Web Design
+    
+    
+        </div>
+    
+    
+    
+
+        <div style="padding-top: 70px;"  class="resume-button">
+            <!-- Div Class for Resume Button-->
         
    
-     <a href="doc/resume-television.pdf">   <button type="button" class="btn btn-indigo"><font color="white"><i class="fas fa-file"></i> Resume </font>
-            </button> 
-          
-    </div>
+            <a href="doc/resume-game-design.pdf">  
+                <!-- Link to Game Design Resume -->
+                <button type="button" class="btn btn-indigo">
+            
+                    <i class="fas fa-file">
+                    </i> 
+                    Resume
+                </button> 
+            </a>
+        </div>
         
-    <!-- End -->
     
   
 
@@ -468,9 +430,7 @@
   <!-- Grid column -->
   
 
-<!-- /* Next page button */ -->    
-<div class="text-right float-right">    
-        <a class="btn btn-indigo btn-lg float-right" href="gaming.html"><i class="fas fa-arrow-circle-right left"></i> Next Page</a></div><br><br><br>
+<br><br><br>
   
   
   
@@ -484,7 +444,7 @@
     <footer class="page-footer font-small blue accent-1 white-text">
 
     <!-- / * Copyright / * -->
-    <div class="footer-copyright text-center py-3">© 2019
+    <div class="footer-copyright text-center py-3">© 2020
     <a class="white-darker-hover" href="http://www.davewhiffen.com/"> Dave Whiffen</a> / 
         
     <!-- / * Instagram Button / * -->
