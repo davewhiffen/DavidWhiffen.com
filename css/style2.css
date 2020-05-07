@@ -1,3 +1,83 @@
+
+
+
+
+.footer-copyright
+{
+    width:100%;
+}
+
+
+
+/* Tell Portfolio DIV to have 20px of padding around left and right side */
+
+
+
+
+.portfolio-padded {
+    padding-left: 20px;
+    padding-right:20px;
+    padding-bottom:20px;
+    margin-top:-30px;
+    width:100%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about-spacer {
+    padding-bottom:50px;
+}
+
+
+.no-shadow {
+
+    box-shadow: 0 0 0px 0px rgba(0, 0, 0, 0.0);
+    
+
+}
+
+
+
+
+
+.socials:hover {
+	max-width: 100%;
+    /* On Hover, Max width is 100% of width. */
+    
+      
+     transition: transform .2s;
+    /* Images have a transition time of .2s (from hover). */
+
+    
+
+    
+    
+ cursor: pointer;
+       /* Use Pointer cursor, showing it is a linked button.
+    */
+       
+    filter: brightness(110%);
+    
+        }
+
+
+
+
+
+
+
 .bg-image-1 {
     background-image: url("img/thumbnails/about/gamelovers.png");   
       background-repeat: no-repeat;
@@ -327,7 +407,7 @@ img:hover {
 
 
 .portfolio-content {
-    margin-top:120px;
+    margin-top:100px;
     align-content: center;
     text-align: center;
 }
