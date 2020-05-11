@@ -2,6 +2,8 @@
 <html lang="en">
     <!-- Language is English -->
 
+    
+    
 <head>
     <!-- The head of the page. -->
   <meta charset="utf-8">
@@ -101,22 +103,10 @@
 <!-- / * Specific styling that didn't work by putting in the CSS file.  Needed to be on every page for some reason / * -->
     
 <style>
-    .about-me{
-    font-size: 30px;
-    font-weight: bold;
-    margin-top:-30px;
-    margin-bottom:30px;
-    padding-left:20px;
-    padding-right:20px;
-    align-content: center;
-    }
-
-    .header-resume{
-    font-size: 30px;
-    font-weight: bold;
-    margin-top:20px;
-    margin-bottom:30px;
-    align-content: center;
+ 
+ 
+    body {
+           background-color:#688ecc;
     }
         
     .padded-margin{
@@ -300,7 +290,7 @@ a:hover { COLOR: #adadad; TEXT-DECORATION: none; font-weight: bold }</style>
     <!-- Beginning of Body -->
 
 
-<!-- Navbar -->   
+<!-- Navbar ----------------------------------------------------->   
 <div name="navbar">
         <!-- Div to contain all the navbar content -->
       
@@ -530,23 +520,199 @@ a:hover { COLOR: #adadad; TEXT-DECORATION: none; font-weight: bold }</style>
     </div> 
     <!-- Closing the Navigation Div -->
     
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <style>
+        
+    
+    #Back-to-Top {
+        
+    display: none; /* Hidden by default */
+        
+    position: fixed; /* Fixed/sticky position */
+        
+    bottom: 11px; /* Place the button at the bottom of the page */
+        
+    right: 100px; /* Place the button 100px from the right */
+        
+    z-index: 99; /* Make sure it does not overlap */
+        
+
+
+    color: white; /* Text color */
+        
+        
+    padding: 14px; /* Some padding */
+        
+
+        
+    border-radius: 100px; /* Rounded corners */
+        
+    font-size: 20px; /* Increase font size */
+        
+    }
+
+   
+        
+        
+        
+        
+    </style>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
 
+        
+<!-- Back to Top Button -------------->  
+
+        
+
   
+    <button class="button-blue" onclick="topFunction()" id="Back-to-Top" title="Go to top">
+        
+        <i class="fas fa-arrow-circle-up" style="font-size:30px;"> 
+            
+            
+        
+        </i>
+        
+    </button>
+  
+  
+  
+
+ 
+ 
+    <script>
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        
+    window.onscroll = function() 
+        {
+        
+        scrollFunction()
+        
+        };
+
+    function scrollFunction() 
+        
+        {
+            
+            if (document.body.scrollTop > 20 || 
+            
+            document.documentElement.scrollTop > 20) 
+            
+            {
+            
+            
+                document.getElementById("Back-to-Top").style.display = "block";
+            
+            } 
+            
+            else 
+            {
+                
+                document.getElementById("Back-to-Top").style.display = "none";
+            }
+            
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+    function topFunction() 
+        {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
     
+    
+    
+    
+    
+    
+    </script>
    
    
-   
-   
-   
+</div>   
+<!-- End of Back To Top Button -->
+    
+
+    
+    
+    
+    
+    
+    
+    
    
 
     
   
     <!-- Body Content -->     
-    <div class="portfolio-content bg animated fadeIn">
-       
+    <div align="center" class="portfolio-content bg animated fadeIn" style="align-content: center;text-align: center;">
+      
+        
+        
+        
+        
+        
+        
         
         <!-- /* Breadcrumbs Navigation  -->
     <div class="font-weight-bold indigo-text indigo-lighter-hover">
@@ -702,7 +868,7 @@ a:hover { COLOR: #adadad; TEXT-DECORATION: none; font-weight: bold }</style>
         
             <p class="card-text about-p">
                         
-                This is a Slideshow outlining the context of the mission, <br>the overall story, and how it fits into the game.
+                This outlines the context of the mission, <br>the overall story, and how it fits into the game.
                         
                     
                     
@@ -712,9 +878,30 @@ a:hover { COLOR: #adadad; TEXT-DECORATION: none; font-weight: bold }</style>
             </div>
             
             
+                 
+                 
+                 
            
-             
             
+                 
+                 
+                  <button class="button-blue" onclick="window.location.href='#gameplay-notes'">
+                        <!-- Blue Button w/ CSS Class -->
+                        <a href="#gameplay-notes"> 
+                            <span style="color: white;"> 
+                               <i class="fas fa-gamepad"></i>
+                                <strong> Skip to Gameplay Notes</strong>
+                            </span>
+                        </a>
+                    </button>   
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 </a>
             
                                     
          
@@ -1048,30 +1235,14 @@ a:hover { COLOR: #adadad; TEXT-DECORATION: none; font-weight: bold }</style>
         
         
         
-    <!-- Slide -->
-    <div class="slide-padding">
-        
-        
-        <img src="game/destiny-2/slides/Slide24.PNG">
-        
-        
-    </div> 
+  
             
         
  
             
     <div>
     
-                    <button class="button-blue" onclick="window.location.href='https://github.com/davewhiffen/D2-Sakrion'">
-                        <!-- Blue Button w/ CSS Class -->
-                        <a href="https://github.com/davewhiffen/D2-Sakrion"> 
-                            <span style="color: white;"> 
-                               <i class="fab fa-github"></i>
-                                <strong> Github</strong>
-                            </span>
-                        </a>
-                    </button>
-        
+            
         
         
         
@@ -1084,7 +1255,7 @@ a:hover { COLOR: #adadad; TEXT-DECORATION: none; font-weight: bold }</style>
         
         
           <!-- Destiny 2: Sacrion's Demise ----------------->
-    <div align="center" class="about-destiny-2-sacrion" style="margin-top:-30px;">              
+    <div id="gameplay-notes" align="center" class="about-destiny-2-sacrion" style="margin-top:-30px;">              
         <a href="destiny-2-sacrion.html">
             
             <img src="game/destiny-2/sacrion's%20demise.png" width="676" 
@@ -1126,7 +1297,7 @@ a:hover { COLOR: #adadad; TEXT-DECORATION: none; font-weight: bold }</style>
                     
                     
                     
-            <div style="padding-bottom:10px;">
+            <div style="padding-bottom:50px;">
                     
             </div>
             
@@ -1141,6 +1312,67 @@ a:hover { COLOR: #adadad; TEXT-DECORATION: none; font-weight: bold }</style>
     </div>
     <!-- Card body Div closed -->
       
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         
     <style>
@@ -1165,10 +1397,10 @@ a:hover { COLOR: #adadad; TEXT-DECORATION: none; font-weight: bold }</style>
     <div class="slide-padding">
         
         
-        <img src="game/destiny-2/screens/1.PNG">
+        <img src="game/destiny-2/screens/character/character.PNG">
         
         <p class="slide-title">
-        #1: You begin in a long tunnel.
+        Character Controller & Abilities
             
       
         <br>
@@ -1263,9 +1495,22 @@ a:hover { COLOR: #adadad; TEXT-DECORATION: none; font-weight: bold }</style>
            
         Back to the Level:
             
+       
+            
+    </div>     
+    
+    
+    
+    <!-- Slide -->
+    <div class="slide-padding">
         
-        <br>
-        <br>
+        
+        <img src="game/destiny-2/screens/1.PNG">
+        
+        <p class="slide-title">    
+         #1 Tunnel   
+            
+        <p>    
         
         You begin in a dark tunnel.  There is a light pointing towards the end.
             
@@ -1300,7 +1545,7 @@ a:hover { COLOR: #adadad; TEXT-DECORATION: none; font-weight: bold }</style>
         <img src="game/destiny-2/screens/2.PNG">
         
         <p class="slide-title">
-        #2: End of the Tunnel
+        #2 End of the Tunnel
             
         <br>
         <br>
@@ -1357,7 +1602,7 @@ a:hover { COLOR: #adadad; TEXT-DECORATION: none; font-weight: bold }</style>
         <img src="game/destiny-2/screens/4.PNG">
         
         <p class="slide-title">
-        4 Looking into the hole
+        #4 Looking Into The Hole
             
             
         <br>
@@ -1391,7 +1636,7 @@ a:hover { COLOR: #adadad; TEXT-DECORATION: none; font-weight: bold }</style>
         <img src="game/destiny-2/screens/5.PNG">
         
         <p class="slide-title">
-        5 Bottom of the Hole
+        #5 Bottom Of The Hole
             
         <br>
   
@@ -1492,7 +1737,7 @@ a:hover { COLOR: #adadad; TEXT-DECORATION: none; font-weight: bold }</style>
         <img src="game/destiny-2/screens/8.PNG">
         
         <p class="slide-title">
-        #8
+        #8 HUD Updated
             
        
         <br>
@@ -1545,8 +1790,7 @@ a:hover { COLOR: #adadad; TEXT-DECORATION: none; font-weight: bold }</style>
             
         <br>
         <br>
-            
-        ###
+     
         
         
     </div>   
@@ -1669,6 +1913,27 @@ a:hover { COLOR: #adadad; TEXT-DECORATION: none; font-weight: bold }</style>
          <br>
         <br>
             
+     </div>  
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                <!-- Slide -->
+    <div class="slide-padding">   
+            
+            
+           <img src="game/destiny-2/screens/enemies/enemy-1.PNG">    
+            
+            
+            
          <p class="slide-title">
         Enemy AI
              
@@ -1690,6 +1955,25 @@ a:hover { COLOR: #adadad; TEXT-DECORATION: none; font-weight: bold }</style>
             
         <br>
         <br>
+        
+        
+    </div> 
+             
+                <!-- Slide -->
+    <div class="slide-padding">   
+            
+            
+           <img src="game/destiny-2/screens/enemies/goblin.PNG">    
+            
+            
+            
+         <p class="slide-title">
+        AI Continued
+        
+        
+        <p>
+        
+        
             
         Hitting them plays a random audio sound from a list of around 10-20 game-ripped sounds.     
             
@@ -1723,19 +2007,19 @@ a:hover { COLOR: #adadad; TEXT-DECORATION: none; font-weight: bold }</style>
         <img src="game/destiny-2/screens/14.PNG">
         
         <p class="slide-title">
-        ###
+        #14 End of the Stairway
             
        
         <br>
             
         <p>
             
-       ####
+        At the end of the stairway are some stairs to a raised section.  
             
         <br>
         <br>
             
-        ###
+        You can strafe the door, or fall back into a small room to the left.
         
         
     </div>    
@@ -1744,6 +2028,378 @@ a:hover { COLOR: #adadad; TEXT-DECORATION: none; font-weight: bold }</style>
         
         
         
+                
+    <!-- Slide -->
+    <div class="slide-padding">
+        
+        
+        <img src="game/destiny-2/screens/15.PNG">
+        
+        <p class="slide-title">
+        #15 Small Room
+            
+       
+        <br>
+            
+        <p>
+            
+       There's a small room you can fall back into to get some better angles if needed.
+            
+        <br>
+        <br>
+            
+        Barrels, boxes, chairs and shelves all have realistic physics, and some can be used for cover (not here though).
+        
+        
+    </div>  
+        
+        
+            
+    <!-- Slide -->
+    <div class="slide-padding">
+        
+        
+        <img src="game/destiny-2/screens/16.PNG">
+        
+        <p class="slide-title">
+        #16 Peeking the Hobgoblins up High
+            
+       
+        <br>
+            
+        <p>
+            
+       Inside the small room, you can get a good view of the Hobgoblins above.
+            
+       
+        
+        
+    </div>     
+        
+        
+              
+    <!-- Slide -->
+    <div class="slide-padding">
+        
+        
+        <img src="game/destiny-2/screens/17.PNG">
+        
+        <p class="slide-title">
+        #17 Moving Down the Stairs
+            
+       
+        <br>
+            
+        <p>
+            
+       These stairs are small but provide cover from the left and right sides.
+            
+        <br>
+        <br>
+            
+        You can move ahead to the concrete block, shoot to the right and peak cover, or clear out the left side and move in.
+        
+        
+    </div>    
+        
+        
+        
+        
+             
+    <!-- Slide -->
+    <div class="slide-padding">
+        
+        
+        <img src="game/destiny-2/screens/18.PNG">
+        
+        <p class="slide-title">
+        #18 Ducking in the Hallway
+            
+       
+        <br>
+            
+        <p>
+            
+       This hallway provides a good 180 degree angle shot of enemies.
+            
+        <br>
+        <br>
+            
+        You can duck further back if you get pushed.
+        
+        <br>
+        <br>
+            
+        This area was added later in development to help the space breathe a little better and make it feel bigger than it is.
+            
+            
+            
+            
+            
+    </div>     
+        
+        
+        
+        <!-- Slide -->
+    <div class="slide-padding">
+        
+        
+        <img src="game/destiny-2/screens/19.PNG">
+        
+        <p class="slide-title">
+        #19 Easter Egg
+            
+       
+        <br>
+            
+        <p>
+            
+       Since this was made for my Level Design class, we found it fun to troll our teacher by putting our other teacher Nick into our levels.
+            
+        <br>
+        <br>
+            
+        This can be replaced as a Dead Ghost or a lore entry in the real game.
+        
+        
+    </div>       
+        
+        
+        
+         <!-- Slide -->
+    <div class="slide-padding">
+        
+        
+        <img src="game/destiny-2/screens/postcard-1.PNG">
+        
+        <p class="slide-title">
+        Sense of Scale and Place
+            
+       
+        <br>
+            
+        <p>
+            
+       I forgot to mention this.
+            
+        <br>
+        <br>
+            
+        If you look up, the room is very tall, with a long winding path up to the surface where light is shining through and water is raining down.
+            
+        <br>
+        <br>
+            
+        It makes the room feel bigger than it is, gives a sense of perspective and scale, and establishes the setting.
+            
+        <br>
+        <br>
+            
+        I took a lot of long walks through Warmind bunkers on Io and the EDZ to look at the architecture and feel of the spaces, to try and best represent them with the assets I had.
+            
+        
+    </div>      
+        
+        
+    <!-- Slide -->
+    <div class="slide-padding"> 
+        
+  
+       
+            
+        <img src="game/destiny-2/inspiration/6.PNG">   
+        
+        <p class="slide-title">
+        Inspiration
+            
+       
+            
+        <p> 
+
+        <br>
+            
+        This area in particular I tried to best re-create.
+            
+        <br>
+        <br>
+            
+        It's from the Arecibo Adventure from the Vanilla Game.
+             
+        
+    </div>
+        
+        
+        
+           
+    <!-- Slide -->
+    <div class="slide-padding">
+        
+        
+        <img src="game/destiny-2/screens/postcard-2.PNG">
+        
+        <p class="slide-title">
+        Cheese Please
+            
+       
+        <br>
+            
+        <p>
+            
+       These columns can be climbed, and provide a bit of a 'cheese spot' to fight the encounter.
+            
+        <br>
+        <br>
+            
+        Can't have a Destiny level without a cheese spot!
+        
+        
+    </div>   
+               
+        
+        
+        
+        
+        
+        
+              
+    <!-- Slide -->
+    <div class="slide-padding">
+        
+        
+        <img src="game/destiny-2/screens/postcard-3.PNG">
+        
+        <p class="slide-title">
+        Kill Boxes
+            
+       
+        <br>
+            
+        <p>
+            
+       I also forgot to mention, falling through these white holes in the floor will kill you.
+            
+        <br>
+        <br>
+            
+        There's a spot to wipe (kill yourself) in each room, so if something messes up you can reset.
+        
+        
+    </div>   
+            
+        
+        
+        
+        
+        
+        
+    <!-- Slide -->
+    <div class="slide-padding">
+        
+        
+        <img src="game/destiny-2/screens/checkpoints.PNG">
+        
+        <p class="slide-title">
+        Checkpoint Systems
+            
+       
+        <br>
+            
+        <p>
+            
+       There are checkpoint systems in place so you'll spawn at the beginning of a room if you die.
+     
+        
+        
+    </div>   
+        
+        
+        
+        
+            <!-- Slide -->
+    <div class="slide-padding">
+        
+        
+        <img src="game/destiny-2/screens/20.PNG">
+        
+        <p class="slide-title">
+        #20 Back to the Action
+            
+       
+        <br>
+            
+        <p>
+            
+       Back to the mission walkthrough.
+            
+        <br>
+        <br>
+            
+        Killing the purple glowing Minotaur will spawn a second wave of ads.
+            
+            
+        
+        
+    </div>  
+        
+        
+        
+        
+        
+         <!-- Slide -->
+    <div class="slide-padding">
+        
+        
+        <img src="game/destiny-2/screens/21.PNG">
+        
+        <p class="slide-title">
+        #21 2nd Wave
+            
+       
+        <br>
+            
+        <p>
+            
+       A second wave of enemies spawn in, and killing the Hydra opens the vent.
+            
+        <br>
+        <br>
+            
+        The enemies are mostly placed in the area where you first entered the room, so the second wave plays differently than the first.
+            
+        <br>
+        <br>
+            
+        You'll mainly be fighting from the back end of the room back towards the entrance.
+        
+        
+    </div>    
+        
+        
+           
+    <!-- Slide -->
+    <div class="slide-padding">
+        
+        
+        <img src="game/destiny-2/screens/22.PNG">
+        
+        <p class="slide-title">
+        #22 Hydra Boss
+            
+       
+        <br>
+            
+        <p>
+            
+       The Hydra has it's signature rotating shield, so you'll have to shoot between the shields to damage him.
+            
+        <br>
+        <br>
+            
+      
+        
+        
+    </div>   
+               
         
         
         
@@ -1751,20 +2407,202 @@ a:hover { COLOR: #adadad; TEXT-DECORATION: none; font-weight: bold }</style>
         
         
         
+              
+    <!-- Slide -->
+    <div class="slide-padding">
+        
+        
+        <img src="game/destiny-2/screens/23.PNG">
+        
+        <p class="slide-title">
+        #23 Room Cleared
+            
+       
+        <br>
+            
+        <p>
+            
+       Clearing the room plays a positive 'ding' sound, and your HUD updates to tell you to move to the next room.
+            
+        <br>
+        <br>
+            
+        The vent is now opened, and a light is being shined on it.
+        
+        
+    </div>   
+            
+        
+      
+                
+    <!-- Slide -->
+    <div class="slide-padding">
+        
+        
+        <img src="game/destiny-2/screens/24.PNG">
+        
+        <p class="slide-title">
+        #24 Entering the Vent
+            
+       
+        <br>
+            
+        <p>
+            
+       It wouldn't be a Destiny level without climbing through conviently human-sized vents.
+                
+        
+    </div>   
+          
+        
+        
+                
+    <!-- Slide -->
+    <div class="slide-padding">
+        
+        
+        <img src="game/destiny-2/screens/25.PNG">
+        
+        <p class="slide-title">
+        #25 Follow the vent
+            
+       
+        <br>
+            
+        <p>
+            
+       While the vent has a few small deadends, they aren't long, so the path is straightforward to follow.
+            
+        <br>
+        <br>
+            
+        Entering the vent triggers a script that unloads the Tunnel and Hole areas, while loading Room #2.
+            
+        <br>
+        <br>
+            
+        Adding this script allowed me to put more geometry and enemies in each room without tanking the CPU.
+            
+    
+        
+        
+    </div>   
+          
+        
+             
+    <!-- Slide -->
+    <div class="slide-padding">
+        
+        
+        <img src="game/destiny-2/screens/26.PNG">
+        
+        <p class="slide-title">
+        #26 Drop into Room #2
+            
+       
+        <br>
+            
+        <p>
+            
+       Dropping into the open vent will take you to Room #2.
+            
+    
+        
+        
+    </div>   
+            
         
         
         
         
         
+             
+    <!-- Slide -->
+    <div class="slide-padding">
+        
+        
+        <img src="game/destiny-2/screens/27.PNG">
+        
+        <p class="slide-title">
+        #27 Room #2
+            
+       
+        <br>
+            
+        <p>
+            
+       Dropping down the vent puts you into a safe room with windows so you can scout the area from safety.
+            
+        <br>
+        <br>
+            
+        The room is more vertical, and has 3 bunkers connected by catwalks.
+            
+       
+        
+        
+    </div>   
+             
+        
+        
+           
+        
+        
+    <!-- Slide -->
+    <div class="slide-padding">
+        
+        
+        <img src="game/destiny-2/screens/28.PNG">
+        
+        <p class="slide-title">
+        #28 Peeking the Corner
+            
+       
+        <br>
+            
+        <p>
+            
+        You can move out with some cover, and either take the higher ground above with little cover, or get behind this box with wheels on it.
+            
+      
+        
+    </div>   
+               
         
         
         
+               
         
         
         
+    <!-- Slide -->
+    <div class="slide-padding">
         
         
+        <img src="game/destiny-2/screens/29.PNG">
         
+        <p class="slide-title">
+        #29 Half Life Vibes
+            
+       
+        <br>
+            
+        <p>
+            
+       This crate has wheels on it, and can be pushed forward as movable cover.
+            
+        <br>
+        <br>
+            
+        I took the inspiration from a part in Half Life 2.
+            
+        <br>
+        <br>
+            
+        I tried to add a few areas with movable cover to create some variation where players could make cover where they wanted it.
+        
+        
+    </div>    
         
         
         
@@ -1778,26 +2616,578 @@ a:hover { COLOR: #adadad; TEXT-DECORATION: none; font-weight: bold }</style>
     <div class="slide-padding">
         
         
-        <img src="game/destiny-2/screens/4.PNG">
+        <img src="game/destiny-2/screens/30.PNG">
         
         <p class="slide-title">
-        ###
+        #30 I See You!
             
        
         <br>
             
         <p>
             
-       ####
+        Pushing the crate forward gives a nice angle into the first bunker, where a purple Minotaur is hiding.
             
         <br>
         <br>
             
-        ###
+        
+        
+        
+    </div>      
+        
+        
+        
+        
+        
+          
+    <!-- Slide -->
+    <div class="slide-padding">
+        
+        
+        <img src="game/destiny-2/screens/31.PNG">
+        
+        <p class="slide-title">
+        #31 Heat Rises
+            
+       
+        <br>
+            
+        <p>
+            
+       This room has a larger kill box under the level, marked by the flames shooting out.
+            
+        <br>
+        <br>
+            
+        There's enough lower sections that you can recover from falling and climb back up.
+        
+        
+    </div>       
+        
+        
+        
+        
+        
+        
+        
+           
+    <!-- Slide -->
+    <div class="slide-padding">
+        
+        
+        <img src="game/destiny-2/screens/32.PNG">
+        
+        <p class="slide-title">
+        #32
+            
+       
+        <br>
+            
+        <p>
+            
+       The Room has a big window with a screenshot of a Warmind vault in the distance.
+            
+        <br>
+        <br>
+            
+        Another way to establish setting and make the room feel bigger than it is.
+        
+        
+    </div>       
+        
+        
+        
+         <!-- Slide -->
+    <div class="slide-padding">
+        
+        
+        <img src="game/destiny-2/screens/33.PNG">
+        
+        <p class="slide-title">
+        #33 Another Hydra Boss
+            
+       
+        <br>
+            
+        <p>
+            
+       Killing the Hydra Boss turns on the Portal in the far corner of the room.
+            
+        <br>
+        <br>
+            
+        This room will eventually have more waves of enemies and HUD callouts.
+            
+        <br>
+        <br>
+            
+        Overall I want to give this room a little more love to the angles and sightlines.
+        
+        
+    </div>     
+        
+        
+        
+      <!-- Slide -->
+    <div class="slide-padding">
+        
+        
+        <img src="game/destiny-2/screens/34.PNG">
+        
+        <p class="slide-title">
+        #34 Portals Baby
+            
+       
+        <br>
+            
+        <p>
+            
+       The Portal is activated and you can move to the next room.
+            
+        <br>
+        <br>
+            
+        This is an actual model of a Vex Portal, ripped from game, that I found in a Vex Assets pack online.
+        
+        
+    </div>        
+        
+        
+        
+        
+            
+    <!-- Slide -->
+    <div class="slide-padding">
+        
+        
+        <img src="game/destiny-2/screens/35.PNG">
+        
+        <p class="slide-title">
+        #35 The Boss Room
+            
+       
+        <br>
+            
+        <p>
+            
+       Ideally, I want there to be a room between Room 2 and Room 3, for spacing.
+            
+        <br>
+        <br>
+            
+        I didn't initially have the Tunnel and Hole sections of the level, but felt they added to the feel of the level and paced the encounters out a little bit.
+            
+        <br>
+        <br>
+            
+        Plus, you can have audio clips play and Zavala, Ana and Ghost talking in these sections to flesh out the story of the mission.
+        
+        
+    </div>   
+             
+        
+        
+        
+         <!-- Slide -->
+    <div class="slide-padding">
+        
+        
+        <img src="game/destiny-2/screens/36.PNG">
+        
+        <p class="slide-title">
+        #36 Room #3
+            
+       
+        <br>
+            
+        <p>
+            
+       Sacrion is a Genesis Mind and believed to have ties with Savathun.
+            
+        <br>
+        <br>
+            
+        There will be blights placed throughout the level and Taken "goo" spilled across the rooms.
+            
+        <br>
+        <br>
+            
+        Ghost will mention something about Taken and Vex working together to steal an ancient Warmind tech.
+        
+            
+        </div>    
+            
+            
+            
+            
+            
+            
+            
+            
+            
+           <!-- Slide -->
+    <div class="slide-padding">
+        
+        
+        <img src="game/destiny-2/screens/37.PNG">   
+            
+            
+            
+            
+          <p class="slide-title">
+        #37 Sacrion Boss Fight (WIP) 
+            
+         <p>  
+            
+        I want Sacrion to look like a more evolved form of Hydra with Taken 'goo' incorporated into his look.
+             
+        <br>
+        <br>
+        In the current build, Sacrion has his own AI system (thanks to Jack for programming it)
+             
+        <br>
+        <br>
+        He can fly around the level, and doesn't follow a navmesh.
+             
+        <br>
+        <br>
+        He shoots balls that land on surfaces and create a large explosion in it's radius.
+            
+             
+             
+             
+        <br>
+        <br>
+           
+             
+             
+             
+        <br>
+        <br>
+        He also creates three copies of himself, that fly around and shoot at you.
+             
+             
+        <br>
+        <br>
+        The copies are invincible, and it will be shown in some kind of clear way.
+             
+         <br>
+        <br>
+        In the final version of the build, Sacrion's 4 shields will spin much faster.
+             
+        <br>
+        <br>
+        It will be nearly impossible to damage him through his shields, and his crit spot (his eye) will be covered.
+            
+             
+        <br>
+        <br>
+             
+             
+        
+             
+             
+        <br>
+        <br>
+        Just like the earlier rooms, Glowing Minotaurs will drop balls that contain 'condensed light'.
+             
+        <br>
+        <br>
+        Throwing the condensed light at Sacrion will take down one of his 4 shields.  
+             
+        <br>
+        <br>
+        You only need 3 shields down to damage him reliably.
+             
+        <br>
+        <br>
+        Taking down 3 will start a Damage Phase.
+           
+             
+        <br>
+        <br>
+             
+             
+             
+             
+             
+        <br>
+        <br>
+        After about 10 seconds of damage, Sacrion will summon a blight that will knock you back, regen his shields and cut the power to most of the lighting in the room.
+             
+        <br>
+        <br>
+        Minotaurs will respawn, and you'll need to kill Minotaurs again.
+             
+        <br>
+        <br>
+        After a second damage phase, Sacrion won't be able to regen his shield, and the fight will go normally.
+             
+        <br>
+        <br>
+        Defeating Sacrion will cause a large explosion, and pipes in the room will burst with white Vex milk, and begin filling the room.
+             
+     
+        
+    </div>      
+        
+        
+        
+        
+            
+        
+    <!-- Slide -->
+    <div class="slide-padding">
+        
+        
+        <img src="game/destiny-2/screens/38.PNG">
+        
+        <p class="slide-title">
+        #38 Escaping the Room
+            
+       
+        <br>
+            
+        <p>
+            
+        You'll need to climb up the room to the top before the Vex Milk fills the room and kills you.
+            
+        <br>
+        <br>
+            
+        Enemies will spawn in your way.
+            
+       
+        
+        
+        
+    </div>      
+        
+        
+        
+        
+           <!-- Slide -->
+    <div class="slide-padding">
+        
+        
+        <img src="game/destiny-2/screens/39.PNG">
+        
+        <p class="slide-title">
+        #39 Climbing to the Top
+            
+       
+        <br>
+            
+        <p>
+            
+        Climbing up three levels, you'll see an opening in the roof.
+            
+       
+            
+       
+        
+        
+        
+    </div>    
+        
+        
+       <!-- Slide -->
+    <div class="slide-padding">
+        
+        
+        <img src="game/destiny-2/screens/40.PNG">
+        
+        <p class="slide-title">
+        #40 Mission Complete
+            
+       
+        <br>
+            
+        <p>
+            
+        Climbing out plays a 'ding' sound and your Mission HUD is updated.
+            
+            
+        <br>
+        <br>
+        
+ 
+        In a chest you find a depleted Hand Cannon.
+            
+        <br>
+        <br>
+            
+        This begins the start of the 'Firestarter' Exotic Hand Cannon Quest.
+            
+                 
+    
+  
+        
+    </div>        
+        
+        
+        
+        
+             
+        
+    <!-- Slide -->
+    <div class="slide-padding">
+        
+        
+        <img src="game/destiny-2/slides/Slide22.PNG">
+        
+        <p class="slide-title">
+        #41 Yes, Another Exotic Hand Cannon in Destiny.
+            
+       
+        <br>
+            
+        <p>
+            
+        The Firestarter Model was a screenshot I found online, which worked with the light/dark mechanics I was already working on.
+            
+        <br>
+        <br>
+            
+        It would be part of introducing the new mechanic to the game that can change encounters in a way that the game doesn't currently have.
+        
+        <br>
+        <br>
+            
+            
+            
+            
+            
+        <br>
+        <br>
+         It's also a callback to a mission from Destiny 1 Vanilla's campaign where you fought Vex and darkness through a subway system.  
+               
+            
+        <br>
+        <br>
+         Now light can be more closely tied with vision and sight.   
+            
+        <br>
+        <br>
+        Nightfalls can have the modifier to change a strike to fight in the dark, adding another layer of challenge to a mission, and have it play in a new way. 
+            
+        
+    </div>   
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <!-- Slide -->
+    <div class="slide-padding">
+        
+        
+        <img src="game/destiny-2/slides/Slide24.PNG">
+        
+        
+    </div>   
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    <!-- Slide -->
+    <div class="slide-padding">
+        
+        
+     
+        <p class="slide-title">
+        Thanks For Reading My Walkthrough
+            
+       
+        <br>
+            
+        <p>
+            
+       I hope you enjoyed reading it, as much as I enjoyed making it!
+            
+        <br>
+        <br>
+            
+        You can play through an early build of the mission too.
         
         
     </div>   
           
+        
+    <div style="margin-top:-50px;padding-bottom:100px;">
+        
+                    <button class="button-blue" onclick="window.location.href='https://github.com/davewhiffen/D2-Sakrion'">
+                        <!-- Blue Button w/ CSS Class -->
+                        <a href="https://github.com/davewhiffen/D2-Sakrion"> 
+                            <span style="color: white;"> 
+                               <i class="fab fa-github"></i>
+                                <strong> Play on Github</strong>
+                            </span>
+                        </a>
+                    </button>
+        
+        
+    </div>   
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         
         
@@ -1904,7 +3294,7 @@ a:hover { COLOR: #adadad; TEXT-DECORATION: none; font-weight: bold }</style>
         
       
        
-           <!-- Closing the Portfolio Content Div --> 
+<!-- Closing the Portfolio Content Div --> 
     
   
 
@@ -1913,17 +3303,31 @@ a:hover { COLOR: #adadad; TEXT-DECORATION: none; font-weight: bold }</style>
 
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
-        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-        (function(){
-            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-            s1.async=true;
-            s1.src='https://embed.tawk.to/5ce97dd62135900bac127f2a/default';
-            s1.charset='UTF-8';
-            s1.setAttribute('crossorigin','*');
-            s0.parentNode.insertBefore(s1,s0);
-        })();
+        
+        var Tawk_API=Tawk_API||{
+            
+        }, T
+        awk_LoadStart=new Date();
+        
+        (function()
+            {
+                var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+            
+                s1.async=true;
+            
+                s1.src='https://embed.tawk.to/5ce97dd62135900bac127f2a/default';
+            
+                s1.charset='UTF-8';
+            
+                s1.setAttribute('crossorigin','*');
+            
+                s0.parentNode.insertBefore(s1,s0);
+            
+            }
+        )();
+        
     </script>
-<!--End of Tawk.to Script-->
+    <!--End of Tawk.to Script-->
 
 
 
@@ -1931,16 +3335,24 @@ a:hover { COLOR: #adadad; TEXT-DECORATION: none; font-weight: bold }</style>
 
 
   <!-- JQuery -->
-  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js">
+        
+    </script>
 
   <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="js/popper.min.js"></script>
+  <script type="text/javascript" src="js/popper.min.js">
+        
+        </script>
 
   <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js">
+        
+</script>
 
   <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="js/mdb.js"></script>
+  <script type="text/javascript" src="js/mdb.js">
+        
+    </script>
 
 
 
