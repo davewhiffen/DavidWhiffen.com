@@ -1,0 +1,36 @@
+{
+    "misc": {
+        "version": "1.0.0",
+        "encrypted": false,
+        "userId": "1edek3m9p"
+    },
+    "main": {
+        "projects_folder": "C:/Users/david/OneDrive/Documents/GitHub/DavidWhiffen.com/eqftp",
+        "date_format": "d.m.Y",
+        "debug": false,
+        "open_project_connection": false
+    },
+    "connections": {
+        "settings": {
+            "1edek50n8": {
+                "id": "1edek50n8",
+                "name": "GoClutch.com",
+                "localpath": "C:/Users/david/OneDrive/Documents/GitHub/DavidWhiffen.com",
+                "remotepath": "/davewhiffen/",
+                "check_difference": true,
+                "autoupload": true,
+                "ignore_list": ""
+            }
+        },
+        "credentials": {
+            "1edek50n8": {
+                "protocol": "",
+                "server": "goclutch.com",
+                "port": "",
+                "login": "clutchpictures",
+                "rsa": "",
+                "password": "Mewy64rocks"
+            }
+        }
+    }
+}
