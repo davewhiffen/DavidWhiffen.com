@@ -1,1059 +1,379 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!-- Language is English -->
+<!-- Language is English -->
 
 <head>
     <!-- The head of the page. -->
-  <meta charset="utf-8">
-    
-  <meta name="viewport" 
-        content="width=device-width, 
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, 
         initial-scale=1,
         shrink-to-fit=no">
     <!-- Make content width fill the device width. -->
     <!-- Initially scale it by 1 -->
     <!-- Do not shrink to fit. -->
-    
-  <meta http-equiv="x-ua-compatible" 
-        content="ie=edge">
-    
-  <title>DavidWhiffen.com</title>
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>DaveWhiffen.com</title>
     <!-- Title of Page -->
-    
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-     <!-- Use Font Awesome for Great Icons -->
-    
-    
-  <!-- Bootstrap core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <!-- Use Font Awesome for Great Icons -->
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Link to Bootstrap Core CSS -->
-    
-    
-  <!-- Material Design Bootstrap -->
-  <link href="css/mdb.min.css" rel="stylesheet">
+
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
     <!-- Link to Material Design Bootstrap CSS -->
-    
-    
-  <!-- Your custom styles (optional) -->
-  <link href="css/style.css" rel="stylesheet">
+
+
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
     <!-- Link to First CSS sheet. -->
     <link href="css/style2.css" rel="stylesheet">
     <!-- A Second Style sheet where I'm unloading Styles that don't need to be in the main page. -->
-    
-    <!-- Your custom styles (optional) -->
-  <link href="css/main.css" rel="stylesheet">
-    
-    
 
-   <!-- / * Favicon and Icons for Apps and Title Bars go here / * -->
+    <!-- Your custom styles (optional) -->
+    <link href="css/main.css" rel="stylesheet">
+
+
+
+    <!-- / * Favicon and Icons for Apps and Title Bars go here / * -->
 
 
     <meta name="description" content="Dave Whiffen">
     <!-- Description of page content: Dave Whiffen -->
     <meta name="author" content="Dave Whiffen">
     <!-- Author of page: Dave Whiffen -->
-    
-    <link rel="apple-touch-icon" sizes="57x57" href="img/icon/apple-icon-57x57.png">
-    <!-- Links to Apple Icons for Home Screens in different sizes. -->
-    
-    <link rel="apple-touch-icon" sizes="60x60" href="img/icon/apple-icon-60x60.png">
-    
-    <link rel="apple-touch-icon" sizes="72x72" href="img/icon/apple-icon-72x72.png">
-    
-    <link rel="apple-touch-icon" sizes="76x76" href="img/icon/apple-icon-76x76.png">
-    
-    <link rel="apple-touch-icon" sizes="114x114" href="img/icon/apple-icon-114x114.png">
-    
-    <link rel="apple-touch-icon" sizes="120x120" href="img/icon/apple-icon-120x120.png">
-    
-    <link rel="apple-touch-icon" sizes="144x144" href="img/icon/apple-icon-144x144.png">
-    
-    <link rel="apple-touch-icon" sizes="152x152" href="img/icon/apple-icon-152x152.png">
-    
-    <link rel="apple-touch-icon" sizes="180x180" href="img/icon/apple-icon-180x180.png">
-    
-    <link rel="icon" type="image/png" sizes="192x192"  href="img/icon/android-icon-192x192.png">
-    <!-- Link to Android Icon -->
-    
-    <link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
-    
-    <!-- Link to Windows Icon -->
-    
-    <link rel="icon" type="image/png" sizes="96x96" href="img/icon/favicon-96x96.png">
-    
-    <link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
-    
-    <link rel="manifest" href="/manifest.json">
-    <!-- Link to JSON Manifest? It was included in Bootstrap before. -->
-    
-    <meta name="msapplication-TileColor" content="#ffffff">
-    
-    <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
-     <!-- Windows Icon Link -->
-    
-    <meta name="theme-color" content="#ffffff">
-     <!-- Theme colour is White based. -->
-    
-    
-    
-        
-<!-- / * Specific styling that didn't work by putting in the CSS file.  Needed to be on every page for some reason / * -->
-    
-<style>
-    .about-me{
-    font-size: 30px;
-    font-weight: bold;
-    margin-top:-30px;
-    margin-bottom:30px;
-    padding-left:20px;
-    padding-right:20px;
-    align-content: center;
-    }
 
-    .header-resume{
-    font-size: 30px;
-    font-weight: bold;
-    margin-top:20px;
-    margin-bottom:30px;
-    align-content: center;
-    }
-        
-    .padded-margin{
-        padding-left:20px;
-    padding-right:20px;
-    }
 
-   /* Hide the link that should open and close the topnav on small screens */
-   
-    .topnav .icon {
-    display: none;    
-    }
-    
-    /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+    <!-- Favicons-->
+    <div>
+        <link rel="apple-touch-icon" sizes="57x57" href="img/icon/apple-icon-57x57.png">
+        <!-- Links to Apple Icons for Home Screens in different sizes. -->
 
-    @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;
-    }
+        <link rel="apple-touch-icon" sizes="60x60" href="img/icon/apple-icon-60x60.png">
 
-  .topnav a.icon {
-    float: right;
-    display: block;
-      }
-    }
-    
- /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+        <link rel="apple-touch-icon" sizes="72x72" href="img/icon/apple-icon-72x72.png">
 
-    @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-        
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-        
+        <link rel="apple-touch-icon" sizes="76x76" href="img/icon/apple-icon-76x76.png">
 
-        
-        
-        
-        
-    
-</style>
-   
-<!-- Beginning of specific scripts for the TopNav animation that now are not nessessary I think.  I'm pretty sure these can be cut out. / * -->
-     
-<script>
-    // Animations initialization
-    new WOW().init();
-</script>
-    
-    
-<!-- / * End of the Head section of the page / * -->  
- <style>a:link { COLOR: white; TEXT-DECORATION: none; font-weight: bold}
-a:visited { COLOR: white; TEXT-DECORATION: none; font-weight: bold }
-a:active { COLOR: #b2b2b2; TEXT-DECORATION: none; font-weight: bold }
-a:hover { COLOR: #adadad; TEXT-DECORATION: none; font-weight: bold }</style>  
-   
-   
-   <style>  /* Navigation*/
-    .navbar {
-      background-color: transparent;
-    }
-    .scrolling-navbar {
-      transition: background .5s ease-in-out, padding .5s ease-in-out;
-    }
-    .top-nav-collapse {
-      background-color: #667490;
-    }
-    footer.page-footer {
-      background-color: #667490;
-    }
-    @media only screen and (max-width: 768px) {
-      .navbar {
-        background-color: #667490;
-      }
-    }
+        <link rel="apple-touch-icon" sizes="114x114" href="img/icon/apple-icon-114x114.png">
 
-    /* Necessary for full page carousel*/
-    html,
-    body,
-    .view {
-      height: 100%;
-    }
+        <link rel="apple-touch-icon" sizes="120x120" href="img/icon/apple-icon-120x120.png">
 
-    /* Carousel*/
-    .carousel,
-    .carousel-item,
-    .carousel-item.active {
-      height: 100%;
-    }
-    .carousel-inner {
-      height: 100%;
-    }
-    .carousel-item:nth-child(1) {
-      background-image: url("img/thumbnails/about/gamelovers.png");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center center;
-        opacity:0.5;
-    }
-    .carousel-item:nth-child(2) {
-      background-image: url("img/thumbnails/about/singularity-new.png");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center center;
-    }
-    .carousel-item:nth-child(3) {
-      background-image: url("img/thumbnails/about/studio.png");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center center;
-    }
-    
-       .carousel-item:nth-child(4) {
-      background-image: url("img/thumbnails/about/2014-dave-CBC.png");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center center;
-    }
-       .carousel-item:nth-child(5) {
-      background-image: url("img/thumbnails/about/ryerson-team.png");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center center;
-    }
-    
-    
-       .carousel-item:nth-child(6) {
-      background-image: url("construction/one-york-photo.png");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center center;
-    }
-       
-       
-        .carousel-item:nth-child(7) {
-      background-image: url("img/thumbnails/about/game-design.png");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center center;
-    
-    }  
-       
-       
-     .shadow-text {
-  text-shadow: 2px 2px #000000;
-}
-    
-    
+        <link rel="apple-touch-icon" sizes="144x144" href="img/icon/apple-icon-144x144.png">
+
+        <link rel="apple-touch-icon" sizes="152x152" href="img/icon/apple-icon-152x152.png">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="img/icon/apple-icon-180x180.png">
+
+        <link rel="icon" type="image/png" sizes="192x192" href="img/icon/android-icon-192x192.png">
+        <!-- Link to Android Icon -->
+
+        <link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
+
+        <!-- Link to Windows Icon -->
+
+        <link rel="icon" type="image/png" sizes="96x96" href="img/icon/favicon-96x96.png">
+
+        <link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
+
+        <link rel="manifest" href="/manifest.json">
+        <!-- Link to JSON Manifest? It was included in Bootstrap before. -->
+
+        <meta name="msapplication-TileColor" content="#ffffff">
+
+        <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+        <!-- Windows Icon Link -->
+
+        <meta name="theme-color" content="#ffffff">
+        <!-- Theme colour is White based. -->
+    </div>
+
+
+
+    <!-- / * Specific styling that didn't work by putting in the CSS file.  Needed to be on every page for some reason / * -->
+
+
+    <!--Style Tags -->
+    <style>
+        body {
+
+            background-color: #688ecc;
+        }
+
+
+        .about-me {
+            font-size: 30px;
+            font-weight: bold;
+            margin-top: -30px;
+            margin-bottom: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
+            align-content: center;
+        }
+
+        .header-resume {
+            font-size: 30px;
+            font-weight: bold;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            align-content: center;
+        }
+
+        .padded-margin {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        /* Hide the link that should open and close the topnav on small screens */
+
+        .topnav .icon {
+            display: none;
+        }
+
+        /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+
+        @media screen and (max-width: 600px) {
+            .topnav a:not(:first-child) {
+                display: none;
+            }
+
+            .topnav a.icon {
+                float: right;
+                display: block;
+            }
+        }
+
+        /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+
+        @media screen and (max-width: 600px) {
+            .topnav.responsive {
+                position: relative;
+            }
+
+            .topnav.responsive .icon {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+
+            .topnav.responsive a {
+                float: none;
+                display: block;
+                text-align: left;
+            }
+
     </style>
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <!-- Beginning of specific scripts for the TopNav animation that now are not nessessary I think.  I'm pretty sure these can be cut out. / * -->
+
+    <script>
+        // Animations initialization
+        new WOW().init();
+
+    </script>
+
+
+    <!-- / * End of the Head section of the page / * -->
+    <style>
+        a:link {
+            COLOR: white;
+            TEXT-DECORATION: none;
+            font-weight: bold
+        }
+
+        a:visited {
+            COLOR: white;
+            TEXT-DECORATION: none;
+            font-weight: bold
+        }
+
+        a:active {
+            COLOR: #b2b2b2;
+            TEXT-DECORATION: none;
+            font-weight: bold
+        }
+
+        a:hover {
+            COLOR: #adadad;
+            TEXT-DECORATION: none;
+            font-weight: bold
+        }
+
+    </style>
+
+
+    <style>
+        /* Navigation*/
+        .navbar {
+            background-color: transparent;
+        }
+
+        .scrolling-navbar {
+            transition: background .5s ease-in-out, padding .5s ease-in-out;
+        }
+
+        .top-nav-collapse {
+            background-color: #667490;
+        }
+
+        footer.page-footer {
+            background-color: #667490;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .navbar {
+                background-color: #667490;
+            }
+        }
+
+        /* Necessary for full page carousel*/
+        html,
+        body,
+        .view {
+            height: 100%;
+        }
+
+        /* Carousel*/
+        .carousel,
+        .carousel-item,
+        .carousel-item.active {
+            height: 100%;
+        }
+
+        .carousel-inner {
+            height: 100%;
+        }
+
+        .carousel-item:nth-child(1) {
+            background-image: url("img/thumbnails/about/gamelovers.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            opacity: 0.5;
+        }
+
+        .carousel-item:nth-child(2) {
+            background-image: url("img/thumbnails/about/singularity-new.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+        }
+
+        .carousel-item:nth-child(3) {
+            background-image: url("img/thumbnails/about/studio.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+        }
+
+        .carousel-item:nth-child(4) {
+            background-image: url("img/thumbnails/about/2014-dave-CBC.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+        }
+
+        .carousel-item:nth-child(5) {
+            background-image: url("img/thumbnails/about/ryerson-team.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+        }
+
+
+        .carousel-item:nth-child(6) {
+            background-image: url("construction/one-york-photo.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+        }
+
+
+        .carousel-item:nth-child(7) {
+            background-image: url("img/thumbnails/about/game-design.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+
+        }
+
+
+        .shadow-text {
+            text-shadow: 2px 2px #000000;
+        }
+
+
+
+
+
+        .info-card {
+            max-width: 600px;
+            text-align: center;
+            align-content: center;
+        }
+
+    </style>
+
+
+
+
+
+
+
+
+
+
 </head>
-    <!-- End of head -->
+<!-- End of head -->
 
 <body>
     <!-- Beginning of Body -->
-
-
+    <!-- Navbar -->
     <div name="navbar">
         <!-- Div to contain all the navbar content -->
-        
-        
+
+
         <nav class="navbar fixed-top  indigo darken-2">
-        <!-- Navigation class. 
+            <!-- Navigation class. 
             Navbar. Dark Navbar. Expand on larger size. Make Navbar fixed to top. -->
-    
-    
-    
-    
-        <!-- / * Navigation Title and Icon / * -->
-            <a class="white-bold white-darker-hover waves-effect" style="font-size:20px;" href="index.html">
-        
-                <img class="img-avatar" src="img/dave.png" width="44">
-        
-                <strong> Dave Whiffen: Level Designer</strong>
+
+
+
+
+            <!-- / * Navigation Title and Icon / * -->
+            <a class="white-bold white-darker-hover waves-effect" style="font-size:20px;margin-top:-10px;" href="index.html">
+
+                <img class="img-avatar" src="img/dave_2025.jpeg" width="44">
+
+                <strong> Dave Whiffen</strong>
             </a>
-    
-    
-        </nav>   
-    
-    
-    
-        <div style="margin-top:56px;" class="white-text animated fadeIn fixed-top">
-        <!-- Div to contain the tabbed navigation pills -->
-    
-            <ul class="nav nav-pills nav-fill grey darken-3 accent-1 mx- mb-0 mt-1 white-text">
-            <!-- Unordered list of Nav pills. Fill them.  Be grey, darken by 3 units. -->
-        
-                
-                <li class="nav-item waves-effect">
-                    <!-- * / Gaming Button / * -->
-                    <a class="nav-link white-darker-hover active" href="index.html">
-            
-                        <i class="fas fa-gamepad"></i> 
-            
-                        Game
-                    </a>
-        
-                </li>     
-        
-        
-        
-        
-                <!-- * / Film Button / * -->
-                <li class="nav-item waves-effect">
-        
-                <a class="nav-link white-darker-hover" href="film.html"><strong>
-                
-                    <i class="fas fa-film">
-                    </i> 
-                
-                    Film</strong>
+
+
+
+
+
+
+
+
+
+
+            <!-- Social Bar -->
+            <div style="font-size:30px;margin-top:-2px;">
+
+                <!-- / * Instagram Button / * -->
+                <a class="nav-item waves-effect" href="http://www.instagram.com/davewhiffen">
+                    <i class="fab fa-instagram fa-sm pr-2" aria-hidden="true">
+                    </i>
                 </a>
-        
-                </li>
-     
-                <!-- * / Television Button / * -->
-                <li class="nav-item waves-effect">
-        
-                    <a class="nav-link white-darker-hover" href="tv.html">
-                    <i class="fas fa-tv">
-                    </i> 
-                
-                    TV
-                    </a>
-                </li>
-        
-                <!-- * / Web Design Button / * -->
-                <li class="nav-item waves-effect">
-        
-                    <a class="nav-link white-darker-hover" href="web.html">
-                        <i class="fas fa-code">
-                        </i> 
-                        Web
-                    </a>
-                </li>
-
-    
-                <!-- * / Animation Button / * -->
-                <li class="nav-item waves-effect">
-        
-                    <a class="nav-link white-darker-hover" href="animation.html">
-                
-                        <i class="far fa-grin-tongue"></i> 
-                
-                        Animation
-                    </a>
-        
-                </li>
-  
-                <!-- * / Drawing Button / * -->
-                <li class="nav-item waves-effect">
-         
-                    <a class="nav-link white-darker-hover" href="art.html">
-                
-                        <i class="fas fa-pencil-alt">
-             
-                        </i> Art
-                    </a>
-        
-                </li>
-        
-                <!-- * / Hockey Button / * -->
-                <li class="white-text waves-effect">
-        
-                    <a class="nav-link white-darker-hover" href="hockey.html">
-                
-                        <i class="fas fa-hockey-puck">
-                        </i> Hockey
-                    </a>
-                </li>
-        
-        
-   
-                <!-- * / Construction / * -->
-                <li class="nav-item waves-effect">
-         
-                    <a class="nav-link white-darker-hover" href="construction.html">
-             
-                        <i class="fas fa-hammer">
-             
-                        </i> Construction
-                    </a>
-                </li>
-   
-            </ul> 
-            <!-- Closing the Nav Pills unordered list -->
-        </div>
-        <!-- Closing the Nav Pills Div -->
-    </div> 
-    <!-- Closing the Navigation Div -->
-    
-    
-    
-
-  
-    
-   
-   
-   
-   
-   
-   
-
-    
-    
-  
-    
-  
-      
-<div class="portfolio-content portfolio-padded bg">
-        <!-- Special Div for Portfolio content in the card style -->
-  
-       
-        
-
-  
-    
-
-  
-  
-        <!-- Grid row -->
-        
-            <!-- Div for all portfolio content -->
-
-    
-    
-  
-    <!--Carousel Wrapper-->
-  <div style="margin-top: -18px;" id="carousel-example-1" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
-
-    <!--Indicators-->
-    <ol class="carousel-indicators">
-      <li style="width:20px;height:20px;" data-target="#carousel-example-1" data-slide-to="0" class="active"></li>
-      <li style="width:20px;height:20px;"  data-target="#carousel-example-1" data-slide-to="1"></li>
-      <li style="width:20px;height:20px;"  data-target="#carousel-example-1" data-slide-to="2"></li>
-        <li style="width:20px;height:20px;"  data-target="#carousel-example-1" data-slide-to="3"></li>
-        <li style="width:20px;height:20px;"  data-target="#carousel-example-1" data-slide-to="4"></li>  
-        <li style="width:20px;height:20px;"  data-target="#carousel-example-1" data-slide-to="5"></li>
-        <li style="width:20px;height:20px;"  data-target="#carousel-example-1" data-slide-to="6"></li>
-      
-    </ol>
-    <!--/.Indicators-->
-
-    <!--Slides-->
-    <div class="carousel-inner" role="listbox">
-
-        <!--First slide-->
-        <div class="carousel-item active">
-        <!--Mask-->
-        <div class="view">
-        <div class="full-bg-img flex-center mask rgba-indigo-light white-text">
-        <ul class="animated fadeInUp col-md-12 list-unstyled list-inline">
-        <li>
-        <h1 class="font-weight-bold text-uppercase shadow-text">About Me</h1>
-        </li>
-        <li>
-        <div align="center"><p class="font-weight-bold shadow-text" style="max-width: 400px;text-align: center; align-content: center">"Think big, dream hard, dare to be different!"<br><br>
-            
-    
-
-        <p style="max-width: 400px;text-align: center; " class="card-text shadow-text">
-        Dave Whiffen is from Oakville, Ontario, Canada.<br><br>
-            
-            <i class="fas fa-code" style="font-size:35px;"> 
-                <i class="far fa-grin-tongue" style="font-size:35px;">  <i class="fas fa-gamepad"></i> <u><strong>1999-2006</strong></u></i></i>
-            
-            <br><br>    
-            
-
-        <p style="max-width: 400px;text-align: center; " class="card-text  shadow-text">
-        Dave originally taught himself to write code at the age of nine.  
-        <br><br>
-        
-            After also teaching himself   <i class="fas fa-code"></i> <strong>Web Design</strong> and <strong><i class="far fa-grin-tongue"></i> Flash Animation </strong>, Dave built <strong>Gamelovers.ca,</strong>  a gaming website. 
-            <br><br>His friends and him spent years making animated movies, comics, and making <strong><i class="fas fa-gamepad"></i> Games.</strong>
-            
-          
-            <div>
-            <table>
-             <th></th>
-            <tr>
-            <td><img class="about-me-photo" src="animation/thumb-intro.PNG"></td>
-            <td> <img class="about-me-photo" src="animation/mario%20babies.PNG"></td>
-            <td> <img class="about-me-photo" src="web/gamelovers-4-full.png"></td>
-                
-                
-                
-                </tr>    
-                
-            </table>
-            </div>
-            
-            
-                 
-                 
-        
-       <p style="max-width: 400px;text-align: center; " class="card-text  shadow-text">
-        By 2004, Gamelovers had recieved over 200,000 unique visitors.  
-        
-        <div style="padding-bottom:10px;"></div>   
-         
-        <p style="max-width: 400px;text-align: center; " class="card-text  shadow-text">    
-            
-        Dave had also brought in a staff of a dozen artists, who also produced content for the website.</p>
-            
-            
-            
-            
-            
-            
-            
-            
-        
-            
-            
-            
-            </div></li>
-            
-            
-            
-            
-            
-        
-        <li class="list-inline-item">
-              
-        <li class="list-inline-item">
-        <a style="padding:25px;padding-left:50px;padding-right:50px;" href="#carousel-example-1" role="button" data-slide="next"  class="btn btn-green btn-lg btn-rounded ml-0"><i class="fas fa-arrow-circle-right left"></i>Next</a>
-        </li>
-            
-        <br><br>    
-            
-            
-   <div style="align-content: center;text-align: center;">
- 
-            
-            
-            
-            
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!--/.Mask-->
-      </div>
-      <!--/.First slide-->
-
-        <!--Second slide -->
-        <div class="carousel-item">
-        <!--Mask-->
-        <div class="view">
-        <div class="full-bg-img flex-center mask rgba-purple-light white-text">
-        <ul class="animated fadeInUp col-md-12 list-unstyled">
-        <li>
-     
-        </li>
-        <li>
-        <p class="card-text">
-        <div align="center"><p class=" shadow-text" style="max-width: 400px;text-align: center; align-content: center">
-          
-          <!-- Header with icon and Year Range  -->
-        <div>
-            <p style="max-width: 400px;text-align: center; " class="card-text shadow-text">    
-           <i class="fas fa-film" style="font-size:40px;"> <u><strong>2007-2010</strong></u></i></i>
-            </div>
-            <!-- Header with icon and Year Range  -->   
-            
-      
-            
-            
-            
-            
-          <p style="max-width: 400px;text-align: center; " class="card-text shadow-text">   
-            
-        <br>By 2007, Dave’s interests had eventually shifted towards film production. 
-                 
-        <div style="padding-bottom: 10px;"></div>
-           
-        <p style="max-width: 400px;text-align: center; " class="card-text shadow-text">     
-            
-            
-            After several years of <strong>producing</strong> and <strong>editing</strong> freelance projects, Dave <strong>wrote</strong> and <strong>produced</strong> his own feature length <i class="fas fa-film"></i> film, called <strong>'Singularity'.</strong>  
-              
-              
-           <div style="padding-bottom: 10px;"></div>
-            
-            <div style="border-radius: 10px;">
-            <iframe style="border-radius: 10px;" width="400" height="225" src="https://www.youtube.com/embed/sMalwQT30RU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            
-           
-           
-            <div style="padding-bottom: 10px;"></div> 
-              
-           <p style="max-width: 400px;text-align: center; " class="card-text shadow-text">   
-                 
-       The film premiered in 2010 at his local school theater, and all proceeds were donated to the ‘HOPE’ charity.
-              
-              
-            <div>
-            <table>
-             <th></th>
-            <tr>
-           
-               <td> <img style="width:300px;height:auto;" class="about-me-photo" src="film/singularity-poster.jpg"></td>   
-            <td> <img style="width:300px;height:auto;" class="about-me-photo" src="img/thumbnails/about/2010-SINGULARITY-PREMEIRE.png"></td>
-           
-                
-                
-                
-                </tr>    
-                
-            </table>
-            </div>       
-              
-                  
-       
-                 
-        <li class="list-inline-item">
-        <a style="padding:25px;padding-left:50px;padding-right:50px;" href="#carousel-example-1" role="button" data-slide="next"  class="btn btn-green btn-lg btn-rounded ml-0"><i class="fas fa-arrow-circle-right left"></i>Next</a>
-        </li>        
-              
-            
-              </li>
-             
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!--/.Mask-->
-      </div>
-      <!--/.Second slide -->
-        
-        
-        <!--Third Slide -->
-        <div class="carousel-item">
-        <!--Mask-->
-        <div class="view">
-        <div class="full-bg-img flex-center mask rgba-purple-light white-text">
-        <ul class="animated fadeInUp col-md-12 list-unstyled">
-        <li>
-     
-        </li>
-        <li>
-        <p class="card-text">
-        <div align="center">
-            <p class=" shadow-text" style="max-width: 400px;text-align: center; align-content: center">
-        
-            
-          <!-- Header with icon and Year Range  -->
-            <div>
-                <p style="max-width: 400px;text-align: center; " class="card-text shadow-text">    
-                <i class="fas fa-tv" style="font-size:40px;"> <u><strong>2010-2015</strong></u></i></i>
-            </div>
-            <!-- Header with icon and Year Range  -->       
-            
-         <div style="padding-bottom: 10px;"></div> 
-            
-            
-        <p style="max-width: 400px;text-align: center; " class="card-text shadow-text">      
-            
-            
-        In 2010, Dave was accepted to <strong>Ryerson University’s Radio and <i class="fas fa-tv"></i> Television (Media Production) program.</strong>
-        
-            
-         <div style="padding-bottom: 10px;"></div>      
-            
-         <p style="max-width: 400px;text-align: center; " class="card-text shadow-text">          
-            
-            
-            
-        Dave majored in <strong>EFP Film and Television Broadcast</strong>, and won <strong>two awards </strong>for his projects.  
-    
-               <div style="padding-bottom: 10px;"></div> 
-        
-       <div>
-        <iframe style="border-radius: 10px;" src="https://player.vimeo.com/video/36125541" width="400" height="225" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-            </div>
-            
-          <div style="padding-bottom: 10px;"></div> 
-            
-        <p style="max-width: 400px;text-align: center; " class="card-text shadow-text">                  
-                       
-        He won <strong>'Best First Year Film'</strong> for 'Time and Again', and <strong>'Best Practicum'</strong> for 'Hunting Season.
-            
-            
-         <div style="padding-bottom: 10px;"></div>    
-            
-        <p style="max-width: 400px;text-align: center; " class="card-text shadow-text">         
-            
-    
-        
-        Dave graduated in 2015.  
-            
-        
-         <div>
-            <table>
-             <th></th>
-            <tr>
-            <td><img style="width:300px;height:auto" class="about-me-photo" src="tv/tv-studio-team.jpg"></td>
-               <td> <img style="width:300px;height:auto"  class="about-me-photo" src="tv/hunting-season-team.jpg"></td>   
-            
-           
-                
-                
-                
-                </tr>    
-                
-            </table>
-            </div>     
-        
-    
-
-       <li class="list-inline-item">
-        <a style="padding:25px;padding-left:50px;padding-right:50px;" href="#carousel-example-1" role="button" data-slide="next"  class="btn btn-green btn-lg btn-rounded ml-0"><i class="fas fa-arrow-circle-right left"></i>Next</a>
-        </li>   
-            
-            
-        </li></li></ul></div></div>
-        <!--/.Mask-->
-      </div>
-      <!--/.Third Slide --> 
-        
-        
-        <!--Fourth Slide -->
-        <div class="carousel-item">
-        <!--Mask-->
-        <div class="view">
-        <div class="full-bg-img flex-center mask rgba-purple-light white-text">
-        <ul class="animated fadeInUp col-md-12 list-unstyled">
-        <li>
-     
-        </li>
-        <li>
-        <p class="card-text">
-        <div align="center"><p class=" shadow-text" style="max-width: 400px;text-align: center; align-content: center"><br>
-            <br><br>In 2014, Dave earned an <strong>internship</strong> with <strong>CBC and Hockey Night in Canada</strong> through Ryerson.
-        
-        <br><br>Dave worked as a <strong>Program Assistant,</strong> shot-listing video, editing segments, and conducting research for the broadcast.</p>    
-                  
-       
-                 
-        <li class="list-inline-item">
-        <a style="padding:25px;padding-left:50px;padding-right:50px;" href="#carousel-example-1" role="button" data-slide="next"  class="btn btn-green btn-lg btn-rounded ml-0"><i class="fas fa-arrow-circle-right left"></i>Next</a>
-        </li>
-            
-            
-            </li></ul></div></div>
-        <!--/.Mask-->
-      </div>
-      <!--/.Fourth Slide --> 
-        
-        
-    
-
-        <!--Fifth Slide-->
-        <div class="carousel-item">
-        <!--Mask-->
-        <div class="view">
-        <div class="full-bg-img flex-center mask rgba-blue-light white-text">
-        <ul class="animated fadeInUp col-md-12 list-unstyled">
-        <li>
-      
-        <li>
-            
-            
-            
-            
-            
-        
-        <p class="font-weight-bold text-uppercase py-4"> <div align="center"><p class=" shadow-text" style="max-width: 400px;text-align: center; align-content: center">
-            
-                 <!-- Header with icon and Year Range  -->
-            <div>
-                <p style="max-width: 400px;text-align: center; " class="card-text shadow-text">    
-                <i class="fas fa-hockey-puck" style="font-size:40px;"> <u><strong>2013-Present</strong></u></i></i>
-            </div>
-            <!-- Header with icon and Year Range  -->       
-            
-            
-        <p style="max-width: 400px;text-align: center; " class="card-text shadow-text">      
-            
-            
-            
-            <br>In 2013, Dave was hired as <strong><i class="fas fa-hockey-puck"></i> Statistician</strong> for the <strong>Ryerson University Men’s Hockey Team,</strong> working under head coach Graham Wise.  
-        
-            <div style="padding-bottom: 10px;"></div>
-
-            
-            <p style="max-width: 400px;text-align: center; " class="card-text shadow-text">
-            Over seven seasons, Dave has built his own <strong>video and analytics systems</strong> for the team from the ground up.  
-            
-            
-            <div style="padding-bottom: 10px;"></div>
-            
-            <div style="border-radius: 10px;">
-            <iframe style="border-radius: 10px;" width="400" height="225" src="https://www.youtube.com/embed/7sc3w84GMX0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            
-           
-            
-            <div style="padding-bottom: 10px;"></div>
-            
-             <p style="max-width: 400px;text-align: center; " class="card-text shadow-text"> 
-            
-        
-                 Dave has developed:
-                 <br><strong>Team Applications,</strong>
-                 <br> <strong>Puck Possession Applications,</strong> 
-                 <br><strong>Ice-time Applications,</strong> 
-                 <br><strong>Video Coaching-Specific Applications,</strong> 
-                 <br><strong>Pre-Scout Applications.</strong>
-
-            
-            <div style="padding-bottom: 10px;"></div>   
-                 
-                 
-                 
-             <p style="max-width: 400px;text-align: center; " class="card-text shadow-text">   
-            
-            
-                 Dave currently works as <strong>Ryerson's Video Coach.</strong>
-    
-             
-             
-        <li class="list-inline-item">
-        <a style="padding:25px;padding-left:50px;padding-right:50px;" href="#carousel-example-1" role="button" data-slide="next"  class="btn btn-green btn-lg btn-rounded ml-0"><i class="fas fa-arrow-circle-right left"></i>Next</a>
-        </li></ul></div>
-        </div>
-        <!--/.Mask-->
-      </div>
-      <!--/.Fifth slide-->
-      
-      
-      
-      
-             <!--Sixth Slide-->
-        <div class="carousel-item">
-        <!--Mask-->
-        <div class="view">
-        <div class="full-bg-img flex-center mask rgba-blue-light white-text">
-        <ul class="animated fadeInUp col-md-12 list-unstyled">
-        <li>
-      
-        <li>
-            
-        
-            
-            
-        <p class="font-weight-bold text-uppercase py-4"> <div align="center">
-            
-            
-                     <!-- Header with icon and Year Range  -->
-            <div>
-                <p style="max-width: 400px;text-align: center; " class="card-text shadow-text">    
-                <i class="fas fa-hammer" style="font-size:40px;"> <u><strong>2011-Present</strong></u></i></i>
-            </div>
-            <!-- Header with icon and Year Range  -->     
-     
-            
-            
-        <div style="padding-bottom:20px;"></div>    
-    
-        <p class=" shadow-text" style="max-width: 400px;text-align: center; align-content: center;">
-            
-            In the summers, Dave works as a <i class="fas fa-hammer"> </i><strong> Carpenter</strong> for One York Construction in Toronto.
-            
-            
-            
-           <div>
-            <table>
-             <th></th>
-            <tr>
-            <td><img class="about-me-photo" src="construction/projects/Deck,%20Fencing,%20Interlock.jpg"></td>
-            <td> <img class="about-me-photo" src="construction/projects/Roxborough%201.jpeg"></td>
-            <td> <img class="about-me-photo" src="construction/projects/kitchen.jpg"></td>
-                
-                
-                
-                </tr>    
-                
-            </table>
-            </div> 
-            
-            
-            
-         <p class=" shadow-text" style="max-width: 400px;text-align: center; align-content: center;">   
-            
-            
-            
-            
-            
-            
-            
-        He's spent his last 9 summers working in various construction, landscaping, and carpenter positions.
-    
-       <li class="list-inline-item">
-        <a style="padding:25px;padding-left:50px;padding-right:50px;" href="#carousel-example-1" role="button" data-slide="next"  class="btn btn-green btn-lg btn-rounded ml-0"><i class="fas fa-arrow-circle-right left"></i>Next</a>
-        </li>
-             
-      
-        </li></ul></div>
-        </div>
-        <!--/.Mask-->
-      </div>
-      <!--/.Fifth slide-->
-      
-      
-      
-
-             <!--7th Slide? Slide-->
-        <div class="carousel-item">
-        <!--Mask-->
-        <div class="view">
-        <div class="full-bg-img flex-center mask rgba-blue-light white-text">
-        <ul class="animated fadeInUp col-md-12 list-unstyled">
-        <li>
-      
-        <li>
-        <p class="font-weight-bold text-uppercase py-4"> 
-            
-            <div align="center">
-            
-            <p class=" shadow-text" style="max-width: 400px;text-align: center; align-content: center;">
-            
-                
-        <!-- Header with icon and Year Range  -->
-            <div>
-                <p style="max-width: 400px;text-align: center; " class="card-text shadow-text">    
-                <i class="fas fa-gamepad" style="font-size:40px;"> <u><strong>2019-Present</strong></u></i></i>
-            </div>
-    <!-- Header with icon and Year Range  -->         
-                
-                
-        <div style="padding-bottom:20px;"></div>        
-         
-        <p style="max-width: 400px;text-align: center; " class="card-text shadow-text">     
-            
-            
-            In September 2019, Dave went back to school for a <strong>Post Graduate Certificate</strong> in <strong><i class="fas fa-gamepad"></i>  Game Design at George Brown.</strong>
-            
-           <div>
-            <table>
-             <th></th>
-            <tr>
-            
-          
-            <td> <img style="width:400px;height:auto;" class="about-me-photo" src="img/thumbnails/about/game-design-2.png"></td>
-                
-                
-                
-                </tr>    
-                
-            </table>
-            </div>  
-            
-          
-            
-            
-            
-        <p style="max-width: 400px;text-align: center; " class="card-text shadow-text"> 
-       He graduates in August, and will be working as a Level Designer.
-    
-        <div>
-            <table>
-             <th></th>
-            <tr>
-            <td><img style="width:500px;height:auto;" class="about-me-photo" src="game/misc/group-talking.jpg"></td>
-            
-                
-                
-                
-                </tr>    
-                
-            </table>
-            </div>   
-                
-             
-      
-        </li></ul>
-        </div>
-        </div>
-        <!--/.Mask-->
-      </div>
-      <!--/.Fifth slide-->
-      
-      
-      
-      
-      
-      
-
-    </div>
-    <!--/.Slides-->
-
-    <!--Controls-->
-    <a class="carousel-control-prev" href="#carousel-example-1" role="button" data-slide="prev">
-      <span style="width:175px;height:175px;" class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next shadow-text" href="#carousel-example-1" role="button" data-slide="next">
-      <span style="width:175px;height:175px;" class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-    <!--/.Controls-->
-  </div>
-  <!--/.Carousel Wrapper-->
-
-    
-
-        
-        
 
 
 
@@ -1062,109 +382,869 @@ a:hover { COLOR: #adadad; TEXT-DECORATION: none; font-weight: bold }</style>
 
 
 
+                <!-- / * LinkedIn Button / * -->
+                <a class="nav-item waves-effect" href="https://www.linkedin.com/in/davewhiffen/">
+                    <i class="fab fa-linkedin fa-sm pr-2" aria-hidden="true">
+                    </i>
+                </a>
 
-        
-        
-        
-    <div class="spacer" style="margin-bottom:150px;">
-    </div>      
-        
-        
-        
-        
-        
-        
-        <div class="header">Projects:
-        <!-- Header class text-->
-    
-            <i class="fas fa-gamepad">
-                <!-- Gamepad Icon -->
-        
-            </i> 
-            Level Design
-    
-    
-        </div>
-        
-         <div class="resume-button">
-            <!-- Div Class for Resume Button-->
-        
-   
-         
-                
-        <a style="padding:25px;padding-left:50px;padding-right:50px;margin-top:-20px;" href="https://www.dropbox.com/s/11bupk3xmxe4kqr/DW%20Resume%20%28Game%20Design%29.pdf?dl=0" role="button" data-slide="next"  class="btn btn-indigo btn-lg btn-rounded ml-0"><i class="fas fa-file">
-                    </i> RESUME</a>
-        </li>   
-                
-                
-                
+
+
+
+
+                <!-- YouTube Button -->
+                <a class="nav-item waves-effect" href="https://www.youtube.com/channel/UCalnmWdCEfm03zwgcRiEUXw/">
+                    <i class="fab fa-youtube fa-sm pr-2" aria-hidden="true">
+                    </i>
+                </a>
+
+
+
+
+
+
+
+                <!-- Twitch Button -->
+                <a class="nav-item waves-effect" href="http://www.twitch.tv/davewhiffen">
+                    <i class="fab fa-twitch fa-sm pr-2" aria-hidden="true">
+                    </i>
+                </a>
+
+
+                <!-- Github -->
+                <a class="nav-item waves-effect" href="https://github.com/davewhiffen">
+                    <i class="fab fa-github fa-sm pr-2" aria-hidden="true">
+                    </i>
+                </a>
+
+
+
+
+                <!-- Email Link -->
+                <a class="nav-item waves-effect" href="mailto:dave@davewhiffen.com">
+                    <i class="far fa-envelope fa-sm pr-2" aria-hidden="true">
+                    </i>
+                </a>
+
+                <!-- Telephone Link--
+            <a class="white-darker-hover"  href="tel:416-996-8183">    
+                <i class="fas fa-phone fa-sm pr-2" aria-hidden="true">
+                </i>
             </a>
-        </div>
+        </div>    
         
+           
+            -->
+
+
+
+
+
+
+
+
+
+
+        </nav>
+
+            <style>
+            
+                .skills-bar {
+                    margin-top:56px;
+                }
+            
+            </style>
+            
+            
+            
+   
+
+
+
+
+
+
+
+
+
+    <!-- Style tags need to be down here because reasons? -->
+    <style>
+        .about-gamelovers {
+            background-image: url(img/thumbnails/about/gamelovers.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+
+
+        .about-p {
+            max-width: 400px;
+            text-align: center;
+            text-shadow: 2px 2px #000000;
+        }
+
+    </style>
+
+
+
+
+
+
+
+
+
+
+    <!-- BELOW NAVBAR ------------------------------------------>
+    <div class="portfolio-content bg animated fadeIn">
+
+
+
+
+
+
+        <!-- Style tags need to be down here because reasons? -->
+        <style>
+            .about-dave {
+                background-image: url(img/thumbnails/about/game-design-3.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                color: white;
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+
+        </style>
+
+
+
+
+
+
+
+
+        <!-- About Dave -->
+        <div align="center" class="about-dave">
+
+
+            <!-- Header Class Text -->
+            <div style="font-size:70px; margin-top:-10px;" class="header shadow-text">
+
+
+                <!-- Closes the Header Div -->
+            </div>
+
+
+
+            <!-- Div For Resume Button--
+    <div class="resume-button" style="margin-top:-150px;margin-left:-200px;">
+   
+        <a href="doc/DaveWhiffen_Resume-2023.pdf">  
+            <!-- Link to Game Design Resume --
+            <button type="button" class="btn btn-indigo">
+            
+                <i class="fas fa-file">
+                </i> 
+                    <strong>Resume</strong>
+            </button> 
+        </a>
+    </div>
+        
+        
+        -->
+
+
+
+
+
+
+            <img style="margin-top:-50px;" width="250" height="auto" class="img-fluid" src="img/dave_2025.jpeg">
+
+
+
+
+            <!-- Just a spacing Div-->
+            <div style="padding-bottom: 5px;">
+            </div>
+
+
+
+            <!--
+        
+        <p class="font-weight-bold info-card shadow-text">
+            
+        
+        "Think big, dream hard, dare to be different!"
+            
+        -->
+
+            <p class="card-text shadow-text" style="font-size:40px;">
+
+
+                <strong>Dave Whiffen</strong>
+
+
+
+
+                <p class="card-text shadow-text" style="font-size:20px;margin-top:-15px;">
+
+
+
+                    <strong>
+
+
+
+
+
+                        <strong><i class="fas fa-gamepad"></i> Game & Level Designer</strong>
+                    <br>
+                    <strong>Toronto,</strong> <img src="about/canada-flag.jpg" width="25" height="auto"> Canada.
+
+
+
+
+
+                    <p class="card-text shadow-text" style="font-size:20px;">
+
+
+
+                        <!-- Telephone Link-->
+                        <a class="white-darker-hover" href="tel:416-996-8183">
+                            <i class="fas fa-phone fa-sm pr-2" aria-hidden="true">
+                            </i> 416 996 8183
+                        </a>
+
+
+                        <p class="card-text shadow-text" style="font-size:20px;margin-top:-10px;">
+
+
+
+                            <!-- / * LinkedIn Button / * -->
+                            <a class="white-darker-hover" href="https://www.linkedin.com/in/davewhiffen/">
+                                <i class="fab fa-linkedin fa-sm pr-2" aria-hidden="true">
+                                </i>
+                                @DaveWhiffen</a>
+
+
+                            <p class="card-text shadow-text" style="font-size:20px;margin-top:-10px;">
+
+
+
+
+                                <!-- Email Link -->
+                                <a class="white-darker-hover" href="mailto:dave@davewhiffen.com">
+                                    <i class="far fa-envelope fa-sm pr-2" aria-hidden="true">
+                                    </i>
+
+
+
+
+
+
+                                    dave@davewhiffen.com</a>
+
+                                </font>
+
+
+                                <div style="padding-bottom:15px;">
+                                </div>
+
+
+                                <!-- Let's see the projects! Button -->
+                                <div>
+
+
+                                    <button class="button-blue" onclick="window.location.href='game.html'">
+                                        <!-- Blue Button w/ CSS Class -->
+                                        <a href="game.html">
+                                            <span style="color: white;">
+                                                <i class="fas fa-gamepad">
+                                                </i>
+                                                <strong> Projects!</strong>
+                                            </span>
+                                        </a>
+                                    </button>
+
+
+
+
+                                    <button class="button-blue" onclick="window.location.href='doc/Whiffen-Dave_Resume.pdf'">
+                                        <!-- Blue Button w/ CSS Class -->
+                                        <a href="doc/Whiffen-Dave_Resume.pdf">
+                                            <span style="color: white;">
+                                                <i class="fas fa-file">
+                                                </i>
+                                                <strong> Resume</strong>
+                                            </span>
+                                        </a>
+                                    </button>
+
+
+                                </div>
+
+
+                                <div style="padding-bottom:25px;"></div>
+
+                                <p class="card-text shadow-text" style="font-size:20px;">
+                                    <i class="fas fa-long-arrow-alt-down"></i> Projects Below! <i class="fas fa-long-arrow-alt-down"></i>
+
+
+
+
+        </div>
+        <!-- End of About Dave -->
+        
+        
+        
+        <!-- Style tags need to be down here because reasons? --> 
+  <style>      
+      
+      .about-rise-and-fall {
+           background-image: url(game/bg/bg-4.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                color:white;
+            padding-top:50px;
+            padding-bottom:50px;
+       }
+      
+       
+ 
+
+</style> 
+    
+    
+        <!-- Rise & Fall Card ----------------------------------->
+    <div class="about-rise-and-fall" style="margin-top:-30px;">              
+        <a href="rise-and-fall.html">
+            
+            <img src="game/rise-and-fall/riseandfall-freeroam.png" 
+                             class="img-fluid">
+                        
+                        
+        </a>
+        
+        
+        
+        <!-- Rise and Fall Text -->
+        <div class="card-body pb-0" style="margin-top:-30px; align-content: center;">
+                  
+            <!-- Title Text -->
+            <p class="font-weight-bold my-3" style="font-size:40px;">
+            
+                <u>
+                    <a href="rise-and-fall.html" style="color:#5b77d3;" >
+                            Rise & Fall: Adventure Mode
+                            
+                
+                            
+                            (2026)
+                            
+                    </a>
+                </u>
+        
+            <p class="card-text about-p; align-content:center;">
+                        
+                <u><strong>Release Date:</strong></u> 
+                
+                Spring 2026  
+                
+                <img src="game/icons/steam.png" width="20">
+                
+                    
+                    
+            <div style="padding-bottom:10px;">
+                    
+            </div>
+            
+            
+            
+            <p class="card-text about-p; align-content:center;">
+            
+                        
+                <u><strong>Role:</strong></u> 
+               
+                Game & Level Designer
+                        
+            <div style="padding-bottom:10px;">
+                    
+            </div>
+            
+            
+            
+            <p class="card-text about-p; align-content:center;"> 
+                        
+                <u><strong>Description:</strong></u> 3rd Person Platformer mode inside Rise & Fall game.
+                        
+                    </p>
+               
+                    <p class="card-text about-p; align-content:center;">
+                        Collect coins and stars in an open environment.
+                        
+                        <br>using your moveset from the Versus mode of the game. 
+                        
+                    </p>
+             
+                    
+            <div style="padding-bottom:20px;">
+            
+            </div>
+            
+            
+                                    
+                    <button class="button-blue" onclick="window.location.href='rise-and-fall.html'">
+                        
+                        <!-- Blue Button w/ CSS Class -->
+                        <a href="rise-and-fall.html"> 
+                            
+                            <span style="color: white;"> 
+                                
+                               <i class="fas fa-gamepad"></i>
+                                
+                                <strong> Learn More!</strong>
+                            </span>
+                        </a>
+                    </button>
+           <br> 
+            
+                  <button class="button-blue" onclick="window.location.href='https://store.steampowered.com/app/1332840/Rise_and_Fall/'">
+                      
+                        <!-- Blue Button w/ CSS Class -->
+                        <a href="https://store.steampowered.com/app/1332840/Rise_and_Fall/"> 
+                            
+                            <span style="color: white;"> 
+                                
+                             <img src="game/icons/steam.png" width="20">
+                                
+                            <strong> Steam Page</strong>
+                            
+                            </span>
+                            
+                        </a>
+                      
+                    </button>
+            
+            <br>
+            
+             <button class="button-blue" onclick="window.location.href='https://store.steampowered.com/news/app/1332840'">
+                      
+                        <!-- Blue Button w/ CSS Class -->
+                        <a href="https://store.steampowered.com/news/app/1332840"> 
+                            
+                            <span style="color: white;"> 
+                                
+                             <img src="game/icons/steam.png" width="20">
+                                
+                            <strong> Update History</strong>
+                            
+                            </span>
+                            
+                        </a>
+                      
+                    </button>
+            
+            
+            
+            
+            
+            
+        
+            
+    </div> 
+        
+        
+        
+            
+            
+            
+            
+            
+                    
+                  <div class="spacer">
+                    </div>   
+                    
+                    
+        
+               
+                    
+                    
+                    
+                    
+                </div>
+    <!-- Card body Div closed -->
+        
+<!-- End Rise & Fall Card -->     
+    
+    
+    
+    <!-- Rise & Fall Card ----------------------------------->
+    <div class="about-rise-and-fall" style="margin-top:-30px;">              
+        <a href="rise-and-fall.html">
+            
+            <img src="img/thumbnails/about/game-design-3a.png" 
+                             class="img-fluid">
+                        
+                        
+        </a>
+        
+        
+        
+        <!-- Rise and Fall Text -->
+        <div class="card-body pb-0" style="margin-top:-30px; align-content: center;">
+                  
+            <!-- Title Text -->
+            <p class="font-weight-bold my-3" style="font-size:40px;">
+            
+                <u>
+                    <a href="rise-and-fall.html" style="color:#5b77d3;" >
+                            Rise & Fall
+                            
+                
+                            
+                            (2020-Present)
+                            
+                    </a>
+                </u>
+        
+            <p class="card-text about-p; align-content:center;">
+                        
+                <u><strong>Early Access Release Date:</strong></u> 
+                
+                <img src="img/seasons/summer.png" width="20">Summer 2020  
+                
+                <img src="game/icons/steam.png" width="20">
+                
+                <br>
+                
+                + 5 Annual Substantial Updates
+                
+                <br>
+                
+                200+ Minor Updates and Patches w/ New Features
+                        
+                    
+                    
+                    
+            <div style="padding-bottom:10px;">
+                    
+            </div>
+            
+            
+            
+            <p class="card-text about-p; align-content:center;">
+            
+                        
+                <u><strong>Role:</strong></u> 
+               
+                Game Director, Game & Level Designer
+                        
+            <div style="padding-bottom:10px;">
+                    
+            </div>
+            
+            
+            
+            <p class="card-text about-p; align-content:center;"> 
+                        
+                <u><strong>Description:</strong></u> Commercial indie. 4 person couch co-op sports game.
+                        
+                    </p>
+               
+                    <p class="card-text about-p; align-content:center;">
+                        Two teams battle to score the ball into the other team's net. 
+                        
+                        <br>Players use their unique abilities to shrink and grow.
+                        
+                    </p>
+             
+                    
+            <div style="padding-bottom:20px;">
+            
+            </div>
+            
+            
+                                    
+                    <button class="button-blue" onclick="window.location.href='rise-and-fall.html'">
+                        
+                        <!-- Blue Button w/ CSS Class -->
+                        <a href="rise-and-fall.html"> 
+                            
+                            <span style="color: white;"> 
+                                
+                               <i class="fas fa-gamepad"></i>
+                                
+                                <strong> Learn More!</strong>
+                            </span>
+                        </a>
+                    </button>
+           <br> 
+            
+                  <button class="button-blue" onclick="window.location.href='https://store.steampowered.com/app/1332840/Rise_and_Fall/'">
+                      
+                        <!-- Blue Button w/ CSS Class -->
+                        <a href="https://store.steampowered.com/app/1332840/Rise_and_Fall/"> 
+                            
+                            <span style="color: white;"> 
+                                
+                             <img src="game/icons/steam.png" width="20">
+                                
+                            <strong> Steam Page</strong>
+                            
+                            </span>
+                            
+                        </a>
+                      
+                    </button>
+            
+            <br>
+            
+             <button class="button-blue" onclick="window.location.href='https://store.steampowered.com/news/app/1332840'">
+                      
+                        <!-- Blue Button w/ CSS Class -->
+                        <a href="https://store.steampowered.com/news/app/1332840"> 
+                            
+                            <span style="color: white;"> 
+                                
+                             <img src="game/icons/steam.png" width="20">
+                                
+                            <strong> Update History</strong>
+                            
+                            </span>
+                            
+                        </a>
+                      
+                    </button>
+            
+            
+            
+            
+            
+            
+        
+            
+    </div> 
+        
+        
+        
+            
+            
+            
+            
+            
+                    
+                  <div class="spacer">
+                    </div>   
+                    
+                    
+        
+               
+                    
+                    
+                    
+                    
+                </div>
+    <!-- Card body Div closed -->
+        
+<!-- End Rise & Fall Card -->     
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
 
-     <div style="padding-bottom: 10px;"></div>
-        
-           
- <!-- Rise & Fall Card -->                   
-    <a href="rise-and-fall.html">
+    
+    
+    <div style="padding-bottom: 150px;">
+    </div>   
+    
+    
+    
+    
+    
+    
+            <!-- Style tags need to be down here because reasons? --> 
+  <style>      
+      
+      .about-destiny-2-sacrion {
+           background-image: url(game/destiny-2/bg.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                color:white;
+            padding-top:50px;
+            padding-bottom:50px;
+       }
+      
+       
+ 
+
+</style> 
+    
+    <!-- Destiny 2: Sacrion's Demise ----------------->
+    <div align="center" class="about-destiny-2-sacrion" style="margin-top:-30px;">              
+        <a href="destiny-2-sacrion.html">
             
-                    <img src="game/rise-and-fall.png" 
+            <img src="game/destiny-2/sacrion's%20demise.png" width="676" 
                              class="img-fluid">
-                            <!-- Image of Game -->
                         
-                    </a>
-           
-        <div class="card-body pb-0">
-                    <!-- Div Containing the Text Content -->
+                        
+        </a>
+        
+        
+        
+        <!-- Rise and Fall Text -->
+        
+                  
+            <!-- Title Text -->
+            <p align="center" class="font-weight-bold my-3" style="font-size:40px;">
             
-                    <h4 class="font-weight-bold my-3">
-            
-                        <a href="rise-and-fall.html" style="color:#5b77d3;" >
-                            Rise & Fall
+                <u>
+                    <a href="destiny-2-sacrion.html" style="color:#5b77d3;" >
+                            Destiny 2: Sacrion's Demise
+                        <br> (Fan Level)
                             
                 
                             
                             (2020)
                             
-                        </a>
-                    </h4>
+                    </a>
+                </u>
+                
+                
+             <div align="center" class="card-body  about-p" style="margin-top:-30px;max-width:500px;">   
+                
+                
+                
+                
         
-                    <p>
+            <p class="card-text about-p">
                         
-                        Release Date: To Be Announced
+                <u><strong>Release Date:</strong></u> Work in Progress (Personal Project)
                         
-                    </p>
-        
-                    <p>
-                        
-                        Role: Lead Level Designer & Producer
-                        
-                    </p>
                     
-                    <p>
-                        
-                        Description: <strong>A 4 person couch co-op sports game.</strong>
-                        
-                    </p>
-                <div>
-                    <p>
-                        Two teams battle to score the ball into the other team's net, while using their unique abilities to shrink and grow.
-                        
-                    </p>
-                </div>
                     
+                    
+            <div style="padding-bottom:10px;">
+                    
+            </div>
+            
+            
+            
+            <p class="card-text about-p">
+            
+                        
+                <u><strong>Role:</strong></u>  <img src="game/level-design.png" width="20"> Level Designer, Mission Designer
+                        
+            <div style="padding-bottom:10px;">
+                    
+            </div>
+            
+            
+            
+            <p class="card-text about-p"> 
+                
+                <u>
+                    <strong>Description:</strong></u>
+                Sacrion, a Vex Mind, is mining into Rasputin's defense systems on Io.  
+                
+               
+            
+            <p class="card-text about-p" > 
+               
+               With Zavala and Ana on Comms, you'll dive deep into Rasputin's bunker to defeat an ancient foe.
+                
+             <br>
+                
+                
+                
+                <br>The mission plays in darkness, and you'll use your flashlight and light-based abilities to defeat enemies.
+                
+                
+                <!--
+                <br>
+                
+                <br>Get creative with your loadouts, classes, and abilities.
+                
+                <br>
+                
+                 <br>Completion rewards the Firestarter Exotic. And Heroic completions complete it's catalyst.
+            
+                        
+                    </p>
+               
+                   
+                   -->   
+                        
+                    </p>
+             
+                    
+            <div style="padding-bottom:20px;">
+            
+            </div>
+            
+            
                                     
-                    <button class="button-blue" onclick="window.location.href='rise-and-fall.html'">
+                    <button class="button-blue" onclick="window.location.href='destiny-2-sacrion.html'">
                         <!-- Blue Button w/ CSS Class -->
-                        <a href="rise-and-fall.html"> 
+                        <a href="destiny-2-sacrion.html"> 
                             <span style="color: white;"> 
-                               <i class="fas fa-info-circle"></i>
+                               <i class="fas fa-gamepad"></i>
                                 <strong> Learn More!</strong>
                             </span>
                         </a>
                     </button>
         
+                 <br>
+                 
+                    <button class="button-blue" onclick="window.location.href='https://github.com/davewhiffen/D2-Sakrion'">
+                        <!-- Blue Button w/ CSS Class -->
+                        <a href="https://github.com/davewhiffen/D2-Sakrion"> 
+                            <span style="color: white;padding-left:30px;padding-right:30px;"> 
+                               <i class="fab fa-github"></i>
+                                <strong> Play</strong>
+                            </span>
+                        </a>
+                    </button>
+                 
+                 
+                 <br>
+                 
+                    
+                 
+                 
+                 
+            
+    </div> 
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
                     
                   <div class="spacer">
                     </div>   
@@ -1179,441 +1259,1696 @@ a:hover { COLOR: #adadad; TEXT-DECORATION: none; font-weight: bold }</style>
                     
                     
                 </div>
-                    <!-- Card body Div closed -->
-        
-<!-- End Rise & Fall Card -->     
+    <!-- Card body Div closed -->
     
     
     
     
     
-    <div style="padding-bottom: 150px;">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div style="padding-bottom: 125px;">
     </div>   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- Style tags need to be down here because reasons? --> 
+  <style>      
+      
+      .about-overkart {
+           background-image: url(game/overkart/bg-overkart.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                color:white;
+            padding-top:50px;
+            padding-bottom:50px;
+       }
+      
+       
+ 
+
+</style> 
         
     
     
     
-    
-    
-        
-<!-- OverKart Begins -->                   
-    <a href="###">
+        <!-- Overkart  ----------------------------------->
+    <div class="about-overkart" style="margin-top:-30px;">              
+        <a href="overkart.html">
             
-                        <img src="img/thumbnails/game-design/overkart.png" 
+            <img src="game/overkart/overkart.PNG" width="676" 
                              class="img-fluid">
-                            <!-- Image of Game -->
                         
-                    </a>
-           
-    <div class="card-body pb-0">
-                    <!-- Div Containing the Text Content -->
+                        
+        </a>
+        
+        
+        
+        <!-- Rise and Fall Text -->
+        <div class="card-body pb-0" style="margin-top:-30px; align-content: center;">
+                  
+            <!-- Title Text -->
+            <p class="font-weight-bold my-3" style="font-size:40px;">
             
-        <h4 class="font-weight-bold my-3">
-            
-        <a href="#" style="color:#5b77d3;" >
-            Overkart 
+                <u>
+                    <a href="overkart.html" style="color:#5b77d3;" >
+                            Overkart
                             
                 
                             
-            (2020) 
-        </a>
-        </h4>
+                            (2020)
+                            
+                    </a>
+                </u>
         
-            <p>
+            <p class="card-text about-p; align-content:center;">
                         
-                Release Date: To Be Announced
+                <u><strong>Release Date:</strong></u> <img src="img/seasons/fall.png" width="20">Fall 2020
                         
-            </p>
-        
-            <p>
-                        
-                Role: Level Designer & Creative Director
-                        
-            </p>
-                    
-            <p>
-                        
-                Description: <strong>A Racing game with class-based combat, destructible environments, and alternate routes.</strong>
-                        
-            </p>
-                    
-            <p>
-                Race on tracks against friends or AI.  Pick your playstyle, optimize your route, alter the map, and open up alternate paths.  Play your way.
-                        
-            </p>
-                    
-            <button class="button-blue" onclick="window.location.href='###'">
-            <!-- Blue Button w/ CSS Class -->
-                <a href="###"> 
-                    <span style="color: white;"> 
-                        <i class="fas fa-info-circle"></i>
-                        <strong> Learn More!</strong>
-                    </span>
-                </a>
-            </button>
                     
                     
-        
                     
-            <div class="spacer">
+            <div style="padding-bottom:10px;">
+                    
             </div>
-   
+            
+            
+            
+            <p class="card-text about-p; align-content:center;">
+            
+                        
+                <u><strong>Role:</strong></u>  <img src="game/level-design.png" width="20"> Lead Level Designer & Creative Director
+                        
+            <div style="padding-bottom:10px;">
+                    
+            </div>
+            
+            
+            
+            <p class="card-text about-p; align-content:center;"> 
+                        
+                <u><strong>Description:</strong></u>
+                
+                
+                
+                A racing game with class-based combat, <br>destructible environments, and alternate routes.
+                        
+                    </p>
+               
+                    <p class="card-text about-p">
+                        
+                        
+                        <br>
+                        
+                    </p>
+             
+                    
+            <div style="padding-bottom:20px;">
+            
+            </div>
+            
+            
+                                    
+                    <button class="button-blue" onclick="window.location.href='overkart.html'">
+                        <!-- Blue Button w/ CSS Class -->
+                        <a href="overkart.html"> 
+                            <span style="color: white;"> 
+                               <i class="fas fa-gamepad"></i>
+                                <strong> Learn More!</strong>
+                            </span>
+                        </a>
+                    </button>
+        
+            
+    </div> 
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                    
+                  <div class="spacer">
+                    </div>   
+                    
+                    
+        
+                    
+                  <div class="spacer">
+                  </div>   
+                    
+                    
+                    
+                    
+                </div>
+    <!-- Card body Div closed -->
+        
+<!-- End Rise & Fall Card -->    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div style="padding-bottom: 125px;">
+    </div>   
+    
+    
+    
+    
+    <!-- Style tags need to be down here because reasons? --> 
+  <style>      
+      
+      .about-office-birthday {
+           background-image: url(game/office-birthday/bg.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                color:white;
+            padding-top:50px;
+            padding-bottom:50px;
+       }
+
+</style> 
+    
+    
+    
+    
+    
+         <!-- Office Birthday Party -------------------------->
+    <div class="about-office-birthday" style="margin-top:-30px;">              
+        <a href="office-birthday.html">
+            
+            <img src="game/office-birthday/office-birthday-screen.PNG" width="676" 
+                             class="img-fluid">
+                        
+                        
+        </a>
+        
+        
+        
+        <!-- Rise and Fall Text -->
+        <div class="card-body pb-0" style="margin-top:-30px;">
+                  
+            <!-- Title Text -->
+            <p class="font-weight-bold my-3" style="font-size:40px;">
+            
+                <u>
+                    <a href="office-birthday.html" style="color:#5b77d3;" >
+                            Office Birthday Party
+                            
+                
+                            
+                            (2019)
+                            
+                    </a>
+                </u>
+        
+            <p class="card-text about-p; align-content:center;">
+                        
+                <u><strong>Release Date:</strong></u> TBA (Game Jam)
+                        
+                    
+                    
+                    
+            <div style="padding-bottom:10px;">
+                    
+            </div>
+            
+            
+            
+            <p class="card-text about-p; align-content:center;">
+            
+                        
+                <u><strong>Role:</strong></u>  <img src="game/level-design.png" width="20"> Level Designer & UI
+                        
+            <div style="padding-bottom:10px;">
+                    
+            </div>
+            
+            
+            
+            <p class="card-text about-p; align-content:center;"> 
+                
+                <u>
+                    <strong>Description:</strong></u>
+                An office-based puzzle game where you avoid other people.
+                
+               
+            
+            <p class="card-text about-p; align-content:center;" > 
+               
+                As a <strong>new hire</strong> at Acme Co, you are <strong>overflowed</strong> with work.  
+                
+             <br>
+                
+                
+                
+                <br>The only way you'll finish your tasks on time is if you avoid your co-workers.  
+                
+                <br>
+                
+                <br>You don't want to get dragged to the <strong>Office Birthday Party.</strong>
+                        
+                    </p>
+               
                  
-    </div>
+             
+                    
+            <div style="padding-bottom:20px;">
+            
+            </div>
+            
+            
+                                    
+                    <button class="button-blue" onclick="window.location.href='office-birthday.html'">
+                        <!-- Blue Button w/ CSS Class -->
+                        <a href="office-birthday.html"> 
+                            <span style="color: white;"> 
+                               <i class="fas fa-gamepad"></i>
+                                <strong> Learn More!</strong>
+                            </span>
+                        </a>
+                    </button>
+            
+            
+            <br>
+            
+            
+            
+            
+               <button class="button-blue" onclick="window.location.href='https://github.com/Comp0sator/G405-GJ1'">
+                        <!-- Blue Button w/ CSS Class -->
+                        <a href="https://github.com/Comp0sator/G405-GJ1"> 
+                            <span style="color: white;padding-left:30px;padding-right:30px;"> 
+                               <i class="fab fa-github"></i>
+                                <strong> Play</strong>
+                            </span>
+                        </a>
+                    </button>
+        
+        
+    </div>   
+            
+            
+            
+            
+            
+        
+            
+    </div> 
+        
+        <style>   .about-sonic {
+           background-image: url(game/sonic/bg_sonic.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                color:white;
+            padding-top:50px;
+            padding-bottom:50px;
+       }
+        </style>
+            
+            
+                     <!-- Office Birthday Party -------------------------->
+    <div class="about-sonic" style="margin-top:-30px;">              
+        <a href="office-birthday.html">
+            
+            <img src="game/sonic/sonic.png" width="676" 
+                             class="img-fluid">
+                        
+                        
+        </a>
+        
+        
+        
+        <!-- Rise and Fall Text -->
+        <div class="card-body pb-0" style="margin-top:-30px;">
+                  
+            <!-- Title Text -->
+            <p class="font-weight-bold my-3" style="font-size:40px;">
+            
+                <u>
+                    <a style="color:#5b77d3;" >
+                            Sonic Adventure Playground
+                            
+                
+                            
+                            (2018)
+                            
+                    </a>
+                </u>
+        
+            <p class="card-text about-p; align-content:center;">
+                        
+                <u><strong>Release Date:</strong></u> Side Project
+                        
+                    
+                    
+                    
+            <div style="padding-bottom:10px;">
+                    
+            </div>
+            
+            
+            
+            <p class="card-text about-p; align-content:center;">
+            
+                        
+                <u><strong>Role:</strong></u>  <img src="game/level-design.png" width="20"> Game Designer & Level Designer
+                        
+            <div style="padding-bottom:10px;">
+                    
+            </div>
+            
+            
+            
+            <p class="card-text about-p; align-content:center;"> 
+                
+                <u>
+                    <strong>Description:</strong></u>
+                Play as Sonic in an open zone playspace.
+                
+               
+            
+            <p class="card-text about-p; align-content:center;" > 
+               
+                Uses The Sonic Bumper engine in Unity.
+                
+            
+               
+                 
+             
+                    
+            <div style="padding-bottom:20px;">
+            
+            </div>
+            
+            
+                                    
+                    <!--<button class="button-blue" onclick="window.location.href='office-birthday.html'">
+                        <!-- Blue Button w/ CSS Class --
+                        <a href="office-birthday.html"> 
+                            <span style="color: white;"> 
+                               <i class="fas fa-gamepad"></i>
+                                <strong> Learn More!</strong>
+                            </span>
+                        </a>
+                    </button>
+            -->
+            
+            <br>
+            
+            
+            
+            <!--
+               <button class="button-blue" onclick="window.location.href='https://github.com/Comp0sator/G405-GJ1'">
+                        <!-- Blue Button w/ CSS Class --
+                        <a href="https://github.com/Comp0sator/G405-GJ1"> 
+                            <span style="color: white;padding-left:30px;padding-right:30px;"> 
+                               <i class="fab fa-github"></i>
+                                <strong> Play</strong>
+                            </span>
+                        </a>
+                    </button>
+        -->
+        
+    </div>   
+            
+            
+            
+            
+            
+        
+            
+    </div> 
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                    
+                  <div class="spacer">
+                    </div>   
+                    
+                    
+        
+                    
+                  <div class="spacer">
+                  </div>   
+                    
+                    
+                    
+                    
+                </div>
     <!-- Card body Div closed -->
         
 <!-- End Card -->      
-
-        
-        
-     <div style="padding-bottom: 150px;">
-    </div>   
-        
-    
-    <!-- Errant Begins -->                   
-    <a href="###">
-            
-                        <img src="game/errant/errant-thumb.png" 
-                             class="img-fluid">
-                            <!-- Image of Game -->
-                        
-                    </a>
-           
-    <div class="card-body pb-0">
-                    <!-- Div Containing the Text Content -->
-            
-        <h4 class="font-weight-bold my-3">
-            
-        <a href="#" style="color:#5b77d3;" >
-            Errant
-                            
-                
-                            
-            (2020) 
-        </a>
-        </h4>
-        
-            <p>
-                        
-                Release Date: To Be Announced
-                        
-            </p>
-        
-            <p>
-                        
-                Role: Level Designer
-                        
-            </p>
-                    
-            <p>
-                        
-                Description: <strong>A single-player shooter with RPG-like decisions that affect the story path.
-                </strong>      
-            </p>
-                    
-            <p>
-                You play as Lucas, a man who has been awoken by a mysterous agency with the power to enter people's minds.  Your job is enter people's brains are eliminate bad thoughts before they can commit crimes.
-                        
-            </p>
-                    
-            <button class="button-blue" onclick="window.location.href='###'">
-            <!-- Blue Button w/ CSS Class -->
-                <a href="###"> 
-                    <span style="color: white;"> 
-                        <i class="fas fa-info-circle"></i>
-                        <strong> Learn More!</strong>
-                    </span>
-                </a>
-            </button>
-                    
-                    
-        
-                    
-            <div class="spacer">
-            </div>
-   
-                 
-    </div>
-<!-- Card body Div closed -->
-    
-    
-    
-    
-    
-    
-    
-       <div style="padding-bottom: 150px;">
-    </div>   
-    
-    
-    
-    
-    
-    
-<!-- Office Birthday Party Begins ------------------------------->                   
-    <a href="###">
-            
-                        <img src="game/office-birthday/office-birthday.png" 
-                             class="img-fluid">
-                            <!-- Image of Game -->
-                        
-                    </a>
-           
-    <div class="card-body pb-0">
-                    <!-- Div Containing the Text Content -->
-            
-        <h4 class="font-weight-bold my-3">
-            
-        <a href="#" style="color:#5b77d3;" >
-            Office Birthday Party 
-                            
-                
-                            
-            (2020) 
-        </a>
-        </h4>
-        
-            <p>
-                        
-                Release Date: To Be Announced
-                        
-            </p>
-        
-            <p>
-                        
-                Role: Level Designer & UI
-                        
-            </p>
-                    
-            <p>
-                        
-                Description: <strong>A co-op and single player puzzle game.</strong>
-                        
-            </p>
-                    
-            <p>
-                Players are new hires at a new office.  They have a huge list of tasks to complete, but have to avoid other workers to not be dragged into the Office Birthday Party!  Combination of puzzle solving and top down stealth.
-                        
-            </p>
-                    
-            <button class="button-blue" onclick="window.location.href='###'">
-            <!-- Blue Button w/ CSS Class -->
-                <a href="###"> 
-                    <span style="color: white;"> 
-                        <i class="fas fa-info-circle"></i>
-                        <strong> Learn More!</strong>
-                    </span>
-                </a>
-            </button>
-                    
-                    
-        
-                    
-            <div class="spacer">
-            </div>
-   
-                 
-    </div>
-<!-- Card body Div closed -->
-        
-<!-- End Office Birthday Card --------------------------------->     
-        
-        
-     <div style="padding-bottom: 150px;">
-    </div>   
-    
-    
-    
-    
-    
-    
-    
-    
-    
-       <!-- Errant Begins -->                   
-    <a href="###">
-            
-                        <img src="game/destiny-2/sacrion's%20demise.png" 
-                             class="img-fluid">
-                            <!-- Image of Game -->
-                        
-                    </a>
-           
-    <div class="card-body pb-0">
-                    <!-- Div Containing the Text Content -->
-            
-        <h4 class="font-weight-bold my-3">
-            
-        <a href="#" style="color:#5b77d3;" >
-            Destiny 2: Sakrion's Demise (Fan-Made Level)
-                            
-                
-                            
-            (2020) 
-        </a>
-        </h4>
-        
-            <p>
-                        
-                Release Date: To Be Announced
-                        
-            </p>
-        
-            <p>
-                        
-                Role: Level Designer
-                        
-            </p>
-                    
-            <p>
-                        
-                Description: <strong> A Fan-Made Mission for Destiny 2: Shadowkeep.
-                </strong>      
-            </p>
-                    Sakrion, a Genesis Mind, has been mining into Rasputin's bunkers on Io.  The Vex need to be stopped to protect our Earth Defense System.  Enter the bunker and defeat all Vex in your way.
-            <p>
-                
-                        
-            </p>
-                    
-            <button class="button-blue" onclick="window.location.href='###'">
-            <!-- Blue Button w/ CSS Class -->
-                <a href="###"> 
-                    <span style="color: white;"> 
-                        <i class="fas fa-info-circle"></i>
-                        <strong> Learn More!</strong>
-                    </span>
-                </a>
-            </button>
-                    
-                    
-        
-                    
-            <div style="padding-bottom:200px;">
-            </div>
-
-        
-      
-                
-            
-       <!-- /* The footer goes here.  It includes copyright info, my name, and links to social accounts. /*  
-    
-    Last updated April 10, 2019 @ 10:00am  --->
-
-    <footer class="page-footer font-small blue accent-1 white-text">
-
-    <!-- / * Copyright / * -->
-    <div class="footer-copyright text-center py-3">© 2020
-    <a class="white-darker-hover" href="http://www.davewhiffen.com/"> Dave Whiffen</a> / 
-        
-    <!-- / * Instagram Button / * -->
-    <a class="white-darker-hover"  href="http://www.instagram.com/davewhiffen">
-    <i class="fab fa-instagram fa-sm pr-2" aria-hidden="true"></i></a>
-
-    <!-- / * Twitter Button / * -->
-    <a class="white-darker-hover"  href="http://www.twitter.com/davewhiffen">
-    <i class="fab fa-twitter fa-sm pr-2" aria-hidden="true"></i></a>
-
-    <!-- / * LinkedIn Button / * -->
-    <a class="white-darker-hover"  href="https://www.linkedin.com/in/davewhiffen/">    
-    <i class="fab fa-linkedin fa-sm pr-2" aria-hidden="true"></i></a> / 
-    
-    <!-- YouTube Button -->    
-    <a class="white-darker-hover"  href="https://www.youtube.com/channel/UCalnmWdCEfm03zwgcRiEUXw/">
-    <i class="fab fa-youtube fa-sm pr-2" aria-hidden="true"></i></a>
-
-    <!-- Vimeo -->
-    <a class="white-darker-hover"  href="https://vimeo.com/davewhiffen">
-    <i class="fab fa-vimeo fa-sm pr-2" aria-hidden="true"></i></a>
-    
-    <!-- Twitch Button -->    
-    <a class="white-darker-hover"  href="http://www.twitch.tv/davewhiffen">
-    <i class="fab fa-twitch fa-sm pr-2" aria-hidden="true"></i></a> / 
-    
-    <!-- Email Link -->
-    <a class="white-darker-hover"  href="mailto:dave@davewhiffen.com">    
-    <i class="far fa-envelope fa-sm pr-2" aria-hidden="true"></i></a>
-
-    <!-- Telephone Link-->
-     <a class="white-darker-hover"  href="tel:416-996-8183">    
-    <i class="fas fa-phone fa-sm pr-2" aria-hidden="true"></i></a>
-    </div>
-    </div>
-</footer>
-    <!-- / * End of Footer / * -->       
-            
-
-        
-        
-        
-        
-        
-                 
-    </div>
-<!-- Card body Div closed -->
-    
-    
-     <div class="spacer">
-            </div>
-    
-    
-    
-    
     
     </div>
-    <!-- Portfolio Content Div closed -------------------------->
+    
+            
 
 
-    </div>   
-            
-            
+
+
+
+        <!-- About Spacer-->
+        <div class="about-spacer">
+
+        </div>
+        
+        <div>
+        
        
-           <!-- Closing the Portfolio Content Div --> 
+        
+        </div>
+
+
+
+
+
+
+
+        <!-- Gamelovers Card ----------------------------------->
+        <div class="shadow-text about-gamelovers" align="center" style="margin-top:-50px;">
+
+
+            <div style="font-size:70px;" class="header">
+
+
+
+
+                <strong>
+                    Biography<br>
+
+                    <u>1999-2006
+                    </u>
+
+
+                    <br>
+                    <i class="fas fa-code">
+                    </i>
+
+                    <i class="far fa-grin-tongue">
+                    </i>
+
+                    <i class="fas fa-gamepad">
+                    </i>
+
+                </strong>
+
+            </div>
+
+
+
+
+
+
+
+
+            <p class="card-text about-p shadow-text" style="margin-top:-40px;">
+                Dave originally taught himself
+                <br>
+                to write code at the age of nine.
+
+
+                <!-- Spacing -->
+                <div style="padding-bottom:5px;">
+
+                </div>
+
+
+                <p class="card-text about-p shadow-text">
+
+
+
+
+                    After also teaching himself
+                    <i class="fas fa-code"></i>
+                    <strong>Web Design</strong> and
+                    <strong><i class="far fa-grin-tongue"></i> Flash Animation </strong>, Dave built <strong>Gamelovers.ca,</strong> a gaming website.
+
+
+                    <div style="padding-bottom:5px;">
+                    </div>
+
+
+
+                    <p style="max-width: 500px;text-align: center; " class="card-text">
+
+
+                        His friends and him spent years making animated movies, comics, and making
+                        <strong><i class="fas fa-gamepad"></i> Games.</strong>
+
+
+
+
+                        <!-- 3 Photos in a Line -->
+                        <div>
+                            <table>
+                                <th>
+                                </th>
+                                <tr>
+                                    <td><img class="about-me-photo" src="animation/thumb-intro.PNG">
+
+                                    </td>
+
+                                    <td> <img class="about-me-photo" src="animation/mario%20babies.PNG">
+
+                                    </td>
+
+                                    <td> <img class="about-me-photo" src="web/gamelovers-4-full.png">
+
+                                    </td>
+
+
+
+                                </tr>
+
+                            </table>
+                        </div>
+
+
+
+
+
+                        <p style="max-width: 400px;text-align: center; " class="card-text">
+                            By 2004, Gamelovers had recieved over <strong>200,000 </strong>unique visitors.
+
+
+
+                            <div style="padding-bottom:10px;">
+
+                            </div>
+
+
+
+                            <p style="max-width: 400px;text-align: center; " class="card-text">
+
+                                Dave had also brought in a staff of a dozen artists, who also produced content for the website.</p>
+
+
+
+
+                            <div style="padding-bottom:75px;"></div>
+
+
+        </div>
+        <!-- End of 1999-2006 Section -->
+
+
+
+
+
+
+
+
+
+
+        <!-- About Spacer-->
+        <div class="about-spacer">
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <!-- Style tags need to be down here because reasons? -->
+        <style>
+            .about-3 {
+                background-image: url(img/thumbnails/about/singularity-new.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                color: white;
+            }
+
+        </style>
+
+
+
+
+
+
+
+        <!-- Singularity  --------------------------------------->
+        <div class="about-3 shadow-text" align="center">
+
+
+
+
+            <!-- 2007-2010 -->
+            <div style="font-size:70px;" class="header">
+                <strong>
+
+
+                    <u>2007-2010
+                    </u>
+
+
+                    <br>
+                    <i class="fas fa-film">
+                    </i>
+
+                </strong>
+
+            </div>
+
+
+
+
+
+
+
+
+
+            <p class="card-text about-p" style="margin-top:-50px;">
+
+                <br>By 2007, Dave started learning about directing live action videos.
+
+
+                <div style="padding-bottom: 10px;">
+
+                </div>
+
+
+                <p class="card-text about-p">
+
+
+                    After several years of <strong>producing</strong> and <strong>editing</strong> freelance projects, Dave <strong>wrote</strong> and <strong>produced</strong> his own feature length
+
+                    <i class="fas fa-film">
+                    </i>
+
+                    film, called <strong>'Singularity'.</strong>
+
+
+
+
+                    <div style="padding-bottom: 10px;">
+
+                    </div>
+
+
+
+
+                    <!-- Youtube video Wrapper -->
+                    <div style="border-radius: 10px;">
+                        <iframe style="border-radius: 10px;" width="400" height="225" src="https://www.youtube.com/embed/sMalwQT30RU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+
+
+
+
+
+                    <div style="padding-bottom: 10px;">
+
+                    </div>
+
+
+
+
+                    <p class="card-text about-p">
+
+                        The film premiered in 2010 at his local school theater, and all proceeds were donated to the ‘HOPE’ charity.
+
+                        <!-- Singularity Photos -->
+                        <div>
+                            <table>
+                                <th></th>
+                                <tr>
+
+                                    <td>
+                                        <img style="width:300px;height:auto;" class="about-me-photo" src="film/singularity-poster.jpg">
+                                    </td>
+
+
+
+
+                                    <td>
+                                        <img style="width:300px;height:auto;" class="about-me-photo" src="img/thumbnails/about/2010-SINGULARITY-PREMEIRE.png">
+                                    </td>
+
+
+                                </tr>
+
+                            </table>
+
+
+                        </div>
+
+
+
+
+
+                        <div style="padding-bottom:100px;">
+
+                        </div>
+
+
+        </div>
+        <!-- End of 2007-2010-->
+
+
+
+
+
+
+
+
+
+
+        <!-- About Spacer-->
+        <div class="about-spacer">
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <!-- Style tags need to be down here because reasons? -->
+        <style>
+            .about-tv {
+                background-image: url(img/thumbnails/about/studio.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                color: white;
+            }
+
+        </style>
+
+
+
+
+
+
+
+
+
+
+        <!-- Ryerson TV --------------------------------------->
+        <div class="about-tv shadow-text" align="center">
+
+
+
+
+            <!-- 2010-2015 -->
+            <div style="font-size:70px;" class="header shadow-text">
+                <strong>
+
+
+                    <u>2010-2015
+                    </u>
+
+
+                    <br>
+                    <i class="fas fa-tv">
+                    </i>
+
+                </strong>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <p class="card-text about-p" style="margin-top: -40px;">
+
+
+                In 2010, Dave was accepted to <strong>Ryerson University’s Radio and
+                    <i class="fas fa-tv">
+                    </i>
+                    Television (Media Production) program.</strong>
+
+
+                <div style="padding-bottom: 10px;">
+                </div>
+
+                <p class="card-text about-p">
+
+
+
+                    Dave majored in <strong>EFP Film and Television Broadcast</strong>, and won <strong>two awards </strong>for his projects.
+
+
+
+
+
+
+                    <div style="padding-bottom: 10px;">
+
+                    </div>
+
+
+
+                    <!-- Hunting Season Video -->
+                    <div>
+
+                        <iframe style="border-radius: 10px;" src="https://player.vimeo.com/video/36125541" width="400" height="225" frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
+                        </iframe>
+
+                    </div>
+
+                    <div style="padding-bottom: 10px;">
+
+                    </div>
+
+
+
+
+
+
+                    <p class="card-text about-p">
+
+                        He won <strong>'Best First Year Film'</strong> for 'Time and Again', and <strong>'Best Practicum'</strong> for 'Hunting Season.
+
+
+                        <div style="padding-bottom: 10px;">
+
+                        </div>
+
+                        <p class="card-text about-p">
+
+
+
+                            Dave graduated in 2015.
+
+
+
+
+                            <!-- TV Photos -->
+                            <div>
+                                <table>
+                                    <th></th>
+                                    <tr>
+                                        <td>
+
+                                            <img style="width:300px;height:auto" class="about-me-photo" src="tv/tv-studio-team.jpg">
+
+
+                                        </td>
+
+                                        <td>
+                                            <img style="width:300px;height:auto" class="about-me-photo" src="tv/hunting-season-team.jpg">
+
+                                        </td>
+
+
+
+                                    </tr>
+
+                                </table>
+                            </div>
+
+
+                            <div style="padding-bottom: 100px;">
+
+                            </div>
+
+
+
+
+        </div>
+        <!-- End 2010-2015 -->
+
+
+
+
+
+        <!-- Style tags need to be down here because reasons? -->
+        <style>
+            .about-hnic {
+                background-image: url(img/thumbnails/about/hnic.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                color: white;
+            }
+
+        </style>
+
+
+
+
+
+
+
+
+
+
+        <!-- Hockey Night in Canada -->
+        <div class="about-hnic" align="center">
+
+            <div style="padding-bottom: 100px;">
+
+            </div>
+
+            <p class="card-text about-p">
+
+                <br><br>
+
+                In 2014, Dave earned an <strong>internship</strong> with <strong>CBC and<br> Hockey Night in Canada</strong> through Ryerson.
+
+
+                <br><br>
+
+                Dave worked as a <strong>Program Assistant,<br></strong> shot-listing video, editing segments, and conducting research for the broadcast.
+
+            </p>
+
+
+
+            <div style="padding-bottom:150px;">
+
+            </div>
+
+
+        </div>
+        <!-- Hockey night in Canada -->
+
+
+
+
+
+
+
+
+
+
+        <!-- Style tags need to be down here because reasons? -->
+        <style>
+            .about-hockey {
+                background-image: url(img/thumbnails/about/ryerson-team.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                color: white;
+            }
+
+        </style>
+
+
+        <!-- About Spacer-->
+        <div class="about-spacer">
+
+        </div>
+
+
+
+
+
+
+
+
+        <!-- Ryerson Hockey ------------------------------------->
+        <div align="center" class="about-hockey shadow-text">
+
+
+
+
+
+            <!-- 2010-2015 -->
+            <div style="font-size:70px;" class="header shadow-text">
+                <strong>
+
+
+                    <u>2013-Present
+                    </u>
+
+
+                    <br>
+                    <i class="fas fa-hockey-puck">
+                    </i>
+
+                </strong>
+
+            </div>
+
+
+
+
+
+
+
+
+            <p class="card-text about-p" style="margin-top: -50px;">
+
+
+
+                <br>In 2013, Dave was hired as <strong><i class="fas fa-hockey-puck"></i> Statistician</strong> for the <strong>Ryerson University Men’s Hockey Team,</strong> working under head coach Graham Wise.
+
+                <div style="padding-bottom: 10px;">
+                </div>
+
+
+                <p class="card-text about-p">
+                    Over seven seasons, Dave has built his own <strong>video and analytics systems</strong> for the team from the ground up.
+
+
+
+
+
+
+
+                    <div style="padding-bottom: 10px;">
+                    </div>
+
+
+
+
+
+
+                    <!-- Statistician Video -->
+                    <div style="border-radius: 10px;">
+                        <iframe style="border-radius: 10px;" width="400" height="225" src="https://www.youtube.com/embed/7sc3w84GMX0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                    </div>
+                    <!-- Statistician Video -->
+
+
+
+
+
+
+
+                    <div style="padding-bottom: 10px;">
+                    </div>
+
+
+
+
+
+
+
+                    <p class="card-text about-p">
+
+
+                        Dave has developed:
+                        <br>
+                        <strong>Team Applications,</strong>
+
+                        <br>
+                        <strong>Puck Possession Applications,</strong>
+
+                        <br>
+                        <strong>Ice-time Applications,</strong>
+
+                        <br>
+                        <strong>Video Coaching-Specific Applications,</strong>
+
+                        <br>
+
+                        <strong>Pre-Scout Applications.</strong>
+
+
+
+
+                        <div style="padding-bottom: 10px;">
+
+                        </div>
+
+
+
+                        <p style="max-width: 400px;text-align: center; " class="card-text">
+
+
+                            Dave currently works as <strong>Ryerson's Video Coach.</strong>
+
+
+
+
+
+                        </p>
+
+
+
+
+
+                        <div style="padding-bottom: 75px;">
+
+
+
+
+                        </div>
+
+
+
+
+
+
+
+        </div>
+        <!-- Ryerson Hockey --------------------------------->
+
+
+
+
+
+        <!-- About Spacer-->
+        <div class="about-spacer">
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <!-- Style tags need to be down here because reasons? -->
+        <style>
+            .about-construction {
+                background-image: url(img/thumbnails/about/construction.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                color: white;
+            }
+
+        </style>
+
+
+
+
+        <!-- Construction -------------------------------------->
+        <div class="about-construction shadow-text" align="center">
+
+
+
+
+
+            <!-- 2010-2015 -->
+            <div style="font-size:70px;" class="header shadow-text">
+                <strong>
+
+
+                    <u>2011-Present
+                    </u>
+
+
+                    <br>
+                    <i class="fas fa-hammer">
+                    </i>
+
+                </strong>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <p class="card-text about-p" style="margin-top: -40px;">
+
+                In the summers, Dave works as a
+                <i class="fas fa-hammer">
+                </i>
+                <strong> Carpenter</strong> for One York Construction in Toronto.
+
+
+                <!-- Construction Photos -->
+                <div>
+                    <table>
+                        <th></th>
+                        <tr>
+
+
+
+                            <td>
+                                <img class="about-me-photo" src="construction/projects/Deck,%20Fencing,%20Interlock.jpg">
+                            </td>
+
+
+
+                            <td>
+                                <img class="about-me-photo" src="construction/projects/Roxborough%201.jpeg">
+                            </td>
+
+
+
+                            <td>
+                                <img class="about-me-photo" src="construction/projects/kitchen.jpg">
+                            </td>
+
+
+
+                        </tr>
+
+                    </table>
+                </div>
+                <!-- Construction Photos -->
+
+
+
+
+
+
+                <p class="card-text about-p">
+
+
+
+
+                    He's spent his last 9 summers working in various construction, landscaping, and carpenter positions.
+
+
+
+                </p>
+
+
+                <div style="padding-bottom: 150px;">
+
+                </div>
+
+
+
+        </div>
+        <!-- Construction End -->
+
+
+
+        <div style="padding-bottom: 0px;">
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <!-- Style tags need to be down here because reasons? -->
+        <style>
+            .about-6 {
+                background-image: url(img/thumbnails/about/game-design-3.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                color: white;
+            }
+
+        </style>
+
+
+
+
+
+
+        <!-- About Spacer-->
+        <div class="about-spacer">
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <!-- Game Design------------------------------------->
+        <div class="about-6 shadow-text" align="center">
+
+
+
+
+
+            <!-- 2010-2015 -->
+            <div style="font-size:70px;" class="header shadow-text">
+                <strong>
+
+
+                    <u>2019-Present
+                    </u>
+
+
+                    <br>
+                    <i class="fas fa-gamepad">
+                    </i>
+
+                </strong>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <p class="card-text about-p" style="margin-top: -50px;">
+
+
+                In 2019, Dave went back to school for a <strong>Post Graduate Certificate</strong> in <strong><i class="fas fa-gamepad"></i> Game Design at George Brown.
+                </strong>
+
+                <!-- Game Design Photo -->
+                <div>
+                    <table>
+                        <th></th>
+                        <tr>
+
+
+                            <td>
+                                <img style="width:400px;height:auto;" class="about-me-photo" src="img/thumbnails/about/game-design-2.png">
+                            </td>
+
+
+
+                        </tr>
+
+                    </table>
+                </div>
+
+
+
+
+
+                <p class="card-text about-p">
+                    He <strong>graduated in 2020</strong> and now works as Game Director, Game & Level Designer on Rise and Fall.
+                    
+                    
+                    <br><br>
+                    Rise and Fall launched in <strong>2020 in Early Access. </strong>
+                    <br>It gets <strong>annual substantial updates</strong>
+                    <br>As well as patches and hotfixes every few weeks.
+                    
+                    <br><br>
+                    
+                    Dave <strong>teaches Game Design</strong> at George Brown College.                    
+                    
+
+                   
+
+
+
+                    <div style="padding-bottom:30px;">
+                    </div>
+
+
+
+                    <!-- Let's see the projects! Button -->
+                    <div>
+
+
+                        <button class="button-blue" onclick="window.location.href='game.html'">
+                            <!-- Blue Button w/ CSS Class -->
+                            <a href="game.html">
+                                <span style="color: white;">
+                                    <i class="fas fa-gamepad">
+                                    </i>
+                                    <strong> Game Design Projects!</strong>
+                                 
+                                </span>
+                            </a>
+                        </button>
+
+
+                    </div>
+
+
+
+
+                    <div style="padding-bottom: 75px;">
+
+                    </div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+        <!-- Game Design Div End ------------------------------->
+
+
+
+
+
+
+
+
+
+
+        <!--Spacing at end of page-->
+        <div style="padding-bottom:0px;">
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <!--Footer-->
+        <footer style="max-width: 100%;font-size:20px;" class="page-footer font-small blue accent-1 white-text">
+
+
+
+
+            <!-- / * Copyright / * -->
+            <div class="footer-copyright text-center py-3">
+
+                © 2025
+
+                <a class="white-darker-hover" href="http://www.davewhiffen.com/">
+                   Coded by Dave Whiffen
+                </a> /
+
+
+
+
+                <!-- / * Instagram Button / * -->
+                <a class="white-darker-hover" href="http://www.instagram.com/davewhiffen">
+                    <i class="fab fa-instagram fa-sm pr-2" aria-hidden="true">
+                    </i>
+                </a>
+
+
+
+                <!-- / * Twitter Button / * -->
+                <a class="white-darker-hover" href="http://www.twitter.com/davewhiffen">
+                    <i class="fab fa-twitter fa-sm pr-2" aria-hidden="true">
+                    </i>
+                </a>
+
+
+
+
+
+                <!-- / * LinkedIn Button / * -->
+                <a class="white-darker-hover" href="https://www.linkedin.com/in/davewhiffen/">
+                    <i class="fab fa-linkedin fa-sm pr-2" aria-hidden="true">
+                    </i>
+                </a> /
+
+
+
+
+
+                <!-- YouTube Button -->
+                <a class="white-darker-hover" href="https://www.youtube.com/channel/UCalnmWdCEfm03zwgcRiEUXw/">
+                    <i class="fab fa-youtube fa-sm pr-2" aria-hidden="true">
+                    </i>
+                </a>
+
+
+
+
+                <!-- Vimeo -->
+                <a class="white-darker-hover" href="https://vimeo.com/davewhiffen">
+                    <i class="fab fa-vimeo fa-sm pr-2" aria-hidden="true">
+                    </i>
+                </a>
+
+
+
+
+
+                <!-- Twitch Button -->
+                <a class="white-darker-hover" href="http://www.twitch.tv/davewhiffen">
+                    <i class="fab fa-twitch fa-sm pr-2" aria-hidden="true">
+                    </i>
+                </a> /
+
+
+
+
+                <!-- Email Link -->
+                <a class="white-darker-hover" href="mailto:dave@davewhiffen.com">
+                    <i class="far fa-envelope fa-sm pr-2" aria-hidden="true">
+                    </i>
+                </a>
+
+                <!-- Telephone Link-->
+                <a class="white-darker-hover" href="tel:416-996-8183">
+                    <i class="fas fa-phone fa-sm pr-2" aria-hidden="true">
+                    </i>
+                </a>
+            </div>
+
+        </footer>
+
+
+
+
+        <!-- / * End of Footer / * -->
+
+
+
+
+
+
+
+
+
+        <!--Start of Tawk.to Script-->
+        <script type="text/javascript">
+            var Tawk_API = Tawk_API || {},
+                Tawk_LoadStart = new Date();
+            (function() {
+                var s1 = document.createElement("script"),
+                    s0 = document.getElementsByTagName("script")[0];
+                s1.async = true;
+                s1.src = 'https://embed.tawk.to/5ce97dd62135900bac127f2a/default';
+                s1.charset = 'UTF-8';
+                s1.setAttribute('crossorigin', '*');
+                s0.parentNode.insertBefore(s1, s0);
+            })();
+
+        </script>
+        <!--End of Tawk.to Script-->
+
+
+
+        <!-- SCRIPTS -->
+
+
+        <!-- JQuery -->
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+
+        <!-- Bootstrap tooltips -->
+        <script type="text/javascript" src="js/popper.min.js"></script>
+
+        <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+        <!-- MDB core JavaScript -->
+        <script type="text/javascript" src="js/mdb.js"></script>
+
+
+
+
+        
+        
+    </div>
     
-  
 
 
-
-
-    <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
-        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-        (function(){
-            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-            s1.async=true;
-            s1.src='https://embed.tawk.to/5ce97dd62135900bac127f2a/default';
-            s1.charset='UTF-8';
-            s1.setAttribute('crossorigin','*');
-            s0.parentNode.insertBefore(s1,s0);
-        })();
-    </script>
-<!--End of Tawk.to Script-->
-
-
-
-  <!-- SCRIPTS -->
-
-
-  <!-- JQuery -->
-  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-
-  <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="js/popper.min.js"></script>
-
-  <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-
-  <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="js/mdb.js"></script>
-
-
-
-
-
-
-
-
+   
 </body>
-    <!-- End of body -->
+<!-- End of body -->
 
 </html>
