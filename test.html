@@ -10,13 +10,20 @@
         <link href="css/style2.css" rel="stylesheet">
         <link href="css/main.css" rel="stylesheet">
         <style>
+            .project-container {
+                display: flex;
+                justify-content: center;
+                padding: 20px 0;
+            }
             .project-table {
                 width: 90%;
                 max-width: 800px;
                 table-layout: fixed;
+                border-collapse: collapse;
             }
             .project-table td {
                 width: 33.33%;
+                border: none;
             }
             .project-img {
                 width: 100%;
@@ -25,15 +32,16 @@
             }
         </style>
     </head>
-    <body style="display:flex; justify-content:center; align-items:center; height:100vh; margin:0;">
-        <table class="project-table" border="1" cellpadding="8" cellspacing="0">
+    <body>
+        <div class="project-container">
+        <table class="project-table" cellpadding="8" cellspacing="0">
             <tr>
                 <td><img src="img/game-design/projects/project_RNF-26.png" class="project-img" alt=""></td>
                 <td><img src="img/game-design/projects/project_RNF-versus.png" class="project-img" alt=""></td>
                 <td><img src="img/game-design/projects/projects_RNF2020.png" class="project-img" alt=""></td>
             </tr>
             <tr>
-                <td><img src="img/game-design/projects/projects_destinyA.png" class="project-img" alt=""></td>
+                <td><img src="img/game-design/projects/projects_destinyA.PNG" class="project-img" alt=""></td>
                 <td><img src="img/game-design/projects/projects_errant.png" class="project-img" alt=""></td>
                 <td><img src="img/game-design/projects/projects_overkart.PNG" class="project-img" alt=""></td>
             </tr>
@@ -43,5 +51,6 @@
                 <td><img src="img/game-design/projects/projects_sonic.png" class="project-img" alt=""></td>
             </tr>
         </table>
+        </div>
     </body>
 </html>
