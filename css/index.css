@@ -115,6 +115,7 @@ a:hover {
 /* Navigation */
 .navbar {
     background-color: transparent;
+    height: 60px;
 }
 
 .scrolling-navbar {
@@ -347,3 +348,55 @@ body,
     background-position: center;
     color: white;
 }
+
+/* ---- Consolidated inline-style classes ---- */
+
+/* Navbar */
+.navbar-title  { font-size: 20px; margin-top: -10px; }
+.navbar-icons  { font-size: 30px; margin-top: -2px;  }
+
+/* Hero section */
+.hero-header   { font-size: 70px; margin-top: -10px; }
+.hero-subtitle { font-size: 20px; margin-top: -15px; }
+.mt-neg-50     { margin-top: -50px; }
+.mt-neg-40     { margin-top: -40px; }
+.mt-neg-30     { margin-top: -30px; }
+
+/* Card / section layout */
+.card-section      { margin-top: -30px; align-content: center; }
+.card-body-section { margin-top: -30px; max-width: 500px;      }
+
+/* Typography */
+.text-xxl      { font-size: 70px;  }
+.text-xl       { font-size: 40px;  }
+.text-md       { font-size: 20px;  }
+.text-md-tight { font-size: 20px;  margin-top: -10px; }
+
+/* Links & buttons */
+.link-blue        { color: #5b77d3; }
+.btn-label        { color: white;   }
+.btn-label-padded { color: white; padding-left: 30px; padding-right: 30px; }
+
+/* Text blocks */
+.text-center-500 { max-width: 500px; text-align: center; }
+.text-center-400 { max-width: 400px; text-align: center; }
+
+/* Images */
+.rounded-10 { border-radius: 10px; }
+.w-300      { width: 300px; height: auto; }
+.w-400      { width: 400px; height: auto; }
+
+/* Footer */
+.footer-text { max-width: 100%; font-size: 20px; }
+
+/* Spacers */
+.pb-5   { padding-bottom: 5px;   }
+.pb-10  { padding-bottom: 10px;  }
+.pb-15  { padding-bottom: 15px;  }
+.pb-20  { padding-bottom: 20px;  }
+.pb-25  { padding-bottom: 25px;  }
+.pb-30  { padding-bottom: 30px;  }
+.pb-75  { padding-bottom: 75px;  }
+.pb-100 { padding-bottom: 100px; }
+.pb-125 { padding-bottom: 125px; }
+.pb-150 { padding-bottom: 150px; }

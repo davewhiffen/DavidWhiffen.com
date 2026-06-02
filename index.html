@@ -73,13 +73,13 @@
 
 <body>
   
-    <div name="navbar">
+<div name="navbar">
         <!-- Div to contain all the navbar content -->
 
-        <nav class="navbar fixed-top  indigo darken-2" style="height:60px;">
+        <nav class="navbar fixed-top  indigo darken-2">
             
             <!-- / * Navigation Title and Icon / * -->
-            <a class="white-bold white-darker-hover waves-effect" style="font-size:20px;margin-top:-10px;" href="index.html">
+            <a class="white-bold white-darker-hover waves-effect text-md-tight" href="index.html">
 
                 <img class="img-avatar" src="img/dave_2025.jpeg" width="44">
 
@@ -87,7 +87,7 @@
             </a>
 
             <!-- Social Bar -->
-            <div style="font-size:30px;margin-top:-2px;">
+            <div class="navbar-icons">
 
                 <!-- / * Instagram Button / * -->
                 <a class="nav-item waves-effect" href="http://www.instagram.com/davewhiffen">
@@ -113,40 +113,41 @@
                     </i>
                 </a>
 
+            </div>
 
         </nav>
+        
+</div>
 
-    <!-- BELOW NAVBAR ------------------------------------------>
-    <div class="portfolio-content bg animated fadeIn">
+<div name="content" class="portfolio-content bg animated fadeIn">
 
-        <!-- About Dave -->
-        <div align="center" class="about-dave">
+    <div name="about" class="about-dave">
 
-            <div style="font-size:70px; margin-top:-10px;" class="header shadow-text"></div>
+            <div class="header shadow-text hero-header"></div>
 
-            <img style="margin-top:-50px;" width="250" height="auto" class="img-fluid" src="img/dave_2025.jpeg">
+            <img width="250" height="auto" class="img-fluid mt-neg-50" src="img/dave_2025.jpeg">
 
             <!-- Name -->
-            <div class="card-text shadow-text" style="font-size:40px;">
+            <div class="card-text shadow-text text-xl">
                 <strong>Dave Whiffen</strong>
             </div>
 
             <!-- Title & Location -->
-            <div class="card-text shadow-text" style="font-size:20px; margin-top:-15px;">
+            <div class="card-text shadow-text hero-subtitle">
                 <strong><i class="fas fa-gamepad"></i> Game &amp; Level Designer</strong>
                 <br>
                 <strong>Toronto,</strong> <img src="about/canada-flag.jpg" width="25" height="auto"> Canada.
             </div>
 
             <!-- Phone -->
-            <div class="card-text shadow-text" style="font-size:20px;">
+            <div class="card-text shadow-text text-md">
                 <a class="white-darker-hover" href="tel:416-996-8183">
                     <i class="fas fa-phone fa-sm pr-2" aria-hidden="true"></i> (416) 996-8183
                 </a>
             </div>
 
             <!-- LinkedIn -->
-            <div class="card-text shadow-text" style="font-size:20px; margin-top:-10px;">
+            <div class="card-text shadow-text text-md-tight">
                 <a class="white-darker-hover" href="https://www.linkedin.com/in/davewhiffen/">
                     <i class="fab fa-linkedin fa-sm pr-2" aria-hidden="true"></i>
                     @DaveWhiffen
@@ -154,29 +155,22 @@
             </div>
 
             <!-- Email -->
-            <div class="card-text shadow-text" style="font-size:20px; margin-top:-10px;">
+            <div class="card-text shadow-text text-md-tight">
                 <a class="white-darker-hover" href="mailto:dave@davewhiffen.com">
                     <i class="far fa-envelope fa-sm pr-2" aria-hidden="true"></i>
                     dave@davewhiffen.com
                 </a>
             </div>
 
-            <div style="padding-bottom:15px;"></div>
+            <div class="pb-15"></div>
 
             <!-- Buttons -->
             <div>
-                <button class="button-blue" onclick="window.location.href='game.html'">
-                    <a href="game.html">
-                        <span style="color: white;">
-                            <i class="fas fa-gamepad"></i>
-                            <strong> Projects!</strong>
-                        </span>
-                    </a>
-                </button>
+             
 
                 <button class="button-blue" onclick="window.location.href='doc/Whiffen-Dave_Resume.pdf'">
                     <a href="doc/Whiffen-Dave_Resume.pdf">
-                        <span style="color: white;">
+                        <span class="btn-label">
                             <i class="fas fa-file"></i>
                             <strong> Resume</strong>
                         </span>
@@ -184,18 +178,16 @@
                 </button>
             </div>
 
-            <div style="padding-bottom:25px;"></div>
+            <div class="pb-25"></div>
 
             <!-- Scroll prompt -->
-            <div class="card-text shadow-text" style="font-size:20px;">
+            <div class="card-text shadow-text text-md">
                 <i class="fas fa-long-arrow-alt-down"></i> Projects Below! <i class="fas fa-long-arrow-alt-down"></i>
             </div>
 
         </div>
         <!-- End of About Dave -->
-        
-        
-             <div class="project-container">
+    <div name="projects" class="project-container">
         <table class="project-table" cellpadding="8" cellspacing="0">
             <tr>
                 <td><img src="img/game-design/projects/project_RNF-26.png" class="project-img" alt=""></td>
@@ -213,200 +205,101 @@
                 <td><img src="img/game-design/projects/projects_sonic.png" class="project-img" alt=""></td>
             </tr>
         </table>
-        </div>
-        
-        
-        
-        
-    
-    
+    </div>
+
         <!-- Rise & Fall Card ----------------------------------->
-    <div class="about-rise-and-fall" style="margin-top:-30px;">              
+    <div name="about-riseandfall-2026" class="about-rise-and-fall mt-neg-30">              
         <a href="rise-and-fall.html">
-            
-            <img src="game/rise-and-fall/riseandfall-freeroam.png" 
-                             class="img-fluid">
-                        
-                        
+        <img src="game/rise-and-fall/riseandfall-freeroam.png" class="img-fluid">                
         </a>
-        
-        
-        
-        <!-- Rise and Fall Text -->
-        <div class="card-body pb-0" style="margin-top:-30px; align-content: center;">
-                  
-            <!-- Title Text -->
-            <p class="font-weight-bold my-3" style="font-size:40px;">
-            
+        <div class="card-body pb-0 card-section">
+            <p class="font-weight-bold my-3 text-xl">
                 <u>
-                    <a href="rise-and-fall.html" style="color:#5b77d3;" >
-                            Rise & Fall: Adventure Mode
-                            
-                
-                            
-                            (2026)
-                            
-                    </a>
+                <a class="link-blue" href="rise-and-fall.html" >
+                    Rise & Fall: Adventure Mode (2026)   
+                </a>
                 </u>
         
             <p class="card-text about-p; align-content:center;">
                         
-                <u><strong>Release Date:</strong></u> 
-                
-                Spring 2026  
-                
+                <u><strong>Release Date:</strong></u> Spring 2026  
                 <img src="game/icons/steam.png" width="20">
-                
-                    
-                    
-            <div style="padding-bottom:10px;">
-                    
+            
+            <div class="pb-10">  
             </div>
-            
-            
-            
+        
             <p class="card-text about-p; align-content:center;">
-            
+                <u><strong>Role:</strong></u> Game & Level Designer
                         
-                <u><strong>Role:</strong></u> 
-               
-                Game & Level Designer
-                        
-            <div style="padding-bottom:10px;">
-                    
+            <div class="pb-10">
             </div>
-            
-            
             
             <p class="card-text about-p; align-content:center;"> 
-                        
                 <u><strong>Description:</strong></u> 3rd Person Platformer mode inside Rise & Fall game.
-                        
-                    </p>
+            </p>
                
-                    <p class="card-text about-p; align-content:center;">
-                        Collect coins and stars in an open environment.
-                        
-                        <br>using your moveset from the Versus mode of the game. 
-                        
-                    </p>
+            <p class="card-text about-p; align-content:center;">
+                Collect coins and stars in an open environment.           
+            <br>using your moveset from the Versus mode of the game. 
+            </p>
              
                     
-            <div style="padding-bottom:20px;">
-            
+            <div class="pb-20">
             </div>
             
             
                                     
-                    <button class="button-blue" onclick="window.location.href='rise-and-fall.html'">
-                        
-                        <!-- Blue Button w/ CSS Class -->
-                        <a href="rise-and-fall.html"> 
-                            
-                            <span style="color: white;"> 
-                                
-                               <i class="fas fa-gamepad"></i>
-                                
-                                <strong> Learn More!</strong>
-                            </span>
-                        </a>
-                    </button>
-           <br> 
+            <button class="button-blue" onclick="window.location.href='rise-and-fall.html'">
+                <span class="btn-label"> 
+                <i class="fas fa-gamepad"></i>
+                <strong> Learn More!</strong>
+                </span>
+            </button>
+           
+            <br> 
             
-                  <button class="button-blue" onclick="window.location.href='https://store.steampowered.com/app/1332840/Rise_and_Fall/'">
-                      
-                        <!-- Blue Button w/ CSS Class -->
-                        <a href="https://store.steampowered.com/app/1332840/Rise_and_Fall/"> 
-                            
-                            <span style="color: white;"> 
-                                
+            <button class="button-blue" onclick="window.location.href='https://store.steampowered.com/app/1332840/Rise_and_Fall/'">
+                            <span class="btn-label"> 
                              <img src="game/icons/steam.png" width="20">
-                                
                             <strong> Steam Page</strong>
-                            
-                            </span>
-                            
-                        </a>
-                      
-                    </button>
+                            </span>  
+            </button>
             
             <br>
             
              <button class="button-blue" onclick="window.location.href='https://store.steampowered.com/news/app/1332840'">
-                      
-                        <!-- Blue Button w/ CSS Class -->
-                        <a href="https://store.steampowered.com/news/app/1332840"> 
-                            
-                            <span style="color: white;"> 
-                                
+                            <span class="btn-label">    
                              <img src="game/icons/steam.png" width="20">
-                                
                             <strong> Update History</strong>
-                            
                             </span>
-                            
-                        </a>
-                      
-                    </button>
-            
-            
-            
-            
-            
-            
-        
-            
+
+            </button>
+
     </div> 
         
-        
-        
-            
-            
-            
-            
-            
-                    
-                  <div class="spacer">
-                    </div>   
-                    
-                    
-        
-               
-                    
-                    
-                    
-                    
-                </div>
-    <!-- Card body Div closed -->
-        
-          <!-- Just a spacing Div-->
-            <div style="padding-bottom: 30px;">
-            </div>
-        
-<!-- End Rise & Fall Card -->     
+    <div class="spacer">
+    </div>   
+          
+    </div>
     
-    
-    
-    <!-- Rise & Fall Card ----------------------------------->
-    <div class="about-rise-and-fall" style="margin-top:-30px;">              
+    <div class="pb-30"></div>
+
+    <div name="about-riseandfall" class="about-rise-and-fall mt-neg-30">              
         <a href="rise-and-fall.html">
-            
-            <img src="img/thumbnails/about/game-design-3a.png" 
-                             class="img-fluid">
-                        
-                        
+        <img src="img/thumbnails/about/game-design-3a.png" class="img-fluid">
+                    
         </a>
         
         
         
         <!-- Rise and Fall Text -->
-        <div class="card-body pb-0" style="margin-top:-30px; align-content: center;">
+        <div class="card-body pb-0 card-section">
                   
             <!-- Title Text -->
-            <p class="font-weight-bold my-3" style="font-size:40px;">
+            <p class="font-weight-bold my-3 text-xl">
             
                 <u>
-                    <a href="rise-and-fall.html" style="color:#5b77d3;" >
+                    <a class="link-blue" href="rise-and-fall.html" >
                             Rise & Fall
                             
                 
@@ -435,7 +328,7 @@
                     
                     
                     
-            <div style="padding-bottom:10px;">
+            <div class="pb-10">
                     
             </div>
             
@@ -448,7 +341,7 @@
                
                 Game Director, Game & Level Designer
                         
-            <div style="padding-bottom:10px;">
+            <div class="pb-10">
                     
             </div>
             
@@ -468,7 +361,7 @@
                     </p>
              
                     
-            <div style="padding-bottom:20px;">
+            <div class="pb-20">
             
             </div>
             
@@ -479,7 +372,7 @@
                         <!-- Blue Button w/ CSS Class -->
                         <a href="rise-and-fall.html"> 
                             
-                            <span style="color: white;"> 
+                            <span class="btn-label"> 
                                 
                                <i class="fas fa-gamepad"></i>
                                 
@@ -494,7 +387,7 @@
                         <!-- Blue Button w/ CSS Class -->
                         <a href="https://store.steampowered.com/app/1332840/Rise_and_Fall/"> 
                             
-                            <span style="color: white;"> 
+                            <span class="btn-label"> 
                                 
                              <img src="game/icons/steam.png" width="20">
                                 
@@ -513,7 +406,7 @@
                         <!-- Blue Button w/ CSS Class -->
                         <a href="https://store.steampowered.com/news/app/1332840"> 
                             
-                            <span style="color: white;"> 
+                            <span class="btn-label"> 
                                 
                              <img src="game/icons/steam.png" width="20">
                                 
@@ -553,29 +446,8 @@
                     
                     
                 </div>
-    <!-- Card body Div closed -->
-        
-<!-- End Rise & Fall Card -->     
-    
-    
   
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    <div style="padding-bottom: 150px;">
-    </div>   
+    <div class="pb-150"></div>   
     
     
     
@@ -584,7 +456,7 @@
     
     
     <!-- Destiny 2: Sacrion's Demise ----------------->
-    <div align="center" class="about-destiny-2-sacrion" style="margin-top:-30px;">              
+    <div align="center" class="about-destiny-2-sacrion mt-neg-30">              
         <a href="destiny-2-sacrion.html">
             
             <img src="game/destiny-2/sacrion's%20demise.png" width="676" 
@@ -599,10 +471,10 @@
         
                   
             <!-- Title Text -->
-            <p align="center" class="font-weight-bold my-3" style="font-size:40px;">
+            <p align="center" class="font-weight-bold my-3 text-xl">
             
                 <u>
-                    <a href="destiny-2-sacrion.html" style="color:#5b77d3;" >
+                    <a class="link-blue" href="destiny-2-sacrion.html" >
                             Destiny 2: Sacrion's Demise
                         <br> (Fan Level)
                             
@@ -614,7 +486,7 @@
                 </u>
                 
                 
-             <div align="center" class="card-body  about-p" style="margin-top:-30px;max-width:500px;">   
+             <div align="center" class="card-body  about-p card-body-section">   
                 
                 
                 
@@ -627,7 +499,7 @@
                     
                     
                     
-            <div style="padding-bottom:10px;">
+            <div class="pb-10">
                     
             </div>
             
@@ -638,7 +510,7 @@
                         
                 <u><strong>Role:</strong></u>  <img src="game/level-design.png" width="20"> Level Designer, Mission Designer
                         
-            <div style="padding-bottom:10px;">
+            <div class="pb-10">
                     
             </div>
             
@@ -681,7 +553,7 @@
                     </p>
              
                     
-            <div style="padding-bottom:20px;">
+            <div class="pb-20">
             
             </div>
             
@@ -690,7 +562,7 @@
                     <button class="button-blue" onclick="window.location.href='destiny-2-sacrion.html'">
                         <!-- Blue Button w/ CSS Class -->
                         <a href="destiny-2-sacrion.html"> 
-                            <span style="color: white;"> 
+                            <span class="btn-label"> 
                                <i class="fas fa-gamepad"></i>
                                 <strong> Learn More!</strong>
                             </span>
@@ -702,7 +574,7 @@
                     <button class="button-blue" onclick="window.location.href='https://github.com/davewhiffen/D2-Sakrion'">
                         <!-- Blue Button w/ CSS Class -->
                         <a href="https://github.com/davewhiffen/D2-Sakrion"> 
-                            <span style="color: white;padding-left:30px;padding-right:30px;"> 
+                            <span class="btn-label-padded"> 
                                <i class="fab fa-github"></i>
                                 <strong> Play</strong>
                             </span>
@@ -775,7 +647,7 @@
     
     
     
-    <div style="padding-bottom: 125px;">
+    <div class="pb-125">
     </div>   
     
     
@@ -798,7 +670,7 @@
     
     
         <!-- Overkart  ----------------------------------->
-    <div class="about-overkart" style="margin-top:-30px;">              
+    <div class="about-overkart mt-neg-30">              
         <a href="overkart.html">
             
             <img src="game/overkart/overkart.PNG" width="676" 
@@ -810,13 +682,13 @@
         
         
         <!-- Rise and Fall Text -->
-        <div class="card-body pb-0" style="margin-top:-30px; align-content: center;">
+        <div class="card-body pb-0 card-section">
                   
             <!-- Title Text -->
-            <p class="font-weight-bold my-3" style="font-size:40px;">
+            <p class="font-weight-bold my-3 text-xl">
             
                 <u>
-                    <a href="overkart.html" style="color:#5b77d3;" >
+                    <a class="link-blue" href="overkart.html" >
                             Overkart
                             
                 
@@ -833,7 +705,7 @@
                     
                     
                     
-            <div style="padding-bottom:10px;">
+            <div class="pb-10">
                     
             </div>
             
@@ -844,7 +716,7 @@
                         
                 <u><strong>Role:</strong></u>  <img src="game/level-design.png" width="20"> Lead Level Designer & Creative Director
                         
-            <div style="padding-bottom:10px;">
+            <div class="pb-10">
                     
             </div>
             
@@ -868,7 +740,7 @@
                     </p>
              
                     
-            <div style="padding-bottom:20px;">
+            <div class="pb-20">
             
             </div>
             
@@ -877,7 +749,7 @@
                     <button class="button-blue" onclick="window.location.href='overkart.html'">
                         <!-- Blue Button w/ CSS Class -->
                         <a href="overkart.html"> 
-                            <span style="color: white;"> 
+                            <span class="btn-label"> 
                                <i class="fas fa-gamepad"></i>
                                 <strong> Learn More!</strong>
                             </span>
@@ -932,7 +804,7 @@
     
     
     
-    <div style="padding-bottom: 125px;">
+    <div class="pb-125">
     </div>   
     
     
@@ -944,7 +816,7 @@
     
     
          <!-- Office Birthday Party -------------------------->
-    <div class="about-office-birthday" style="margin-top:-30px;">              
+    <div class="about-office-birthday mt-neg-30">              
         <a href="office-birthday.html">
             
             <img src="game/office-birthday/office-birthday-screen.PNG" width="676" 
@@ -956,13 +828,13 @@
         
         
         <!-- Rise and Fall Text -->
-        <div class="card-body pb-0" style="margin-top:-30px;">
+        <div class="card-body pb-0 mt-neg-30">
                   
             <!-- Title Text -->
-            <p class="font-weight-bold my-3" style="font-size:40px;">
+            <p class="font-weight-bold my-3 text-xl">
             
                 <u>
-                    <a href="office-birthday.html" style="color:#5b77d3;" >
+                    <a class="link-blue" href="office-birthday.html" >
                             Office Birthday Party
                             
                 
@@ -979,7 +851,7 @@
                     
                     
                     
-            <div style="padding-bottom:10px;">
+            <div class="pb-10">
                     
             </div>
             
@@ -990,7 +862,7 @@
                         
                 <u><strong>Role:</strong></u>  <img src="game/level-design.png" width="20"> Level Designer & UI
                         
-            <div style="padding-bottom:10px;">
+            <div class="pb-10">
                     
             </div>
             
@@ -1023,7 +895,7 @@
                  
              
                     
-            <div style="padding-bottom:20px;">
+            <div class="pb-20">
             
             </div>
             
@@ -1032,7 +904,7 @@
                     <button class="button-blue" onclick="window.location.href='office-birthday.html'">
                         <!-- Blue Button w/ CSS Class -->
                         <a href="office-birthday.html"> 
-                            <span style="color: white;"> 
+                            <span class="btn-label"> 
                                <i class="fas fa-gamepad"></i>
                                 <strong> Learn More!</strong>
                             </span>
@@ -1048,7 +920,7 @@
                <button class="button-blue" onclick="window.location.href='https://github.com/Comp0sator/G405-GJ1'">
                         <!-- Blue Button w/ CSS Class -->
                         <a href="https://github.com/Comp0sator/G405-GJ1"> 
-                            <span style="color: white;padding-left:30px;padding-right:30px;"> 
+                            <span class="btn-label-padded"> 
                                <i class="fab fa-github"></i>
                                 <strong> Play</strong>
                             </span>
@@ -1069,7 +941,7 @@
             
             
                      <!-- Office Birthday Party -------------------------->
-    <div class="about-sonic" style="margin-top:-30px;">              
+    <div class="about-sonic mt-neg-30">              
         <a href="office-birthday.html">
             
             <img src="game/sonic/sonic.png" width="676" 
@@ -1081,13 +953,13 @@
         
         
         <!-- Rise and Fall Text -->
-        <div class="card-body pb-0" style="margin-top:-30px;">
+        <div class="card-body pb-0 mt-neg-30">
                   
             <!-- Title Text -->
-            <p class="font-weight-bold my-3" style="font-size:40px;">
+            <p class="font-weight-bold my-3 text-xl">
             
                 <u>
-                    <a style="color:#5b77d3;" >
+                    <a class="link-blue" >
                             Sonic Adventure Playground
                             
                 
@@ -1104,7 +976,7 @@
                     
                     
                     
-            <div style="padding-bottom:10px;">
+            <div class="pb-10">
                     
             </div>
             
@@ -1115,7 +987,7 @@
                         
                 <u><strong>Role:</strong></u>  <img src="game/level-design.png" width="20"> Game Designer & Level Designer
                         
-            <div style="padding-bottom:10px;">
+            <div class="pb-10">
                     
             </div>
             
@@ -1138,7 +1010,7 @@
                  
              
                     
-            <div style="padding-bottom:20px;">
+            <div class="pb-20">
             
             </div>
             
@@ -1147,7 +1019,7 @@
                     <!--<button class="button-blue" onclick="window.location.href='office-birthday.html'">
                         <!-- Blue Button w/ CSS Class --
                         <a href="office-birthday.html"> 
-                            <span style="color: white;"> 
+                            <span class="btn-label"> 
                                <i class="fas fa-gamepad"></i>
                                 <strong> Learn More!</strong>
                             </span>
@@ -1163,7 +1035,7 @@
                <button class="button-blue" onclick="window.location.href='https://github.com/Comp0sator/G405-GJ1'">
                         <!-- Blue Button w/ CSS Class --
                         <a href="https://github.com/Comp0sator/G405-GJ1"> 
-                            <span style="color: white;padding-left:30px;padding-right:30px;"> 
+                            <span class="btn-label-padded"> 
                                <i class="fab fa-github"></i>
                                 <strong> Play</strong>
                             </span>
@@ -1229,9 +1101,9 @@
         </div>
 
         <!-- Gamelovers Card ----------------------------------->
-        <div class="shadow-text about-gamelovers" align="center" style="margin-top:-50px;">
+        <div class="shadow-text about-gamelovers mt-neg-50" align="center">
 
-            <div style="font-size:70px;" class="header">
+            <div class="header text-xxl">
 
                 <strong>
                     Biography<br>
@@ -1253,13 +1125,13 @@
 
             </div>
 
-            <p class="card-text about-p shadow-text" style="margin-top:-40px;">
+            <p class="card-text about-p shadow-text mt-neg-40">
                 Dave originally taught himself
                 <br>
                 to write code at the age of nine.
 
                 <!-- Spacing -->
-                <div style="padding-bottom:5px;">
+                <div class="pb-5">
 
                 </div>
 
@@ -1270,10 +1142,10 @@
                     <strong>Web Design</strong> and
                     <strong><i class="far fa-grin-tongue"></i> Flash Animation </strong>, Dave built <strong>Gamelovers.ca,</strong> a gaming website.
 
-                    <div style="padding-bottom:5px;">
+                    <div class="pb-5">
                     </div>
 
-                    <p style="max-width: 500px;text-align: center; " class="card-text">
+                    <p class="card-text text-center-500">
 
                         His friends and him spent years making animated movies, comics, and making
                         <strong><i class="fas fa-gamepad"></i> Games.</strong>
@@ -1301,18 +1173,18 @@
                             </table>
                         </div>
 
-                        <p style="max-width: 400px;text-align: center; " class="card-text">
+                        <p class="card-text text-center-400">
                             By 2004, Gamelovers had recieved over <strong>200,000 </strong>unique visitors.
 
-                            <div style="padding-bottom:10px;">
+                            <div class="pb-10">
 
                             </div>
 
-                            <p style="max-width: 400px;text-align: center; " class="card-text">
+                            <p class="card-text text-center-400">
 
                                 Dave had also brought in a staff of a dozen artists, who also produced content for the website.</p>
 
-                            <div style="padding-bottom:75px;"></div>
+                            <div class="pb-75"></div>
 
         </div>
         <!-- End of 1999-2006 Section -->
@@ -1326,7 +1198,7 @@
         <div class="about-3 shadow-text" align="center">
 
             <!-- 2007-2010 -->
-            <div style="font-size:70px;" class="header">
+            <div class="header text-xxl">
                 <strong>
 
                     <u>2007-2010
@@ -1340,11 +1212,11 @@
 
             </div>
 
-            <p class="card-text about-p" style="margin-top:-50px;">
+            <p class="card-text about-p mt-neg-50">
 
                 <br>By 2007, Dave started learning about directing live action videos.
 
-                <div style="padding-bottom: 10px;">
+                <div class="pb-10">
 
                 </div>
 
@@ -1357,16 +1229,16 @@
 
                     film, called <strong>'Singularity'.</strong>
 
-                    <div style="padding-bottom: 10px;">
+                    <div class="pb-10">
 
                     </div>
 
                     <!-- Youtube video Wrapper -->
-                    <div style="border-radius: 10px;">
-                        <iframe style="border-radius: 10px;" width="400" height="225" src="https://www.youtube.com/embed/sMalwQT30RU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="rounded-10">
+                        <iframe class="rounded-10" width="400" height="225" src="https://www.youtube.com/embed/sMalwQT30RU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
 
-                    <div style="padding-bottom: 10px;">
+                    <div class="pb-10">
 
                     </div>
 
@@ -1381,11 +1253,11 @@
                                 <tr>
 
                                     <td>
-                                        <img style="width:300px;height:auto;" class="about-me-photo" src="film/singularity-poster.jpg">
+                                        <img class="about-me-photo w-300" src="film/singularity-poster.jpg">
                                     </td>
 
                                     <td>
-                                        <img style="width:300px;height:auto;" class="about-me-photo" src="img/thumbnails/about/2010-SINGULARITY-PREMEIRE.png">
+                                        <img class="about-me-photo w-300" src="img/thumbnails/about/2010-SINGULARITY-PREMEIRE.png">
                                     </td>
 
                                 </tr>
@@ -1394,7 +1266,7 @@
 
                         </div>
 
-                        <div style="padding-bottom:100px;">
+                        <div class="pb-100">
 
                         </div>
 
@@ -1410,7 +1282,7 @@
         <div class="about-tv shadow-text" align="center">
 
             <!-- 2010-2015 -->
-            <div style="font-size:70px;" class="header shadow-text">
+            <div class="header shadow-text text-xxl">
                 <strong>
 
                     <u>2010-2015
@@ -1424,33 +1296,33 @@
 
             </div>
 
-            <p class="card-text about-p" style="margin-top: -40px;">
+            <p class="card-text about-p mt-neg-40">
 
                 In 2010, Dave was accepted to <strong>Ryerson University’s Radio and
                     <i class="fas fa-tv">
                     </i>
                     Television (Media Production) program.</strong>
 
-                <div style="padding-bottom: 10px;">
+                <div class="pb-10">
                 </div>
 
                 <p class="card-text about-p">
 
                     Dave majored in <strong>EFP Film and Television Broadcast</strong>, and won <strong>two awards </strong>for his projects.
 
-                    <div style="padding-bottom: 10px;">
+                    <div class="pb-10">
 
                     </div>
 
                     <!-- Hunting Season Video -->
                     <div>
 
-                        <iframe style="border-radius: 10px;" src="https://player.vimeo.com/video/36125541" width="400" height="225" frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
+                        <iframe class="rounded-10" src="https://player.vimeo.com/video/36125541" width="400" height="225" frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
                         </iframe>
 
                     </div>
 
-                    <div style="padding-bottom: 10px;">
+                    <div class="pb-10">
 
                     </div>
 
@@ -1458,7 +1330,7 @@
 
                         He won <strong>'Best First Year Film'</strong> for 'Time and Again', and <strong>'Best Practicum'</strong> for 'Hunting Season.
 
-                        <div style="padding-bottom: 10px;">
+                        <div class="pb-10">
 
                         </div>
 
@@ -1473,12 +1345,12 @@
                                     <tr>
                                         <td>
 
-                                            <img style="width:300px;height:auto" class="about-me-photo" src="tv/tv-studio-team.jpg">
+                                            <img class="about-me-photo w-300" src="tv/tv-studio-team.jpg">
 
                                         </td>
 
                                         <td>
-                                            <img style="width:300px;height:auto" class="about-me-photo" src="tv/hunting-season-team.jpg">
+                                            <img class="about-me-photo w-300" src="tv/hunting-season-team.jpg">
 
                                         </td>
 
@@ -1487,7 +1359,7 @@
                                 </table>
                             </div>
 
-                            <div style="padding-bottom: 100px;">
+                            <div class="pb-100">
 
                             </div>
 
@@ -1497,7 +1369,7 @@
         <!-- Hockey Night in Canada -->
         <div class="about-hnic" align="center">
 
-            <div style="padding-bottom: 100px;">
+            <div class="pb-100">
 
             </div>
 
@@ -1513,7 +1385,7 @@
 
             </p>
 
-            <div style="padding-bottom:150px;">
+            <div class="pb-150">
 
             </div>
 
@@ -1529,7 +1401,7 @@
         <div align="center" class="about-hockey shadow-text">
 
             <!-- 2010-2015 -->
-            <div style="font-size:70px;" class="header shadow-text">
+            <div class="header shadow-text text-xxl">
                 <strong>
 
                     <u>2013-Present
@@ -1543,27 +1415,27 @@
 
             </div>
 
-            <p class="card-text about-p" style="margin-top: -50px;">
+            <p class="card-text about-p mt-neg-50">
 
                 <br>In 2013, Dave was hired as <strong><i class="fas fa-hockey-puck"></i> Statistician</strong> for the <strong>Ryerson University Men’s Hockey Team,</strong> working under head coach Graham Wise.
 
-                <div style="padding-bottom: 10px;">
+                <div class="pb-10">
                 </div>
 
                 <p class="card-text about-p">
                     Over seven seasons, Dave has built his own <strong>video and analytics systems</strong> for the team from the ground up.
 
-                    <div style="padding-bottom: 10px;">
+                    <div class="pb-10">
                     </div>
 
                     <!-- Statistician Video -->
-                    <div style="border-radius: 10px;">
-                        <iframe style="border-radius: 10px;" width="400" height="225" src="https://www.youtube.com/embed/7sc3w84GMX0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    <div class="rounded-10">
+                        <iframe class="rounded-10" width="400" height="225" src="https://www.youtube.com/embed/7sc3w84GMX0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                         </iframe>
                     </div>
                     <!-- Statistician Video -->
 
-                    <div style="padding-bottom: 10px;">
+                    <div class="pb-10">
                     </div>
 
                     <p class="card-text about-p">
@@ -1585,17 +1457,17 @@
 
                         <strong>Pre-Scout Applications.</strong>
 
-                        <div style="padding-bottom: 10px;">
+                        <div class="pb-10">
 
                         </div>
 
-                        <p style="max-width: 400px;text-align: center; " class="card-text">
+                        <p class="card-text text-center-400">
 
                             Dave currently works as <strong>Ryerson's Video Coach.</strong>
 
                         </p>
 
-                        <div style="padding-bottom: 75px;">
+                        <div class="pb-75">
 
                         </div>
 
@@ -1611,7 +1483,7 @@
         <div class="about-construction shadow-text" align="center">
 
             <!-- 2010-2015 -->
-            <div style="font-size:70px;" class="header shadow-text">
+            <div class="header shadow-text text-xxl">
                 <strong>
 
                     <u>2011-Present
@@ -1625,7 +1497,7 @@
 
             </div>
 
-            <p class="card-text about-p" style="margin-top: -40px;">
+            <p class="card-text about-p mt-neg-40">
 
                 In the summers, Dave works as a
                 <i class="fas fa-hammer">
@@ -1662,14 +1534,14 @@
 
                 </p>
 
-                <div style="padding-bottom: 150px;">
+                <div class="pb-150">
 
                 </div>
 
         </div>
         <!-- Construction End -->
 
-        <div style="padding-bottom: 0px;">
+        <div>
 
         </div>
 
@@ -1682,7 +1554,7 @@
         <div class="about-6 shadow-text" align="center">
 
             <!-- 2010-2015 -->
-            <div style="font-size:70px;" class="header shadow-text">
+            <div class="header shadow-text text-xxl">
                 <strong>
 
                     <u>2019-Present
@@ -1696,7 +1568,7 @@
 
             </div>
 
-            <p class="card-text about-p" style="margin-top: -50px;">
+            <p class="card-text about-p mt-neg-50">
 
                 In 2019, Dave went back to school for a <strong>Post Graduate Certificate</strong> in <strong><i class="fas fa-gamepad"></i> Game Design at George Brown.
                 </strong>
@@ -1708,7 +1580,7 @@
                         <tr>
 
                             <td>
-                                <img style="width:400px;height:auto;" class="about-me-photo" src="img/thumbnails/about/game-design-2.png">
+                                <img class="about-me-photo w-400" src="img/thumbnails/about/game-design-2.png">
                             </td>
 
                         </tr>
@@ -1732,12 +1604,12 @@
 
                    
 
-                    <div style="padding-bottom:30px;">
+                    <div class="pb-30">
                     </div>
 
             
 
-                    <div style="padding-bottom: 75px;">
+                    <div class="pb-75">
 
                     </div>
 
@@ -1745,12 +1617,12 @@
         <!-- Game Design Div End ------------------------------->
 
         <!--Spacing at end of page-->
-        <div style="padding-bottom:0px;">
+        <div>
 
         </div>
 
         <!--Footer-->
-        <footer style="max-width: 100%;font-size:20px;" class="page-footer font-small blue accent-1 white-text">
+        <footer class="page-footer font-small blue accent-1 white-text footer-text">
 
             <!-- / * Copyright / * -->
             <div class="footer-copyright text-center py-3">
@@ -1842,3 +1714,4 @@
     </body>
     
 </html>
+
