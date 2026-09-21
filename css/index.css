@@ -7,6 +7,8 @@ body {
     background-color: #688ecc;
 }
 
+
+
 .about-me {
     font-size: 30px;
     font-weight: bold;
@@ -222,7 +224,7 @@ body,
     background-size: cover;
     background-position: center;
     color: white;
-    padding-top: 50px;
+    padding-top: 70px;
     padding-bottom: 50px;
     margin-top: -40px;
 }
